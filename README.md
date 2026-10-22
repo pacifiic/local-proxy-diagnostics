@@ -1,4 +1,4 @@
-# [NeurIPS'26 Spotlight] Predicting Human-Gain Curves under Local Proxy Optimization from Repeated Ratings
+# Predicting Human-Gain Curves under Local Proxy Optimization from Repeated Ratings
 
 Code, prepared inputs, saved results, and publication artifacts for PACE (Proxy
 Alignment and Curvature Expansion). PACE predicts local human-gain curves from
