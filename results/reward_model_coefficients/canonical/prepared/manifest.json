@@ -1,0 +1,40 @@
+{
+  "schema_version": 2,
+  "n_items": 1600,
+  "dimensions": [
+    "coherence",
+    "consistency",
+    "fluency",
+    "relevance"
+  ],
+  "repeats": 50,
+  "seed": 0,
+  "calibration_frac": 0.3,
+  "gold": "Mean of three expert and five crowd scores per item/dimension",
+  "split_unit": "item, not article (matches original external-proxy protocol)",
+  "context": "Common article prefix across all three tokenizers and all summaries of that article; full summaries retained",
+  "input_hashes": {
+    "items": "4a29f598738af11623172fee4f14d945c0b4592ab675bf83b063382d84018e5f",
+    "human": "d4c4dd815cc851920c796343f9952d0ec60c124db63d913d2826998881c1531e"
+  },
+  "files": {
+    "items.csv": "48a44e5fc623af4b5d055d0cbc53928e0a404a295b0d66a16246a6dc73ea05dc",
+    "human.csv": "ec4f9fcc6e83791fb0e0a39bcdefbda89079e72cd3927ea1f2a828925926c361",
+    "models.json": "34312a5fd4da6650cb0e78e85869b2a39a07fb642ffa899352df0ac7b006e7b1",
+    "splits.jsonl": "767e4dcc2e195d5e78267bb33a46a2c70a552b934f1660af03eaa7fa7ed56e39",
+    "source_validation.json": "9dfdb8cfed451068c0d18c5b20d5c4a63a78ca9cbfec0f5cac464d6d835ea034"
+  },
+  "code_sha256": {
+    "prepare.py": "e0efaf56856afdb051d7befbec707f7ba5eb217c2f9e31f0bc98f3f89f407ddf",
+    "common.py": "3379843ac0c6a18b1566247986ea4b053d5f64365999195fb3d07d5c250b6d88"
+  },
+  "env": {
+    "numpy": "2.3.5",
+    "pandas": "2.3.3",
+    "scipy": "1.17.1",
+    "torch": "2.11.0",
+    "transformers": "4.57.6",
+    "huggingface-hub": "0.36.2",
+    "tokenizers": "0.22.2"
+  }
+}

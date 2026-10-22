@@ -1,0 +1,12 @@
+Dimension: {dimension}
+
+Source article:
+{article}
+
+Candidate summary:
+{summary}
+
+Reference summary (if available):
+{reference}
+
+Please rate the candidate summary on the requested scalar scale. Focus only on the named dimension.

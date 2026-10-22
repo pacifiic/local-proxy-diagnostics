@@ -1,0 +1,93 @@
+{
+  "status": "PASS",
+  "raw_parsing": {
+    "wmt20_ende": {
+      "physical_data_rows": 79024,
+      "parsed_rows": 79024,
+      "all_physical_rows_parsed": true,
+      "sha256": "22acb4d5cc4dc0d8f2683e9251c179c917ae8589d71b1945d755c46d88d345e3"
+    },
+    "wmt20_zhen": {
+      "physical_data_rows": 124312,
+      "parsed_rows": 124312,
+      "all_physical_rows_parsed": true,
+      "sha256": "5fcf6c08a5c23699e1166cde7b48a2df43d0beadb5c0be13942c651d5b964508"
+    },
+    "wmt22_zhen": {
+      "physical_data_rows": 46988,
+      "parsed_rows": 46988,
+      "all_physical_rows_parsed": true,
+      "sha256": "f7905f799c47a9a2510996dac62d1fa9ce0a5d74e772bfff4029febd58f5cad0"
+    },
+    "wmt22_ende_3r": {
+      "physical_data_rows": 78559,
+      "parsed_rows": 78559,
+      "all_physical_rows_parsed": true,
+      "sha256": "7c89667b48b1ef2d06d3751fd398de794dba5ed64afbf5752b1298f4270bed8c"
+    }
+  },
+  "collisions": [
+    {
+      "dataset": "wmt20_ende",
+      "documents": 130,
+      "distinct_segment_ids": 1418,
+      "distinct_document_segment_pairs": 1418,
+      "segment_ids_reused_across_documents": 0,
+      "max_documents_per_segment_id": 1,
+      "legacy_item_keys": 14180,
+      "document_qualified_item_keys": 14180,
+      "legacy_system_segment_rater_keys": 42540,
+      "document_qualified_rating_keys": 42540
+    },
+    {
+      "dataset": "wmt20_zhen",
+      "documents": 155,
+      "distinct_segment_ids": 2000,
+      "distinct_document_segment_pairs": 2000,
+      "segment_ids_reused_across_documents": 0,
+      "max_documents_per_segment_id": 1,
+      "legacy_item_keys": 20000,
+      "document_qualified_item_keys": 20000,
+      "legacy_system_segment_rater_keys": 60000,
+      "document_qualified_rating_keys": 60000
+    },
+    {
+      "dataset": "wmt22_zhen",
+      "documents": 256,
+      "distinct_segment_ids": 469,
+      "distinct_document_segment_pairs": 1875,
+      "segment_ids_reused_across_documents": 469,
+      "max_documents_per_segment_id": 4,
+      "legacy_item_keys": 7504,
+      "document_qualified_item_keys": 30000,
+      "legacy_system_segment_rater_keys": 30000,
+      "document_qualified_rating_keys": 30000
+    },
+    {
+      "dataset": "wmt22_ende_3r",
+      "documents": 181,
+      "distinct_segment_ids": 10,
+      "distinct_document_segment_pairs": 1315,
+      "segment_ids_reused_across_documents": 10,
+      "max_documents_per_segment_id": 181,
+      "legacy_item_keys": 150,
+      "document_qualified_item_keys": 19725,
+      "legacy_system_segment_rater_keys": 1050,
+      "document_qualified_rating_keys": 59175
+    }
+  ],
+  "fixed_csv": "data/wmt_mqm_long.csv",
+  "independent_canonical_rebuild_sha256": "efce1a53715f680e8d7c4d64bd9b4ed9fdaedf48eda6810ebc76740412459057",
+  "production_rebuild_sha256": "6f20c0669ff7e76bef71a584f6c627dadab063d560d931cae74acff78d8cbbf8",
+  "stored_sha256": "6f20c0669ff7e76bef71a584f6c627dadab063d560d931cae74acff78d8cbbf8",
+  "byte_identical_rebuild": true,
+  "value_identical_rebuild": true,
+  "prepared_rows": 161715,
+  "prepared_clusters": 47,
+  "prepared_paths": 141,
+  "matrix_validation": {
+    "duplicate_dataset_item_rater_rows": 0,
+    "incomplete_cluster_ids": [],
+    "complete_repeated_rating_matrices": true
+  }
+}

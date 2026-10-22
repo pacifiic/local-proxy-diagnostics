@@ -1,0 +1,773 @@
+{
+  "status": "PASS",
+  "n_checks": 149,
+  "n_failures": 0,
+  "checks": [
+    {
+      "name": "data/summeval_long.csv",
+      "status": "PASS",
+      "detail": "d4c4dd815cc851920c796343f9952d0ec60c124db63d913d2826998881c1531e"
+    },
+    {
+      "name": "data/model_proxy_4o_aggregated.csv",
+      "status": "PASS",
+      "detail": "9440315ccb82939e360e8bbac802f31bb3a17d6af244997cfbfa34eeeeeb4599"
+    },
+    {
+      "name": "data/openmeva_long.csv",
+      "status": "PASS",
+      "detail": "4e205f20b5183ab21b3caa1a5270e89068f35ae2aa14356e3b425f18f314a10b"
+    },
+    {
+      "name": "data/wmt_mqm_long.csv",
+      "status": "PASS",
+      "detail": "6f20c0669ff7e76bef71a584f6c627dadab063d560d931cae74acff78d8cbbf8"
+    },
+    {
+      "name": "data/wmt_mqm_long_main_protocol.csv",
+      "status": "PASS",
+      "detail": "5649ee3041340f7ee96c3079a4f1f859b9ddd625b2d82f731407d32fd88553c0"
+    },
+    {
+      "name": "DPO hash prompts_train.jsonl",
+      "status": "PASS",
+      "detail": "ed13e5847802b9ba31ddf05c89444e3f4e4f841323b4dc069d5c0d139a01176b"
+    },
+    {
+      "name": "DPO hash prompts_calibration.jsonl",
+      "status": "PASS",
+      "detail": "98e3b8b4b5da772bb654347bd785e869a32ea3dade3692c524e1900f7be68b55"
+    },
+    {
+      "name": "DPO hash prompts_eval.jsonl",
+      "status": "PASS",
+      "detail": "05309bb16ee364e2804e73d4b0508c8f55ffb9113a5ccfb0c8b1f1f16ec76f74"
+    },
+    {
+      "name": "DPO hash prompts_run_spec.json",
+      "status": "PASS",
+      "detail": "ea78abe066435bf3e364db17103a1b1a39d3f5bc4e9230d36f9ef0096dcb57b7"
+    },
+    {
+      "name": "DPO hash pool.jsonl",
+      "status": "PASS",
+      "detail": "fafdb5ef7ce4fa05c13969c61eaf80071dccceaa365ce4f13c5f30f405a78be3"
+    },
+    {
+      "name": "DPO hash pool.jsonl.run_spec.json",
+      "status": "PASS",
+      "detail": "3118efb836c6d6c50edc12e8d225979e80dd4d1d883cd0fb49364239ecd24048"
+    },
+    {
+      "name": "DPO hash pool_p.jsonl",
+      "status": "PASS",
+      "detail": "cacaec5e7981f3b8da7d6efc835c31d84ff0e19a24413235001e3b4b7a0eb268"
+    },
+    {
+      "name": "DPO hash pool_scored.jsonl",
+      "status": "PASS",
+      "detail": "1c6ba78bf5b0e4ddfc1c6b6cc6b4ba2aae51dcdcb3196ef47fba1f2b8ee55ab2"
+    },
+    {
+      "name": "DPO hash pref_pairs.jsonl",
+      "status": "PASS",
+      "detail": "38275da384429031cb050fd3d5e4d44376841e85b2859d648a7a36506bfa30e8"
+    },
+    {
+      "name": "DPO hash pool_eval_reflogp.jsonl",
+      "status": "PASS",
+      "detail": "c1755a61e77d694b47ff4b275a05b929a2d95c111ca9e60cb8401e7ce2e67f04"
+    },
+    {
+      "name": "DPO hash coefficients.json",
+      "status": "PASS",
+      "detail": "a94aa7d29226834c43125fae7c9af84e2c2c76412d724c74a304d22432603adc"
+    },
+    {
+      "name": "SummEval row count",
+      "status": "PASS",
+      "detail": 51200
+    },
+    {
+      "name": "SummEval full key unique",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "name": "SummEval has 1,600 items",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "name": "SummEval dimensions exact",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "name": "SummEval every item has 3 expert and 5 crowd ratings",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "name": "SummEval scores finite and within [1,5]",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "name": "model_proxy_4o_aggregated.csv row count",
+      "status": "PASS",
+      "detail": 6400
+    },
+    {
+      "name": "model_proxy_4o_aggregated.csv key unique",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "name": "model_proxy_4o_aggregated.csv exact SummEval item coverage",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "name": "model_proxy_4o_aggregated.csv exact dimension coverage",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "name": "model_proxy_4o_aggregated.csv scores finite",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "name": "model_proxy_openjudge_aggregated.csv row count",
+      "status": "PASS",
+      "detail": 6400
+    },
+    {
+      "name": "model_proxy_openjudge_aggregated.csv key unique",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "name": "model_proxy_openjudge_aggregated.csv exact SummEval item coverage",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "name": "model_proxy_openjudge_aggregated.csv exact dimension coverage",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "name": "model_proxy_openjudge_aggregated.csv scores finite",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "name": "proxy_rm_skywork_v02.csv row count",
+      "status": "PASS",
+      "detail": 6400
+    },
+    {
+      "name": "proxy_rm_skywork_v02.csv key unique",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "name": "proxy_rm_skywork_v02.csv exact SummEval item coverage",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "name": "proxy_rm_skywork_v02.csv exact dimension coverage",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "name": "proxy_rm_skywork_v02.csv scores finite",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "name": "Skywork item-level RM score is intentionally repeated across dimensions",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "name": "OpenMEVA row count",
+      "status": "PASS",
+      "detail": 10000
+    },
+    {
+      "name": "OpenMEVA full key unique",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "name": "OpenMEVA dataset-aware item count",
+      "status": "PASS",
+      "detail": 2000
+    },
+    {
+      "name": "OpenMEVA ROC/WP IDs overlap when dataset is omitted",
+      "status": "PASS",
+      "detail": 1000
+    },
+    {
+      "name": "OpenMEVA every item has five ratings",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "name": "wmt_mqm_long.csv row count",
+      "status": "PASS",
+      "detail": 161715
+    },
+    {
+      "name": "wmt_mqm_long.csv full key unique",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "name": "wmt_mqm_long.csv dataset count",
+      "status": "PASS",
+      "detail": 47
+    },
+    {
+      "name": "wmt_mqm_long.csv complete item-by-rater matrices",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "name": "fixed_141 contains 47 valid three-rater clusters",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "name": "wmt_mqm_long_main_protocol.csv row count",
+      "status": "PASS",
+      "detail": 130026
+    },
+    {
+      "name": "wmt_mqm_long_main_protocol.csv full key unique",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "name": "wmt_mqm_long_main_protocol.csv dataset count",
+      "status": "PASS",
+      "detail": 45
+    },
+    {
+      "name": "wmt_mqm_long_main_protocol.csv complete item-by-rater matrices",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "name": "submitted_139 retains four malformed four-rater clusters for provenance",
+      "status": "PASS",
+      "detail": 4
+    },
+    {
+      "name": "prompt IDs rederive from exact prompt text",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "name": "prompt text unique across all splits",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "name": "DPO prompt splits disjoint",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "name": "DPO pool key unique",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "name": "DPO train pool cardinality",
+      "status": "PASS",
+      "detail": 8000
+    },
+    {
+      "name": "DPO train sample_idx is complete and contiguous",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "name": "DPO train pool covers exact prompt split",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "name": "DPO calibration pool cardinality",
+      "status": "PASS",
+      "detail": 3200
+    },
+    {
+      "name": "DPO calibration sample_idx is complete and contiguous",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "name": "DPO calibration pool covers exact prompt split",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "name": "DPO eval pool cardinality",
+      "status": "PASS",
+      "detail": 6400
+    },
+    {
+      "name": "DPO eval sample_idx is complete and contiguous",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "name": "DPO eval pool covers exact prompt split",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "name": "DPO proxy keys equal pool keys",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "name": "DPO proxy scoring preserves exact texts",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "name": "DPO gold keys equal cal+eval keys",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "name": "DPO score merge preserves text and proxy values",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "name": "DPO pairs independently rederive as proxy argmax/argmin",
+      "status": "PASS",
+      "detail": 968
+    },
+    {
+      "name": "DPO coefficient prompt accounting",
+      "status": "PASS",
+      "detail": 99
+    },
+    {
+      "name": "DPO coefficients independently recompute from calibration only",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "name": "DPO reference-logp keys equal eval pool",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "name": "DPO final checkpoint key unique",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "name": "DPO final table uses evaluation prompts only",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "name": "legacy DPO table has eight labeled checkpoints x 200 eval prompts",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "name": "three-seed DPO uses the canonical scored pool",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "name": "three-seed DPO seed 0 raw-table hash",
+      "status": "PASS",
+      "detail": "ff6152cabac2f5b5722f250f92db8ff78db90b1245cdafef6f35fa44ca28b75c"
+    },
+    {
+      "name": "three-seed DPO seed 0: six checkpoints x exact eval prompts",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "name": "three-seed DPO seed 1 raw-table hash",
+      "status": "PASS",
+      "detail": "d2d02ebe1c249586e86447072c204b99c9852755b37b7b96263a082a481cfc67"
+    },
+    {
+      "name": "three-seed DPO seed 1: six checkpoints x exact eval prompts",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "name": "three-seed DPO seed 2 raw-table hash",
+      "status": "PASS",
+      "detail": "3539808b82697d46f8a5d6f534a633e89a3b6ba212f685a00e5bbf6e71ddbe8e"
+    },
+    {
+      "name": "three-seed DPO seed 2: six checkpoints x exact eval prompts",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "name": "three-seed derived checkpoint table key/cardinality",
+      "status": "PASS",
+      "detail": 378
+    },
+    {
+      "name": "three-seed derived table has six checkpoints per seed/model",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "name": "three-seed frontier-error arithmetic",
+      "status": "PASS",
+      "detail": 1.1275702593849246e-16
+    },
+    {
+      "name": "three-seed realized-DPO-error arithmetic",
+      "status": "PASS",
+      "detail": 1.1102230246251565e-16
+    },
+    {
+      "name": "submitted-number main_protocol is explicitly submitted_139",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "name": "new WMT scientific result is explicitly fixed_141",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "name": "direct-calibration attempts SummEval-human_heldout",
+      "status": "PASS",
+      "detail": 1600
+    },
+    {
+      "name": "direct-calibration attempts SummEval-GPT4o",
+      "status": "PASS",
+      "detail": 200
+    },
+    {
+      "name": "direct-calibration attempts OpenMEVA-MAGS-human_heldout",
+      "status": "PASS",
+      "detail": 500
+    },
+    {
+      "name": "direct-calibration attempts WMT-MQM-human_heldout",
+      "status": "PASS",
+      "detail": 6950
+    },
+    {
+      "name": "fixed_141 direct-calibration attempts",
+      "status": "PASS",
+      "detail": 7050
+    },
+    {
+      "name": "target-aware WMT input is fixed_141",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "name": "target-aware summary has four datasets x four conditional means",
+      "status": "PASS",
+      "detail": 16
+    },
+    {
+      "name": "target-aware common-support mask",
+      "status": "PASS",
+      "detail": 11
+    },
+    {
+      "name": "target-aware common-support input hashes",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "name": "target-aware common-support SummEval A+B",
+      "status": "PASS",
+      "detail": 0.0118497631577164
+    },
+    {
+      "name": "target-aware common-support artifact hashes",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "name": "target-aware non-WMT row and dataset accounting",
+      "status": "PASS",
+      "detail": 183989
+    },
+    {
+      "name": "target-aware non-WMT prediction key unique",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "name": "target-aware non-WMT A+B variants present",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "name": "target-aware non-WMT error arithmetic",
+      "status": "PASS",
+      "detail": 1.968911145233676e-16
+    },
+    {
+      "name": "target-aware fixed_141 WMT row and dataset accounting",
+      "status": "PASS",
+      "detail": 564000
+    },
+    {
+      "name": "target-aware fixed_141 WMT prediction key unique",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "name": "target-aware fixed_141 WMT A+B variants present",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "name": "target-aware fixed_141 WMT error arithmetic",
+      "status": "PASS",
+      "detail": 1.7763568394002505e-15
+    },
+    {
+      "name": "target-aware A+B run spec excludes evaluation gold from prediction",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "name": "independent fixed_141 Exp32 predictions equal canonical values/order",
+      "status": "PASS",
+      "detail": 564000
+    },
+    {
+      "name": "independent fixed_141 Exp32 small artifacts byte-identical",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "name": "independent fixed_141 Exp32 verification report",
+      "status": "PASS",
+      "detail": "PASS"
+    },
+    {
+      "name": "prompt-conditional path counts",
+      "status": "PASS",
+      "detail": {
+        "OpenMEVA": 10,
+        "SummEval": 32,
+        "WMT-MQM": 141
+      }
+    },
+    {
+      "name": "combined prompt-conditional WMT block equals fixed_141 artifact",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "name": "rank-selection row count",
+      "status": "PASS",
+      "detail": 123420
+    },
+    {
+      "name": "rank-selection key unique",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "name": "rank-selection arithmetic abs_err_theory",
+      "status": "PASS",
+      "detail": 1.8596235662471372e-15
+    },
+    {
+      "name": "rank-selection arithmetic abs_err_aonly",
+      "status": "PASS",
+      "detail": 2.6645352591003757e-15
+    },
+    {
+      "name": "rank-selection arithmetic abs_err_anu",
+      "status": "PASS",
+      "detail": 3.552713678800501e-15
+    },
+    {
+      "name": "rank-selection arithmetic abs_err_empfit",
+      "status": "PASS",
+      "detail": 2.220446049250313e-15
+    },
+    {
+      "name": "rank-selection arithmetic abs_err_zero",
+      "status": "PASS",
+      "detail": 0.0
+    },
+    {
+      "name": "BoN scope row count",
+      "status": "PASS",
+      "detail": 2292
+    },
+    {
+      "name": "BoN scope key unique",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "name": "BoN KL independently stored/rechecked values agree",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "name": "B-stability path/repeat accounting",
+      "status": "PASS",
+      "detail": {
+        "OpenMEVA-MAGS-human_heldout": [
+          10,
+          500
+        ],
+        "SummEval-GPT4o": [
+          4,
+          200
+        ],
+        "SummEval-human_heldout": [
+          32,
+          1600
+        ],
+        "WMT-MQM-human_heldout": [
+          141,
+          7050
+        ]
+      }
+    },
+    {
+      "name": "tail audit summeval rows",
+      "status": "PASS",
+      "detail": 1408
+    },
+    {
+      "name": "tail audit summeval paths",
+      "status": "PASS",
+      "detail": 32
+    },
+    {
+      "name": "tail audit summeval key unique",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "name": "tail audit summeval all status ok",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "name": "tail audit summeval error arithmetic",
+      "status": "PASS",
+      "detail": 1.4224732503009818e-16
+    },
+    {
+      "name": "tail audit openmeva_mags rows",
+      "status": "PASS",
+      "detail": 440
+    },
+    {
+      "name": "tail audit openmeva_mags paths",
+      "status": "PASS",
+      "detail": 10
+    },
+    {
+      "name": "tail audit openmeva_mags key unique",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "name": "tail audit openmeva_mags all status ok",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "name": "tail audit openmeva_mags error arithmetic",
+      "status": "PASS",
+      "detail": 1.5395670849294163e-16
+    },
+    {
+      "name": "tail audit wmt_fixed_141 rows",
+      "status": "PASS",
+      "detail": 6204
+    },
+    {
+      "name": "tail audit wmt_fixed_141 paths",
+      "status": "PASS",
+      "detail": 141
+    },
+    {
+      "name": "tail audit wmt_fixed_141 key unique",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "name": "tail audit wmt_fixed_141 all status ok",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "name": "tail audit wmt_fixed_141 error arithmetic",
+      "status": "PASS",
+      "detail": 9.783840404509192e-16
+    },
+    {
+      "name": "proxy_openjudge prospective rows",
+      "status": "PASS",
+      "detail": 200
+    },
+    {
+      "name": "proxy_openjudge prospective split key unique",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "name": "proxy_openjudge has 50 splits per dimension",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "name": "proxy_rm_skywork prospective rows",
+      "status": "PASS",
+      "detail": 200
+    },
+    {
+      "name": "proxy_rm_skywork prospective split key unique",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "name": "proxy_rm_skywork has 50 splits per dimension",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "name": "exp33 prepared-data-to-result source audit",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "name": "exp33 raw-source-to-prepared-data audit",
+      "status": "PASS",
+      "detail": null
+    }
+  ]
+}

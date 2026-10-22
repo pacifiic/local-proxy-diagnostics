@@ -1,0 +1,22 @@
+[
+  {
+    "table": "table_sign_metric_audit",
+    "non_wmt_numeric_rows_unchanged": true
+  },
+  {
+    "table": "table_multidataset_prospective",
+    "non_wmt_numeric_rows_unchanged": true
+  },
+  {
+    "table": "table_calibration_size_extended",
+    "non_wmt_numeric_rows_unchanged": true
+  },
+  {
+    "table": "table_ood_lambda_sweep",
+    "non_wmt_numeric_rows_unchanged": true
+  },
+  {
+    "table": "table_tail_outlier_robustness",
+    "non_wmt_numeric_rows_unchanged": true
+  }
+]

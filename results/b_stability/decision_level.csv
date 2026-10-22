@@ -1,0 +1,5 @@
+dataset,n,decision_disagree_rate,d_safe_grid_median,d_safe_grid_p10,proceed_ab_rate,proceed_aonly_rate,b_ci_includes_zero_rate,decision_stable_despite_b_uncertain_rate
+OpenMEVA-MAGS-human_heldout,500,0.0,0.1,0.1,1.0,1.0,0.352,1.0
+SummEval-GPT4o,200,0.255,0.0,0.0,0.275,0.53,0.25,0.88
+SummEval-human_heldout,1600,0.0,0.1,0.1,1.0,1.0,0.525625,1.0
+WMT-MQM-human_heldout,7050,0.024822695035460994,0.1,0.1,0.931063829787234,0.9439716312056737,0.4981560283687943,0.9806378132118451

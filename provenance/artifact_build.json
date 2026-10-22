@@ -1,0 +1,41 @@
+{
+  "active_results": "results",
+  "updated_tables": [
+    "table_sign_metric_audit",
+    "table_multidataset_prospective",
+    "table_calibration_size_extended",
+    "table_ood_lambda_sweep",
+    "table_tail_outlier_robustness",
+    "table_d_sweep",
+    "table_calibration_size_d0p1",
+    "table_curve_level_metrics",
+    "table_prompt_conditional_bon_scope",
+    "table_fit_range_sensitivity"
+  ],
+  "updated_figures": [
+    "fig_main_results",
+    "fig_prediction_mae_multidataset",
+    "fig_proxy_perturbation_multidataset",
+    "fig_stability_multidataset",
+    "fig_tail_outlier_robustness",
+    "fig6_dataset_replication",
+    "fig_kl_radius_audit",
+    "fig_radius_calibration_sensitivity",
+    "fig_prompt_conditional_bon_scope",
+    "fig1_summeval_icc_by_dimension",
+    "fig3_expert_vs_crowd_lift",
+    "fig5_protocol_split_half_stability",
+    "fig_direct_tilt_summeval_tight",
+    "fig_bon_bridge_bootstrap",
+    "fig_proxy_perturbation",
+    "fig_residual_selective_diagnostics"
+  ],
+  "ood_interval": {
+    "source": "results/extended_analyses/ood_summeval_to_wmt_lambda_0p75/exp31_ood_transfer_paths.csv",
+    "source_sha256": "d7d30b2190c8300eb85c8621fd3b437cd7fde4b2ce050d9662df684ed5f2bc48",
+    "bootstrap_draws": 2000,
+    "seed": 0,
+    "cluster_unit": "target_path_id",
+    "interval": "percentile 95%; equal-weight path means over 50 splits"
+  }
+}

@@ -1,0 +1,9 @@
+dataset,conditional_mean_model,comparison,difference,ci_lo,ci_hi
+WMT-MQM-human_heldout,isotonic,evaluation-aware A+B minus raw A+B,-0.006048299304899042,-0.007496838908583837,-0.004673810798226984
+WMT-MQM-human_heldout,isotonic,evaluation-aware A+B minus direct calibrator,0.0010474055525378138,0.0008315954246849507,0.0012790844622180993
+WMT-MQM-human_heldout,binned,evaluation-aware A+B minus raw A+B,0.006367785335598438,0.004191775801727688,0.008735812520266138
+WMT-MQM-human_heldout,binned,evaluation-aware A+B minus direct calibrator,-0.0028557055048884098,-0.003584619145145507,-0.002227660186565878
+WMT-MQM-human_heldout,spline,evaluation-aware A+B minus raw A+B,-0.0025314163993062407,-0.004262975864479822,-0.0009890769297584466
+WMT-MQM-human_heldout,spline,evaluation-aware A+B minus direct calibrator,-0.00031271819981777596,-0.0005619098400139516,-3.7913063030996866e-05
+WMT-MQM-human_heldout,MLP,evaluation-aware A+B minus raw A+B,-0.0063425114696227785,-0.007880764192928392,-0.005022761248687455
+WMT-MQM-human_heldout,MLP,evaluation-aware A+B minus direct calibrator,0.0007129786861383655,0.0005074766228497566,0.0009718036619873822

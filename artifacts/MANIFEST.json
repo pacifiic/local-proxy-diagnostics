@@ -1,0 +1,482 @@
+{
+  "ab_b_stability": {
+    "description": "Calibration-size coefficient error (exp31) and bootstrap sign/CI/decision stability (exp22)",
+    "inputs": {
+      "results/b_stability/b_stability_run_spec.json": "794599ae7b7c562f4c55317d2c13e4563f8fe45c877f49609a124b84719dad98",
+      "results/b_stability/coefficient_level.csv": "83222242976ef5cdf8c5d261e4b0a222c39479e1f59e84180c80588b8ddb5872",
+      "results/b_stability/decision_level.csv": "967e5fa8d91a20fcb8b9dc9239b330a81a580df0f7a87ac8bc352e88c44f670a",
+      "results/coefficient_precision/coefficient_error_rows.csv": "cf37fe0905aeb4732bf5a04b774a0f2e992fa58a98f6375965d0cf10b6dd70e9",
+      "results/coefficient_precision/coefficient_error_summary.csv": "67015156e9dc634ebbc9fb481048b12a665281d712d950352923f7869c948cbf"
+    },
+    "outputs": {
+      "artifacts/data/ab_b_stability_bootstrap.csv": "4891f1afe4dbd47d3b67202faf2c69d624ccd0ce93ce37af39d144c07cd8b623",
+      "artifacts/data/ab_b_stability_calibration_size.csv": "aae387a6dc58b8d185196d4ece0489e10e2c9b48ccb8eafbf6ed8d2116cc2a6b",
+      "artifacts/notes/ab_b_stability.md": "929e970eda2f18960a520e31998e637cb4753b1e01e093d831a7109fcd6e6af1",
+      "artifacts/tables/ab_b_stability.tex": "57e2f1aab942da696370233b98b35aad5e477855d8ae7c98b37e5fc32f4be30c",
+      "artifacts/tables/ab_b_stability_bootstrap.tex": "3ceb29e20685cc0361784dfa7b61335ed3a521fa266413f55f1bbef66eada017"
+    },
+    "placement": "Appendix (B stability)"
+  },
+  "ab_bshare": {
+    "description": "Median calibration-coefficient B share R_B(d) by dataset and radius (exp31, 30% calibration)",
+    "inputs": {
+      "results/coefficient_precision/coefficient_error_rows.csv": "cf37fe0905aeb4732bf5a04b774a0f2e992fa58a98f6375965d0cf10b6dd70e9",
+      "results/coefficient_precision/coefficient_error_summary.csv": "67015156e9dc634ebbc9fb481048b12a665281d712d950352923f7869c948cbf",
+      "results/evaluation_aware_ab/non_wmt_canonical/direct_calibration_predictions.csv.gz": "f8ff427871183dd651b8b9ce02c50a303ad53252bc0c0ef38e07a91c734aabcf",
+      "results/evaluation_aware_ab/wmt_fixed_141/direct_calibration_predictions.csv.gz": "8a09fefbadb172fb6e1602de64c1fc274afc58e7e18830d11c13d428399c0aed"
+    },
+    "outputs": {
+      "artifacts/data/ab_bshare.csv": "5f6a6498e4928bb1f632b790031c0b7b7952668fc6ef9d8b7794f29765c43e36",
+      "artifacts/notes/ab_bshare.md": "ab97cfc602f83445723bca881adec447d3aaf1bc4f07271d4cc281b9c58a3ae6",
+      "artifacts/tables/ab_bshare.tex": "5e5cc3e4b406d8b944697d5a193752d5df83a2b95964ec9efbf29b9c36655638"
+    },
+    "placement": "Appendix (A/B contribution)"
+  },
+  "ab_fig2": {
+    "description": "Relative endpoint-MAE reduction from A-only to A+B and median B share R_B(d), by radius",
+    "inputs": {
+      "results/12_accept_boost/d_sweep_human/d_sweep_summary_overall.csv": "0a10dfa921be2fa4d3e439613c5de9779e5b037a8574995ad5286cb33c6af461",
+      "results/coefficient_precision/coefficient_error_rows.csv": "cf37fe0905aeb4732bf5a04b774a0f2e992fa58a98f6375965d0cf10b6dd70e9",
+      "results/coefficient_precision/coefficient_error_summary.csv": "67015156e9dc634ebbc9fb481048b12a665281d712d950352923f7869c948cbf",
+      "results/direct_calibration_strict/main_protocol/calibration_only_skipped.csv": "830f48a9eacbbe3c0f6178052dfd23f129ecc2baecfcbb7e9aeee9f960ca358c",
+      "results/direct_calibration_strict/main_protocol/curve_mae.csv": "b30995da636465a1811a2676759bf7dacf18c63c4820099a3ac547c9cb678f28",
+      "results/direct_calibration_strict/main_protocol/endpoint_mae_by_d.csv": "855910a361f45a5d3db102898c0689e3b0ca55e0496ab564685c888fbf628f66",
+      "results/direct_calibration_strict/main_protocol/paired_diff_curvemae_bootstrap.csv": "d306ef5f20c26838311cd8c42bb78031d3eb5a6dbe1ddc1f17778802afd1d6c9",
+      "results/direct_calibration_strict/wmt_fixed_141/calibration_only_skipped.csv": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "results/direct_calibration_strict/wmt_fixed_141/curve_mae.csv": "a5e4254eae4de09603a9585ef3e231b8dbbbf6fc7d5058c0e6cb93abadb1b653",
+      "results/direct_calibration_strict/wmt_fixed_141/endpoint_mae_by_d.csv": "5c1ab4a8064ea76a7bfb8e3a33683596999cde59f8fe2b5ba74bc646ac6b8ff1",
+      "results/direct_calibration_strict/wmt_fixed_141/paired_diff_curvemae_bootstrap.csv": "92d2727041fce7f3884583838cbd9167002f1e6db3bf6330c5f4f055ea7acb97",
+      "results/evaluation_aware_ab/non_wmt_canonical/direct_calibration_predictions.csv.gz": "f8ff427871183dd651b8b9ce02c50a303ad53252bc0c0ef38e07a91c734aabcf",
+      "results/evaluation_aware_ab/wmt_fixed_141/direct_calibration_predictions.csv.gz": "8a09fefbadb172fb6e1602de64c1fc274afc58e7e18830d11c13d428399c0aed"
+    },
+    "outputs": {
+      "artifacts/data/ab_fig2.csv": "6372c3566b4a3c5edf2f66a924e14e3d447ef495668568eecac83024426c6dbd",
+      "artifacts/data/ab_fig2_path_sums.csv": "dee950aced4758554a3ea27ba03f1f3ed8495e39d8a106bf1f65b772529a9dcb",
+      "artifacts/figures/ab_fig2.pdf": "d615591dc2cbaae93b6f49e19935fe37f13cfc3fd5e2030bc2113089063569b1",
+      "artifacts/figures/ab_fig2.png": "71beda76fad1336738e6f331f83c6a2c7288951a8d55058768174097f00e552b",
+      "artifacts/notes/ab_fig2.md": "871431c52e10db9a955a7b1ec96a00808cc38ea37304176d7267211ef7486dbd"
+    },
+    "placement": "Main text, Figure 2 (Experiments: what does B add?)"
+  },
+  "ab_rater_noise": {
+    "description": "exp26 SummEval rater-count and injected-noise stress of B (table + restyled figure)",
+    "inputs": {
+      "results/rater_noise/artifact_spec.json": "6c6fe174cb63f95a703cd2e474e679790e7364cc49c15dcbe80af214c885660e",
+      "results/rater_noise/condition_summary.csv": "e5126de51aa160591c711b218b42825b37374ea2523ca28573e63c3cbe9aeb59",
+      "results/rater_noise/fig_b_rater_noise_stability.pdf": "8fdef09f7b47fe113e765043d477cdec823e46d13aaa1f4bb637e57853fce0fc",
+      "results/rater_noise/run_spec.json": "c9163ad9ed6ae62dd10a9a2123b9f2a2bc10370cc953c296a0b1ac3cfaecf475",
+      "results/rater_noise/selected_conditions.csv": "cadf7e7c2db577f308b46098afe3aeac7506b1d2c52f61535529cbc8ded0e859"
+    },
+    "outputs": {
+      "artifacts/data/ab_rater_noise.csv": "fde4629bf14faf88358e748c1e79a1435f3b1fe18caab39e75bf50aad66ae4ea",
+      "artifacts/figures/ab_rater_noise.pdf": "7eef8cd4ccd22f8948b96d326d5551c31d9cdb26a5794f8dddc0db2653391c24",
+      "artifacts/figures/ab_rater_noise.png": "efae2694a09c447a6fb9b6110d3f12bf3a99597c3163b41a692a2dd225a9a91f",
+      "artifacts/notes/ab_rater_noise.md": "1ddb0fa9a3c881835e5570540bd1f50047a39f842cfadb2eeb2937366de67a66",
+      "artifacts/tables/ab_rater_noise.tex": "375bcfd295ffd3f45e69e74ff9e683881f139fca0a550d03affaae9e891d9679"
+    },
+    "placement": "Appendix (rater count and rating noise)"
+  },
+  "ab_reduction": {
+    "description": "Endpoint MAE by radius and paired CurveMAE, A-only vs A+B, common valid cells",
+    "inputs": {
+      "results/12_accept_boost/d_sweep_human/d_sweep_summary_overall.csv": "0a10dfa921be2fa4d3e439613c5de9779e5b037a8574995ad5286cb33c6af461",
+      "results/direct_calibration_strict/main_protocol/calibration_only_skipped.csv": "830f48a9eacbbe3c0f6178052dfd23f129ecc2baecfcbb7e9aeee9f960ca358c",
+      "results/direct_calibration_strict/main_protocol/curve_mae.csv": "b30995da636465a1811a2676759bf7dacf18c63c4820099a3ac547c9cb678f28",
+      "results/direct_calibration_strict/main_protocol/endpoint_mae_by_d.csv": "855910a361f45a5d3db102898c0689e3b0ca55e0496ab564685c888fbf628f66",
+      "results/direct_calibration_strict/main_protocol/paired_diff_curvemae_bootstrap.csv": "d306ef5f20c26838311cd8c42bb78031d3eb5a6dbe1ddc1f17778802afd1d6c9",
+      "results/direct_calibration_strict/wmt_fixed_141/calibration_only_skipped.csv": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "results/direct_calibration_strict/wmt_fixed_141/curve_mae.csv": "a5e4254eae4de09603a9585ef3e231b8dbbbf6fc7d5058c0e6cb93abadb1b653",
+      "results/direct_calibration_strict/wmt_fixed_141/endpoint_mae_by_d.csv": "5c1ab4a8064ea76a7bfb8e3a33683596999cde59f8fe2b5ba74bc646ac6b8ff1",
+      "results/direct_calibration_strict/wmt_fixed_141/paired_diff_curvemae_bootstrap.csv": "92d2727041fce7f3884583838cbd9167002f1e6db3bf6330c5f4f055ea7acb97",
+      "results/evaluation_aware_ab/non_wmt_canonical/direct_calibration_predictions.csv.gz": "f8ff427871183dd651b8b9ce02c50a303ad53252bc0c0ef38e07a91c734aabcf",
+      "results/evaluation_aware_ab/wmt_fixed_141/direct_calibration_predictions.csv.gz": "8a09fefbadb172fb6e1602de64c1fc274afc58e7e18830d11c13d428399c0aed"
+    },
+    "outputs": {
+      "artifacts/data/ab_reduction_curvemae.csv": "1790b15383170163030f33e359ba39a1b20d03c2f742f701c4ee01236fd8043f",
+      "artifacts/data/ab_reduction_endpoint.csv": "39c2cbe73df1601788fc56009c2343e97e3879065c1184a421c976e287da7df1",
+      "artifacts/notes/ab_reduction.md": "fff2e9dab0139d626507740b95f48e80bad5b1c82e98c491281732137877a0e4",
+      "artifacts/tables/ab_reduction.tex": "fa603585e4b361cdabb176b0843805b994ef74c7b5b114e07e559e2f1fe9e480",
+      "artifacts/tables/ab_reduction_curvemae.tex": "884a9002ebbe3bcf7d8a8080fbd2bd7b38b838cf362d26b0ab537e2d128f029d"
+    },
+    "placement": "Appendix (A/B contribution)"
+  },
+  "ab_skewness": {
+    "description": "exp19 share of the skewness correction in B: synthetic skew-normal family and two SummEval proxies",
+    "inputs": {
+      "results/skewness/fig_skewcorr.png": "7d141422c67c519fd311fc68718eaad20f3411a76c35329b5a602f5ba448e081",
+      "results/skewness/skewcorr_summary.csv": "aa97b84e41ada261e637d1958bc46618084ace1ff5d46d86c4e8443d073cb4cf",
+      "results/skewness/synthetic_manifest.json": "bc9543f10c6e3e0908ced38cf9506fff4a352783bc4027d8d8f8650e076a01b2"
+    },
+    "outputs": {
+      "artifacts/data/ab_skewness.csv": "7822421d4daa20fb89fc49b846a9319f237ea7a59fbbdd937d19eb83cf0dd3a7",
+      "artifacts/figures/ab_skewness.pdf": "d669c38351bf5a9f8ec33e331d754f5f3d6ea468d73b6d5b60e4b91af062b222",
+      "artifacts/figures/ab_skewness.png": "210dc209a04e9256f86f83776c62fef86fe713c23832de385284995b7c227df1",
+      "artifacts/notes/ab_skewness.md": "607da6b1527f0ce68ae2c410fa51a50d5959c209d77b64426ecbc9e534cc2f9f",
+      "artifacts/tables/ab_skewness.tex": "fb0a1945a13446b22732782246e58937eb58d91cddbcd35ddd120758b81c71c4"
+    },
+    "placement": "Appendix (skewness interpretation of B)"
+  },
+  "bon_inwindow_cases": {
+    "description": "The four nontrivial in-window exact-BoN points (SummEval held-out human, N=2): radius, ESS, top-score ties, gain and predictor errors",
+    "inputs": {
+      "data/model_proxy_4o_aggregated.csv": "9440315ccb82939e360e8bbac802f31bb3a17d6af244997cfbfa34eeeeeb4599",
+      "data/openmeva_long.csv": "4e205f20b5183ab21b3caa1a5270e89068f35ae2aa14356e3b425f18f314a10b",
+      "data/proxy_rouge1.csv": "18fc5d2a64d20eaa6c30c3da818e9086f6a77beef6d702dbc4ea21b9959eccf3",
+      "data/summeval_long.csv": "d4c4dd815cc851920c796343f9952d0ec60c124db63d913d2826998881c1531e",
+      "data/wmt_mqm_long.csv": "6f20c0669ff7e76bef71a584f6c627dadab063d560d931cae74acff78d8cbbf8",
+      "experiments/exp20_bon_window_gate/build_bon_gate.py": "9444408b66ff5501c1d2f142d0422f5e43b03468fec26d71db1ce369e42ea3ba",
+      "lib/common_experiment_utils.py": "351f6d9b4bfacde9b8192c7e6085d173b3fc7559a2b8838ec328d9fac49a1518",
+      "results/bon_scope/bon_gate_points.csv": "ff79a5838bb040cec6452b0f3cdd90241f753f84734903fcef00de03e721780c",
+      "results/bon_scope/run_spec.json": "5e45109ddc5140473d5c66b5c83e61f2d97590d99a5987738e56e092c3c8042c"
+    },
+    "outputs": {
+      "artifacts/data/bon_inwindow_cases.csv": "0648e58f5d399abd6b1c41dc7ebab7b5fbda5e980fa85ac3e69b665c01f36c80",
+      "artifacts/notes/bon_inwindow_cases.md": "547de17d01476692ea5a19b7c2b55a14b8a75f931a4339eba1a15960e702d2bb",
+      "artifacts/tables/bon_inwindow_cases.tex": "9220799b85b9e4ec2a4acacf511db3b8080853b00cadd56053508b9f62ee15d8"
+    },
+    "placement": "appendix"
+  },
+  "bon_kl_ess_definitions": {
+    "description": "Definitions of induced KL, ESS and relative ESS for selection rules, exact tied BoN, closed forms with numerical checks, and an applicability-rule wording",
+    "inputs": {
+      "data/model_proxy_4o_aggregated.csv": "9440315ccb82939e360e8bbac802f31bb3a17d6af244997cfbfa34eeeeeb4599",
+      "data/openmeva_long.csv": "4e205f20b5183ab21b3caa1a5270e89068f35ae2aa14356e3b425f18f314a10b",
+      "data/proxy_rouge1.csv": "18fc5d2a64d20eaa6c30c3da818e9086f6a77beef6d702dbc4ea21b9959eccf3",
+      "data/summeval_long.csv": "d4c4dd815cc851920c796343f9952d0ec60c124db63d913d2826998881c1531e",
+      "data/wmt_mqm_long.csv": "6f20c0669ff7e76bef71a584f6c627dadab063d560d931cae74acff78d8cbbf8",
+      "experiments/exp20_bon_window_gate/build_bon_gate.py": "9444408b66ff5501c1d2f142d0422f5e43b03468fec26d71db1ce369e42ea3ba",
+      "lib/common_experiment_utils.py": "351f6d9b4bfacde9b8192c7e6085d173b3fc7559a2b8838ec328d9fac49a1518",
+      "results/bon_scope/bon_gate_points.csv": "ff79a5838bb040cec6452b0f3cdd90241f753f84734903fcef00de03e721780c",
+      "results/bon_scope/run_spec.json": "5e45109ddc5140473d5c66b5c83e61f2d97590d99a5987738e56e092c3c8042c"
+    },
+    "outputs": {
+      "artifacts/data/bon_kl_ess_definitions.csv": "32de89ae6e12cbc33da8a9305a0b0dad3d39304477f78472d8db6a7fdf5edd3b",
+      "artifacts/data/bon_kl_ess_definitions_tilt_relESS_at_window.csv": "b48efe7876ba0d7fb3d3ec8c6c27b08a091244d1068aca2ff8ccf944bb3ed6f6",
+      "artifacts/notes/bon_kl_ess_definitions.md": "990bba80cb6dd78e8cd9a443de85e4f2bce208cf91bccf51930a74dfd83cd58e"
+    },
+    "placement": "main (definitions; note only)"
+  },
+  "bon_nladder": {
+    "description": "Exact pooled BoN N-ladder per dataset: induced KL, relative ESS, in-window counts and A+B/A-only errors",
+    "inputs": {
+      "data/model_proxy_4o_aggregated.csv": "9440315ccb82939e360e8bbac802f31bb3a17d6af244997cfbfa34eeeeeb4599",
+      "data/openmeva_long.csv": "4e205f20b5183ab21b3caa1a5270e89068f35ae2aa14356e3b425f18f314a10b",
+      "data/proxy_rouge1.csv": "18fc5d2a64d20eaa6c30c3da818e9086f6a77beef6d702dbc4ea21b9959eccf3",
+      "data/summeval_long.csv": "d4c4dd815cc851920c796343f9952d0ec60c124db63d913d2826998881c1531e",
+      "data/wmt_mqm_long.csv": "6f20c0669ff7e76bef71a584f6c627dadab063d560d931cae74acff78d8cbbf8",
+      "experiments/exp20_bon_window_gate/build_bon_gate.py": "9444408b66ff5501c1d2f142d0422f5e43b03468fec26d71db1ce369e42ea3ba",
+      "lib/common_experiment_utils.py": "351f6d9b4bfacde9b8192c7e6085d173b3fc7559a2b8838ec328d9fac49a1518",
+      "results/bon_scope/bon_gate_points.csv": "ff79a5838bb040cec6452b0f3cdd90241f753f84734903fcef00de03e721780c",
+      "results/bon_scope/run_spec.json": "5e45109ddc5140473d5c66b5c83e61f2d97590d99a5987738e56e092c3c8042c"
+    },
+    "outputs": {
+      "artifacts/data/bon_nladder.csv": "1e57cd7d2f155d8dbe058b3bdfd17fc92177aa3700275f6baacfa4e9ddb90cde",
+      "artifacts/data/bon_nladder_byN.csv": "7e186f449d04d22be5462953f1e7722258e196c975f4e0ae930c89e8a8480e35",
+      "artifacts/notes/bon_nladder.md": "ee1683544fee25142cbc4536ddc11b89b3d1d0bcd108ebb87bad87d20f70f372",
+      "artifacts/tables/bon_nladder.tex": "8fef8d19e2c661a877df9a389e19c47f680a943dc86f5b2b9d3d10f5a32b41f5",
+      "artifacts/tables/bon_nladder_byN.tex": "75a2a624a6aba96b6213babdff27b45df73bf936ac67c188dfe18f4e90994204"
+    },
+    "placement": "appendix"
+  },
+  "bon_prompt_conditional_scope": {
+    "description": "Prompt-conditional exact BoN radius and pooled raw-score tilt reachability",
+    "inputs": {
+      "artifact_tools/make_tail_bon_artifacts.py": "27699a7d4a55c5c5f9fc348e66d4e74a01471582d475bceb0427104d62622a9d",
+      "data/openmeva_long.csv": "4e205f20b5183ab21b3caa1a5270e89068f35ae2aa14356e3b425f18f314a10b",
+      "data/summeval_long.csv": "d4c4dd815cc851920c796343f9952d0ec60c124db63d913d2826998881c1531e",
+      "experiments/15_prompt_conditional_bon_scope/01_prompt_conditional_bon_audit.py": "820ef6d86a602c2c277f1368368009ab7ab0ae2a9f9a0024b2810955971062cc",
+      "lib/common_experiment_utils.py": "351f6d9b4bfacde9b8192c7e6085d173b3fc7559a2b8838ec328d9fac49a1518",
+      "verification/fixtures/prompt_bon_reachability_reference/openmeva_mags/prompt_conditional_bon_paths.csv": "9d733a0d0406a128a93d2840601f42f3832f7eb3917fa9acc714b6065d0e38bb",
+      "verification/fixtures/prompt_bon_reachability_reference/openmeva_mags/prompt_conditional_bon_run_spec.json": "df6688104091abce288e3da35b67b3158440a2b00a82acc94f088d6ffbe38c80",
+      "verification/fixtures/prompt_bon_reachability_reference/openmeva_mags/prompt_conditional_bon_summary.csv": "d5e12d20358959b2e41be673d37fa281cbe1a6ca386a99c36cf34c538f906750",
+      "verification/fixtures/prompt_bon_reachability_reference/summeval/prompt_conditional_bon_paths.csv": "1c7b5b019f53a47734372cf72088a3a03b7b6ca856696b6bde7920687f03dd14",
+      "verification/fixtures/prompt_bon_reachability_reference/summeval/prompt_conditional_bon_run_spec.json": "a445595f0e02ddd3fc8ee442c6ae726670040021763b1621a221f0cd811c4107",
+      "verification/fixtures/prompt_bon_reachability_reference/summeval/prompt_conditional_bon_summary.csv": "ee1695b03dc6394ffbd7e8e5a2013d2ae6668806058d30c43681dd2b1aa33381"
+    },
+    "outputs": {
+      "artifacts/data/bon_prompt_conditional_scope.csv": "9bb6b021c6c88f80b6bb3301d1b7815d1349233d3af21f762fd17463c545932d",
+      "artifacts/data/bon_prompt_conditional_scope_paths.csv": "0d7569143772e054b15f20cf3a4a0124b4b2327fe6a599a780861dcf726d19c1",
+      "artifacts/figures/bon_prompt_conditional_scope.pdf": "5ad4f1a1cc9dca50f2a3312b376ea9954faac5879e2e6fd526fd5152eedbe0fe",
+      "artifacts/figures/bon_prompt_conditional_scope.png": "738385cd2bc473a2578980758342cb8df06a370a1a4d32497ae8cf3d981156af",
+      "artifacts/notes/bon_prompt_conditional_scope.md": "d7f151ec349274653a5c9ccdf720a777b22835ea0d54f285e33786c69e3cc71d",
+      "artifacts/tables/bon_prompt_conditional_scope.tex": "c21ea5d076d3a4c674ee09d2072ea8f94e33e4b6b3cdf17c09e75200467c78a9"
+    },
+    "placement": "appendix"
+  },
+  "bon_softened_rules": {
+    "description": "Mixture-with-BoN and rank-tilt rules inside 0.005<d<=0.10 (exp23, 30/70 splits): path-macro MAE of A+B and baselines",
+    "inputs": {
+      "experiments/exp23_mixture_ranktilt/build_mixture_ranktilt.py": "3dfd3312143cbeb178e59ce5efb8702ac3424d86238336dc18a60c75c9cf8530",
+      "results/rank_selection_scope/inwindow_baseline_path_macro.csv": "27fc74794c04e36ea336bfbba3250b9f2d01605843342c47c880e6d2d6e5af4b",
+      "results/rank_selection_scope/mixture_ranktilt_rows.csv": "da0865bd545f12d79f69efd39b043ab81444c02160e62e534ce87f9674583f1f",
+      "results/rank_selection_scope/mixture_ranktilt_run_spec.json": "6df4bcfdd544038a2e4ad6744d263b13490deea2e90aecf4dfc33fbc2a1ff671"
+    },
+    "outputs": {
+      "artifacts/data/bon_softened_rules.csv": "c0c55bd0a17ce8eb92b898edb523c442da56b46fadf100f484ac2204d47c3050",
+      "artifacts/notes/bon_softened_rules.md": "305370062b8e5f5bc58f85365fdbf334944939c06b7ceb699113b9effd3d3a92",
+      "artifacts/tables/bon_softened_rules.tex": "8ca8ac4c91cf5a0c49ab3a2e5a3acb19870a1f874446db82728df39279cd19af"
+    },
+    "placement": "appendix"
+  },
+  "dpo_comparators": {
+    "description": "Full DPO comparator table by information setting: pre-pool coefficient and frozen-curve predictors (exp09/exp28/exp34), target-pool-aware direct and two-term projection (exp28 follow-up), and evaluation-prompt cross-fit diagnostics; frontier and realized MAE, mean +/- SD over 3 seeds.",
+    "inputs": {
+      "results/actual_dpo/target_pool_aware_ab_direct/run_spec.json": "3f0f7a6cee1171d2ba2a25461de0edcdec38a3fbdbc2d69c8a44a15e5f695e06",
+      "results/actual_dpo/target_pool_aware_ab_direct/selected_checkpoints.csv": "1c639048acffb6f7f1897e6a50059c659e7b332bb393e0a1a79c3ca468fe7316",
+      "results/actual_dpo/target_pool_aware_ab_direct/summary_mean_sd.csv": "9d3c555e715d42282b22354a2321e74bb355a7ea7e57a7272e73009288c0b6d0",
+      "results/actual_dpo/three_seed_canonical/window_summary_mean_sd.csv": "4bd4699f8a645074a5e33a4d7f8c024d57bf8c6320168c3996e5c98e45c87bb5",
+      "results/dpo_flexible_calibration_only/audit.json": "c4335bd26ac9114db1f27f10b1517e5d0762f8b586f8fa3d2f34d556473a7dd2",
+      "results/dpo_flexible_calibration_only/run_spec.json": "62708e3d4e3050a55acc7ab1e8026185cfe75c8edd301f2476bfc8c986ecb789",
+      "results/dpo_flexible_calibration_only/summary_mean_sd.csv": "4c52c67af179ee275bd0853ffb309ebf3b101c4316df06b4735ba9efe68e59ec"
+    },
+    "outputs": {
+      "artifacts/data/dpo_comparators.csv": "3d15e29d0dbf9b4a28b6afde567be684a35940c76c24d5eacdd170e4dd44123c",
+      "artifacts/notes/dpo_comparators.md": "bf3017b178b3616e592b36c7b288b6354ec0f2ae56394f8fedd34613e834dc7c",
+      "artifacts/tables/dpo_comparators.tex": "9a4d03c3220f686f83ff322ea3d486a4ee92b3161b542554d2e2c3ccc454f77b"
+    },
+    "placement": "appendix"
+  },
+  "dpo_table3": {
+    "description": "Three-seed LoRA-DPO bridge: KL radius, likelihood-ratio vs idealized-tilt silver gain, and MAE of A+B / A-only / zero / A_nu against both targets (mean +/- sample SD over seed means).",
+    "inputs": {
+      "results/actual_dpo/coefficients.json": "a94aa7d29226834c43125fae7c9af84e2c2c76412d724c74a304d22432603adc",
+      "results/actual_dpo/three_seed_canonical/checkpoint_predictions.csv": "17421f79f5b06faba478a55e02f7758bf67fcbd36d6f8d23d1819a34f0d261f5",
+      "results/actual_dpo/three_seed_canonical/prompt_radius_audit/prompt_radius_cells.csv": "1b336e4407ed10ea6134bb3b740290da77341769c1f379fd5cb470f9277baa9e",
+      "results/actual_dpo/three_seed_canonical/prompt_radius_audit/prompt_radius_summary.csv": "15458060d5d1bfa2b7b41d53235c3b52158fe87ecdb463d9ae3475f8a81417d6",
+      "results/actual_dpo/three_seed_canonical/prompt_radius_audit/run_spec.json": "41a416f594f513d33c5672c64b581a0a9be93cc69e9e319a9a79f55ea7b2dcbc",
+      "results/actual_dpo/three_seed_canonical/run_spec.json": "3fe519fac22e721573450695f6e114e2998741666aa66906fd13d08e0fbf5f67",
+      "results/actual_dpo/three_seed_canonical/window_summary_mean_sd.csv": "4bd4699f8a645074a5e33a4d7f8c024d57bf8c6320168c3996e5c98e45c87bb5"
+    },
+    "outputs": {
+      "artifacts/data/dpo_table3.csv": "fe08ddccbf202edb1f80ace7eebcd5b224ec7f87808d3cfc79a9c6afdadd1337",
+      "artifacts/data/dpo_table3_checkpoints.csv": "3a584b571d066997b0507c8f0fa32f06e0b1f91ffee8cb0b970adf57be005ced",
+      "artifacts/notes/dpo_table3.md": "cdce52007ac03a99fc2a82bc2356818643353ce272fb638d928c2ae1ed8ea235",
+      "artifacts/tables/dpo_table3.tex": "c42fd4c8e4b6dd8b15b2d040e5b23950d453c61f18aa67f6c9a5332626ee2cf4"
+    },
+    "placement": "main text"
+  },
+  "fig1_workflow": {
+    "description": "Workflow from rated calibration items to a gain forecast and decision, with the information each step uses, and a schematic of the local two-term gain law",
+    "inputs": {},
+    "outputs": {
+      "artifacts/figures/fig1_workflow.pdf": "02a4e1ec6a388cb72e5ead88478278b2f00dfed922d3ea86475a6caeb4c910a1",
+      "artifacts/figures/fig1_workflow.png": "191da31fb9fa5d73b47f73ef7e33dffd7de462657732c6abc4a44dec54ce24ad",
+      "artifacts/figures/fig1_workflow.tex": "dd8b78042eed6a756fe0fcf8919032f8284dc7db11b0b117537cd809f359649b",
+      "artifacts/notes/fig1_workflow.md": "56c9ca7c347baeec02c51133ca392ea2e539ff5480e82e0e8f5cd54e43d53182"
+    },
+    "placement": "main (Figure 1)"
+  },
+  "flex_radius_endpoint": {
+    "description": "Pre-pool endpoint MAE at each radius d",
+    "inputs": {
+      "results/07_prospective_prediction/exp27_human_baseline/exp27_prospective_paths.csv": "f8f725f3b00e921397deeb06f299a03f1a02716a5eb258f2ff1d42ce93814f30",
+      "results/direct_calibration_strict/main_protocol/calibration_only_skipped.csv": "830f48a9eacbbe3c0f6178052dfd23f129ecc2baecfcbb7e9aeee9f960ca358c",
+      "results/direct_calibration_strict/main_protocol/endpoint_mae_by_d.csv": "855910a361f45a5d3db102898c0689e3b0ca55e0496ab564685c888fbf628f66",
+      "results/direct_calibration_strict/main_protocol/run_spec.json": "41433505cd4d352a6e3e5ec9697ac40c480bd25adeccb5e05f0b1fccd4f15cc8",
+      "results/direct_calibration_strict/wmt_fixed_141/calibration_only_skipped.csv": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "results/direct_calibration_strict/wmt_fixed_141/endpoint_mae_by_d.csv": "5c1ab4a8064ea76a7bfb8e3a33683596999cde59f8fe2b5ba74bc646ac6b8ff1",
+      "results/direct_calibration_strict/wmt_fixed_141/run_spec.json": "448523aac2fbe6c1153833ff56915ac28921ea4b46de53c9f935cc8a4d64035d",
+      "results/evaluation_aware_ab/common_support/evaluation_aware_ab_support.json": "e32bcb813427fe7789323b24594ad53ad466f6d2aefdcd4376ff5212eb838ce9",
+      "results/evaluation_aware_ab/manifest.json": "b5d6cee63924fa3a8a76546a93c6dee37830f8b697238a8481393a1fcb3ad79b",
+      "results/evaluation_aware_ab/non_wmt_canonical/direct_calibration_predictions.csv.gz": "f8ff427871183dd651b8b9ce02c50a303ad53252bc0c0ef38e07a91c734aabcf",
+      "results/evaluation_aware_ab/non_wmt_canonical/source_run_spec.json": "e9ff2d7fe1ac117d152bef0e286c323141e6810d442f7ba07255f5caa79b6a55",
+      "results/evaluation_aware_ab/wmt_fixed_141/direct_calibration_predictions.csv.gz": "8a09fefbadb172fb6e1602de64c1fc274afc58e7e18830d11c13d428399c0aed",
+      "results/evaluation_aware_ab/wmt_fixed_141/direct_calibration_run_spec.json": "8c9d99d03f8679fdda7fc867c48e9c75c0b19e6a60d1efa7ee7237cfe093db16"
+    },
+    "outputs": {
+      "artifacts/data/flex_radius_endpoint.csv": "c41125140f33d2e01b39ade95b5697dac6e7d19bec07586577c9932104d0dd5e",
+      "artifacts/notes/flex_radius_endpoint.md": "52aa85921fdeb0e8e6a7fbd7944dccecabacc7047258d2080ca54e61dba60c0b",
+      "artifacts/tables/flex_radius_endpoint.tex": "1b5d006f6c5f3a70f470136540aa38e74d544b9a1326f0808fae5baef672207e"
+    },
+    "placement": "Appendix"
+  },
+  "flex_table1b_paired": {
+    "description": "Pre-pool CurveMAE differences (method minus A+B) with path-clustered bootstrap CIs",
+    "inputs": {
+      "results/direct_calibration_strict/main_protocol/calibration_only_skipped.csv": "830f48a9eacbbe3c0f6178052dfd23f129ecc2baecfcbb7e9aeee9f960ca358c",
+      "results/direct_calibration_strict/main_protocol/paired_diff_curvemae_bootstrap.csv": "d306ef5f20c26838311cd8c42bb78031d3eb5a6dbe1ddc1f17778802afd1d6c9",
+      "results/direct_calibration_strict/main_protocol/run_spec.json": "41433505cd4d352a6e3e5ec9697ac40c480bd25adeccb5e05f0b1fccd4f15cc8",
+      "results/direct_calibration_strict/wmt_fixed_141/calibration_only_skipped.csv": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "results/direct_calibration_strict/wmt_fixed_141/paired_diff_curvemae_bootstrap.csv": "92d2727041fce7f3884583838cbd9167002f1e6db3bf6330c5f4f055ea7acb97",
+      "results/direct_calibration_strict/wmt_fixed_141/run_spec.json": "448523aac2fbe6c1153833ff56915ac28921ea4b46de53c9f935cc8a4d64035d",
+      "results/evaluation_aware_ab/common_support/evaluation_aware_ab_support.json": "e32bcb813427fe7789323b24594ad53ad466f6d2aefdcd4376ff5212eb838ce9",
+      "results/evaluation_aware_ab/manifest.json": "b5d6cee63924fa3a8a76546a93c6dee37830f8b697238a8481393a1fcb3ad79b",
+      "results/evaluation_aware_ab/non_wmt_canonical/direct_calibration_predictions.csv.gz": "f8ff427871183dd651b8b9ce02c50a303ad53252bc0c0ef38e07a91c734aabcf",
+      "results/evaluation_aware_ab/non_wmt_canonical/source_run_spec.json": "e9ff2d7fe1ac117d152bef0e286c323141e6810d442f7ba07255f5caa79b6a55",
+      "results/evaluation_aware_ab/wmt_fixed_141/direct_calibration_predictions.csv.gz": "8a09fefbadb172fb6e1602de64c1fc274afc58e7e18830d11c13d428399c0aed",
+      "results/evaluation_aware_ab/wmt_fixed_141/direct_calibration_run_spec.json": "8c9d99d03f8679fdda7fc867c48e9c75c0b19e6a60d1efa7ee7237cfe093db16"
+    },
+    "outputs": {
+      "artifacts/data/flex_table1b_paired.csv": "af231f4a5fe270db5adc45c32551ca692d0b0df701e51d2601d33f41e9b5447f",
+      "artifacts/notes/flex_table1b_paired.md": "544a94abdaa95ffe855ea88b3dd5ea79a515cb0bcac950d5814b4d7a0f3c734d",
+      "artifacts/tables/flex_table1b_paired.tex": "db3a258723a7a71f9b64ada90074c04d75a5bab36ad34edf10cdab9065d3f897"
+    },
+    "placement": "Appendix"
+  },
+  "flex_table1b_prepool": {
+    "description": "Pre-pool CurveMAE: A+B vs A-only, calibration-curve fits and flexible calibrators",
+    "inputs": {
+      "results/07_prospective_prediction/exp27_human_baseline/exp27_prospective_paths.csv": "f8f725f3b00e921397deeb06f299a03f1a02716a5eb258f2ff1d42ce93814f30",
+      "results/direct_calibration_strict/main_protocol/calibration_only_skipped.csv": "830f48a9eacbbe3c0f6178052dfd23f129ecc2baecfcbb7e9aeee9f960ca358c",
+      "results/direct_calibration_strict/main_protocol/paired_diff_curvemae_bootstrap.csv": "d306ef5f20c26838311cd8c42bb78031d3eb5a6dbe1ddc1f17778802afd1d6c9",
+      "results/direct_calibration_strict/main_protocol/run_spec.json": "41433505cd4d352a6e3e5ec9697ac40c480bd25adeccb5e05f0b1fccd4f15cc8",
+      "results/direct_calibration_strict/wmt_fixed_141/calibration_only_skipped.csv": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "results/direct_calibration_strict/wmt_fixed_141/paired_diff_curvemae_bootstrap.csv": "92d2727041fce7f3884583838cbd9167002f1e6db3bf6330c5f4f055ea7acb97",
+      "results/direct_calibration_strict/wmt_fixed_141/run_spec.json": "448523aac2fbe6c1153833ff56915ac28921ea4b46de53c9f935cc8a4d64035d",
+      "results/evaluation_aware_ab/common_support/evaluation_aware_ab_support.json": "e32bcb813427fe7789323b24594ad53ad466f6d2aefdcd4376ff5212eb838ce9",
+      "results/evaluation_aware_ab/manifest.json": "b5d6cee63924fa3a8a76546a93c6dee37830f8b697238a8481393a1fcb3ad79b",
+      "results/evaluation_aware_ab/non_wmt_canonical/direct_calibration_predictions.csv.gz": "f8ff427871183dd651b8b9ce02c50a303ad53252bc0c0ef38e07a91c734aabcf",
+      "results/evaluation_aware_ab/non_wmt_canonical/source_run_spec.json": "e9ff2d7fe1ac117d152bef0e286c323141e6810d442f7ba07255f5caa79b6a55",
+      "results/evaluation_aware_ab/wmt_fixed_141/direct_calibration_predictions.csv.gz": "8a09fefbadb172fb6e1602de64c1fc274afc58e7e18830d11c13d428399c0aed",
+      "results/evaluation_aware_ab/wmt_fixed_141/direct_calibration_run_spec.json": "8c9d99d03f8679fdda7fc867c48e9c75c0b19e6a60d1efa7ee7237cfe093db16"
+    },
+    "outputs": {
+      "artifacts/data/flex_table1b_prepool.csv": "bad77ca7270c911a1620995749936f0c9258ae2c592fe4e791e24e5694f8413e",
+      "artifacts/notes/flex_table1b_prepool.md": "e65a22314d85cbd0baa455776e459471904271d86c156ca3cdc6339f8c80d88f",
+      "artifacts/tables/flex_table1b_prepool.tex": "6857b55fb5f2b491efdf864174a9baadd10b74f19219ec10646385d9dbfdcaf3",
+      "artifacts/tables/flex_table1b_prepool_with_mlp.tex": "725641ccf4be0d62581141a43c62ab1d2c3d6d8b94401ba60812844fe5469b78"
+    },
+    "placement": "Main text, Table 1(b)"
+  },
+  "flex_table2_paired": {
+    "description": "Target-pool-aware paired differences: projection-direct, projection-anchor, direct-anchor",
+    "inputs": {
+      "results/direct_calibration_strict/main_protocol/calibration_only_skipped.csv": "830f48a9eacbbe3c0f6178052dfd23f129ecc2baecfcbb7e9aeee9f960ca358c",
+      "results/direct_calibration_strict/main_protocol/run_spec.json": "41433505cd4d352a6e3e5ec9697ac40c480bd25adeccb5e05f0b1fccd4f15cc8",
+      "results/direct_calibration_strict/wmt_fixed_141/calibration_only_skipped.csv": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "results/direct_calibration_strict/wmt_fixed_141/run_spec.json": "448523aac2fbe6c1153833ff56915ac28921ea4b46de53c9f935cc8a4d64035d",
+      "results/evaluation_aware_ab/common_support/evaluation_aware_ab_paired_bootstrap.csv": "c5fdba7563f3724fc3762df0b485931097cfa20b8867c2996e85a06b6df84adc",
+      "results/evaluation_aware_ab/common_support/evaluation_aware_ab_summary.csv": "e7b9ca7e0f3b9ba1610a79a47d07a9a99c69337376e880ffe8c3299a9776294e",
+      "results/evaluation_aware_ab/common_support/evaluation_aware_ab_support.json": "e32bcb813427fe7789323b24594ad53ad466f6d2aefdcd4376ff5212eb838ce9",
+      "results/evaluation_aware_ab/manifest.json": "b5d6cee63924fa3a8a76546a93c6dee37830f8b697238a8481393a1fcb3ad79b",
+      "results/evaluation_aware_ab/non_wmt_canonical/direct_calibration_predictions.csv.gz": "f8ff427871183dd651b8b9ce02c50a303ad53252bc0c0ef38e07a91c734aabcf",
+      "results/evaluation_aware_ab/non_wmt_canonical/source_run_spec.json": "e9ff2d7fe1ac117d152bef0e286c323141e6810d442f7ba07255f5caa79b6a55",
+      "results/evaluation_aware_ab/wmt_fixed_141/direct_calibration_predictions.csv.gz": "8a09fefbadb172fb6e1602de64c1fc274afc58e7e18830d11c13d428399c0aed",
+      "results/evaluation_aware_ab/wmt_fixed_141/direct_calibration_run_spec.json": "8c9d99d03f8679fdda7fc867c48e9c75c0b19e6a60d1efa7ee7237cfe093db16",
+      "results/evaluation_aware_ab/wmt_fixed_141/evaluation_aware_ab_paired_bootstrap.csv": "2fb182f34592ac263490ca80e713de864f8cd37b7a5b2f8a3027d2e78c3d87e1",
+      "results/evaluation_aware_ab/wmt_fixed_141/evaluation_aware_ab_summary.csv": "c69a2b14d8e65ba5ab0bf12d8fe15f54ba275eb490371fdb22701f6a17e1a493"
+    },
+    "outputs": {
+      "artifacts/data/flex_table2_paired.csv": "db49ec6ff23202963d7e835d92b0b78e3d89e27dab1219ff9423174e73f41662",
+      "artifacts/notes/flex_table2_paired.md": "73a7de6bf830be52306e6597e1008f5d399adaa7f52154aa03be49cf321b7c5b",
+      "artifacts/tables/flex_table2_paired.tex": "f02981a1fdba32ecc14cbbff3f90f33324276491daa9758119d7148dff8bbc40"
+    },
+    "placement": "Appendix"
+  },
+  "flex_table2_target_aware": {
+    "description": "Target-pool-aware projection vs direct integration of the same h, with pre-pool A+B anchor",
+    "inputs": {
+      "results/direct_calibration_strict/main_protocol/calibration_only_skipped.csv": "830f48a9eacbbe3c0f6178052dfd23f129ecc2baecfcbb7e9aeee9f960ca358c",
+      "results/direct_calibration_strict/main_protocol/run_spec.json": "41433505cd4d352a6e3e5ec9697ac40c480bd25adeccb5e05f0b1fccd4f15cc8",
+      "results/direct_calibration_strict/wmt_fixed_141/calibration_only_skipped.csv": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "results/direct_calibration_strict/wmt_fixed_141/run_spec.json": "448523aac2fbe6c1153833ff56915ac28921ea4b46de53c9f935cc8a4d64035d",
+      "results/evaluation_aware_ab/common_support/evaluation_aware_ab_paired_bootstrap.csv": "c5fdba7563f3724fc3762df0b485931097cfa20b8867c2996e85a06b6df84adc",
+      "results/evaluation_aware_ab/common_support/evaluation_aware_ab_summary.csv": "e7b9ca7e0f3b9ba1610a79a47d07a9a99c69337376e880ffe8c3299a9776294e",
+      "results/evaluation_aware_ab/common_support/evaluation_aware_ab_support.json": "e32bcb813427fe7789323b24594ad53ad466f6d2aefdcd4376ff5212eb838ce9",
+      "results/evaluation_aware_ab/evaluation_aware_ab_summary_fixed_141.csv": "678b2f436f2f138221581cf30df2586da95c174422ecdccbf8fb29a47a8a7109",
+      "results/evaluation_aware_ab/manifest.json": "b5d6cee63924fa3a8a76546a93c6dee37830f8b697238a8481393a1fcb3ad79b",
+      "results/evaluation_aware_ab/non_wmt_canonical/direct_calibration_predictions.csv.gz": "f8ff427871183dd651b8b9ce02c50a303ad53252bc0c0ef38e07a91c734aabcf",
+      "results/evaluation_aware_ab/non_wmt_canonical/source_run_spec.json": "e9ff2d7fe1ac117d152bef0e286c323141e6810d442f7ba07255f5caa79b6a55",
+      "results/evaluation_aware_ab/wmt_fixed_141/direct_calibration_predictions.csv.gz": "8a09fefbadb172fb6e1602de64c1fc274afc58e7e18830d11c13d428399c0aed",
+      "results/evaluation_aware_ab/wmt_fixed_141/direct_calibration_run_spec.json": "8c9d99d03f8679fdda7fc867c48e9c75c0b19e6a60d1efa7ee7237cfe093db16",
+      "results/evaluation_aware_ab/wmt_fixed_141/evaluation_aware_ab_paired_bootstrap.csv": "2fb182f34592ac263490ca80e713de864f8cd37b7a5b2f8a3027d2e78c3d87e1",
+      "results/evaluation_aware_ab/wmt_fixed_141/evaluation_aware_ab_summary.csv": "c69a2b14d8e65ba5ab0bf12d8fe15f54ba275eb490371fdb22701f6a17e1a493"
+    },
+    "outputs": {
+      "artifacts/data/flex_table2_target_aware.csv": "5e4d61c4fb0df43a3b56b490f6f216e1d622d9e0b7a3854f5e50111392789306",
+      "artifacts/notes/flex_table2_target_aware.md": "542b6e5ac57a06da5b454cb16b53fd916cbf4a7dd4239e6bb9de1059a514cc10",
+      "artifacts/tables/flex_table2_target_aware.tex": "9448703a689dc1d084e8eb0d74818145b1eabbf89ab19d00cd1a53fc9f612ec8",
+      "artifacts/tables/flex_table2_target_aware_main.tex": "52e50570c8bc2feaff8e2619d2f55635dabf556f7c054bb4607f2567d3973393",
+      "artifacts/tables/flex_table2_target_aware_with_mlp.tex": "d3ed3a7e5a1242b2f3e92f6d7f072de65725d1fa8ccac8195cd8fb50bd340392"
+    },
+    "placement": "Main text, Table 2"
+  },
+  "proxy_open_judge_rm": {
+    "description": "SummEval open proxies (Skywork-Reward-Llama-3.1-8B-v0.2 RM; Qwen2.5-32B-Instruct 5-pass judge): d=0.10 endpoint MAE of A+B, A-only, A_nu, empirical fit and zero, with a path-clustered paired interval.",
+    "inputs": {
+      "data/open_proxy_inputs/README.md": "cff60cedd94c1852921aa7f6447d73dd56085993ff203ee3b35367d02d9baae4",
+      "data/open_proxy_inputs/model_proxy_openjudge_aggregated.csv": "9083b173dedab9661de439f61fb1722b36b143fc253a5304167af1d39c2ae455",
+      "data/open_proxy_inputs/proxy_rm_skywork_v02.csv": "1e7b09507c62daedc7e52ccf9cdd2643855be5f1df15497f773bfe99b8f71598",
+      "data/open_proxy_inputs/scoring_run_specs/model_proxy_openjudge_aggregated.run_spec.json": "58ddcbb4239735b4d97d3140828ff0e35b50be1fe9c294f76088c66b87b9290d",
+      "data/open_proxy_inputs/scoring_run_specs/proxy_rm_skywork_v02.run_spec.json": "5be61b6358a243723ed3de957e7944f7a747cc751f618073cd8be9f8b0ca2207",
+      "results/open_proxy/proxy_openjudge/exp27_prospective_paths.csv": "107bda90311133062895ce8005d7e371e49b8d080162ce6dcd693c30efd839a5",
+      "results/open_proxy/proxy_openjudge/exp27_prospective_summary.csv": "06129d62845625e525294d4b6dfbaaaf46fcb15ceccb66696e5bca1a64182370",
+      "results/open_proxy/proxy_openjudge/exp27_run_spec.json": "cff8dbf4c1aa936b9fb2ed02de3b36162db6ddf31fee0ccd86c80f572bda4e46",
+      "results/open_proxy/proxy_rm_skywork/exp27_prospective_paths.csv": "3ef129b23dad3f39c4cf435659a5c8239d48bf27bb369b4906349fbb408530db",
+      "results/open_proxy/proxy_rm_skywork/exp27_prospective_summary.csv": "adaede97f0404812d3437dc20fc0512927609e5251932f8c704117452ab3b326",
+      "results/open_proxy/proxy_rm_skywork/exp27_run_spec.json": "fd3e3c46088281c650ce39a0b0b98c725d6d670b2bdb64a165b07c822bd8b729",
+      "results/reward_model_coefficients/canonical/prepared/models.json": "34312a5fd4da6650cb0e78e85869b2a39a07fb642ffa899352df0ac7b006e7b1"
+    },
+    "outputs": {
+      "artifacts/data/proxy_open_judge_rm.csv": "6bd3c067a0bff9c620f8caa6d2562b006293a0a2f2c5ce36c34aa1d20ee80fd0",
+      "artifacts/data/proxy_open_judge_rm_bootstrap.csv": "6bad5f3a8d6a55774342bf2b7e453ffcc38b74fad9771ce56cb37e9ad682ba4a",
+      "artifacts/data/proxy_open_judge_rm_by_dimension.csv": "69607e24a4272edbf9ef11306e159f40cf2f4d4dafbd0ebd80fa919815c63627",
+      "artifacts/notes/proxy_open_judge_rm.md": "7ed374b04b36dcf9202489512dcfc0588c86543b58d794668dd490399d026355",
+      "artifacts/tables/proxy_open_judge_rm.tex": "94f97d477a74c2d249e1ebd54929d01f70d7026ff6308eff8f1b289966c523d9",
+      "artifacts/tables/proxy_open_judge_rm_by_dimension.tex": "cc457141745043a55caccaae89034c1d593b4a6d43a9358da00856cf956bd0b7"
+    },
+    "placement": "appendix (short external-proxy summary sentence in main)"
+  },
+  "rm_coefficients": {
+    "description": "Exp37 full-pool descriptive A and B for 3 RMs x 4 SummEval dimensions with 1,000-draw paired article-cluster bootstrap 95% intervals, plus the tail and skewness parts of B.",
+    "inputs": {
+      "results/reward_model_coefficients/canonical/analysis/coefficient_bootstrap.csv": "a7a7d1ce85f045bee26faf1c522b40c333e3937536635d0fb7ebc5b9264e6468",
+      "results/reward_model_coefficients/canonical/analysis/coefficients.csv": "03dc857736a94dd649ceae2c54bf35751b002d548b1a6bd17f69f8e4f2002ef2",
+      "results/reward_model_coefficients/canonical/analysis/run_spec.json": "6732d6ef61a3316e5c3cabcb2f9527e417212a390439cb0085bffae610610119",
+      "results/reward_model_coefficients/canonical/paper_example/table_reward_model_coefficients.tex": "71083c66163d46111bb06ced0c7757063cc50b85709ec9fa2bb8810bf7126ecd"
+    },
+    "outputs": {
+      "artifacts/data/rm_coefficients.csv": "9a191e0c90dd6bf95e34219a26dfe4e77a73c5d24f620d16bd0601bfbabdf61f",
+      "artifacts/notes/rm_coefficients.md": "298cce95f5b4098ea39e4f7e365df22e2ab172175eb25a11c8369e9f0720aec6",
+      "artifacts/tables/rm_coefficients.tex": "c3a21b875f176cc4606ca15eb22377f2ba5651c07caa602fd5c6d9eb9014c5e4"
+    },
+    "placement": "appendix"
+  },
+  "rm_endpoint_mae": {
+    "description": "Exp37 d=0.10 endpoint MAE of A-only, A+B and calibration empirical fit for three RMs, averaged over 4 SummEval dimensions x 50 item splits, plus a 12-row per-dimension variant.",
+    "inputs": {
+      "results/reward_model_coefficients/canonical/analysis/prospective_paths.csv": "e55939fc3ed0aeeb3fad2834f50e4f1ff622eeb4863b6efcc01e28859b460eed",
+      "results/reward_model_coefficients/canonical/analysis/run_spec.json": "6732d6ef61a3316e5c3cabcb2f9527e417212a390439cb0085bffae610610119",
+      "results/reward_model_coefficients/canonical/analysis/summary.csv": "b5b9dc0232c5bb2ad861c2e4a360e26d7520a9d6c879f4f43e48b586c97eee98"
+    },
+    "outputs": {
+      "artifacts/data/rm_endpoint_mae.csv": "61906621f5d7b913123dd4e94d6ee625804bd717a208223d1ce8ed3fe161f33e",
+      "artifacts/data/rm_endpoint_mae_all_radii.csv": "a08c17fe2af6c9f5008f3959d81eb8ff1422c4a6aee7d98d30ce5889f273b871",
+      "artifacts/data/rm_endpoint_mae_by_dimension.csv": "08d25406341827261210784c02f7e33c8da359167b0104dfb008b75a7483bbd3",
+      "artifacts/notes/rm_endpoint_mae.md": "b90ea2f80a68b5c126b7ebaa6f3787c51658816af9af0bbafec12dff48c5766b",
+      "artifacts/tables/rm_endpoint_mae.tex": "b92cb2eaa9cc1086989464aee18b99226eb47a19a11745eaed74e7b74b7598ce",
+      "artifacts/tables/rm_endpoint_mae_by_dimension.tex": "8a7be4765f3cf33f07912261df704a7fdd1af0468e680f25dc9c7e9725cecf1d"
+    },
+    "placement": "appendix (main-eligible)"
+  },
+  "rm_fig_worked_example": {
+    "description": "Exp37 worked example as three panels: held-out exact coherence gain vs calibration-only A+B and A-only predictions over d in [0, 0.10], regenerated in the publication style.",
+    "inputs": {
+      "results/reward_model_coefficients/canonical/paper_example/fig_reward_model_worked_example.pdf": "5b3a4a98f0139e51b448cd05a8c872aeea728473788ce3c740fd1c97972ee412",
+      "results/reward_model_coefficients/canonical/paper_example/worked_example_curves.csv": "97e6e61c40a1108fbc854aa175d3d9a7a769ab460b239ed6d1b63d418f1b40ea"
+    },
+    "outputs": {
+      "artifacts/data/rm_fig_worked_example.csv": "43ea4525246b9732d17ed4ef2ffdecb85e1407121b71620f77c78458328a64a0",
+      "artifacts/figures/rm_fig_worked_example.pdf": "b132885869f79a4c0de9454cc83348bf05b106fb596cefed23f1d55b5b8ad91b",
+      "artifacts/figures/rm_fig_worked_example.png": "fbe152d126151d5a931e7aed08b5f682e730c7e4c91c3814375594299238ac79",
+      "artifacts/notes/rm_fig_worked_example.md": "f6f515f38564f26bd41660fb0ef8f6559d41d8ea586641f9ae868b2e6f5ebd56"
+    },
+    "placement": "appendix (worked example; the main text states it in prose)"
+  },
+  "rm_worked_example": {
+    "description": "Exp37 preselected SummEval coherence split (repeat 0, d=0.10): calibration-only A, B, their contributions, predicted and held-out exact gain for Skywork, ArmoRM and DeBERTa.",
+    "inputs": {
+      "results/reward_model_coefficients/canonical/analysis/run_spec.json": "6732d6ef61a3316e5c3cabcb2f9527e417212a390439cb0085bffae610610119",
+      "results/reward_model_coefficients/canonical/paper_example/report_spec.json": "c88fdbe4f0f5523bed00c19a5275d3b50a773962fc29260ebfb96474119272b2",
+      "results/reward_model_coefficients/canonical/paper_example/table_reward_model_worked_example.tex": "68403d00d91e6f0ee00806c2579c42bbd70cf6c8865e77f8df28a1bbd1b2669f",
+      "results/reward_model_coefficients/canonical/paper_example/worked_example.csv": "15b60f6c647274a5477a259e8595030b4754391c31f19efd081a4c775120ef3b",
+      "results/reward_model_coefficients/canonical/prepared/models.json": "34312a5fd4da6650cb0e78e85869b2a39a07fb642ffa899352df0ac7b006e7b1"
+    },
+    "outputs": {
+      "artifacts/data/rm_worked_example.csv": "3aad55c95e4e1185905d9b7a6d0bacf33c4c2867bc853a02a8746b82fb866755",
+      "artifacts/notes/rm_worked_example.md": "072daab6c75579b88d6af1920cd266d8ca4756ed70cd1b9582e2abdeb9424488",
+      "artifacts/tables/rm_worked_example.tex": "ce7b08eb8e656efb99aa0d067e8077fd5a52eac113d90b524b927ba0fc1a6d43"
+    },
+    "placement": "appendix (worked example; the main text states all three rows in prose)"
+  }
+}

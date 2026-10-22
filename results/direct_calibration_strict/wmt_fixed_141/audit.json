@@ -1,0 +1,29 @@
+{
+  "status": "PASS",
+  "saved_rows": {
+    "n_rows": 423000,
+    "n_paths": 141,
+    "max_abs_error_identity_drift": 1.7763568394002505e-15,
+    "max_actual_gain_spread_across_baselines": 0.0
+  },
+  "shared_exp21_identity": {
+    "shared_baselines": [
+      "A+B",
+      "A-only",
+      "A_nu",
+      "pearson_corr",
+      "spearman_corr",
+      "empirical_curve",
+      "empirical_fit",
+      "zero"
+    ],
+    "n_paired_cells": 282000,
+    "max_actual_gain_drift": 0.0,
+    "max_prediction_drift": 0.0
+  },
+  "evaluation_proxy_invariance": {
+    "prediction_drift_after_eval_proxy_permutation": 0.0,
+    "realized_gain_change_after_eval_proxy_permutation": 0.3240535534937714,
+    "pass": true
+  }
+}

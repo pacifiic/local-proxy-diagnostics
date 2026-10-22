@@ -1,0 +1,73 @@
+{
+  "checkpoint_predictions": "results/actual_dpo/three_seed_canonical/checkpoint_predictions.csv",
+  "per_prompt_root": "results/actual_dpo/training_runs",
+  "selection": {
+    "model": "A+B",
+    "fit_scope": "coefficient_or_fixed_baseline",
+    "checkpoint_mean_prompt_kl_max": 0.1
+  },
+  "selected_seed_checkpoints": [
+    {
+      "seed": 0,
+      "tag": "steps_120",
+      "checkpoint_median_prompt_kl": 0.0408327498848262,
+      "checkpoint_mean_prompt_kl": 0.04580185086505426
+    },
+    {
+      "seed": 0,
+      "tag": "steps_150",
+      "checkpoint_median_prompt_kl": 0.0735919448013038,
+      "checkpoint_mean_prompt_kl": 0.08383520701524695
+    },
+    {
+      "seed": 0,
+      "tag": "steps_64",
+      "checkpoint_median_prompt_kl": 0.009510348257266,
+      "checkpoint_mean_prompt_kl": 0.010257153565235412
+    },
+    {
+      "seed": 0,
+      "tag": "steps_90",
+      "checkpoint_median_prompt_kl": 0.0193797141819207,
+      "checkpoint_mean_prompt_kl": 0.020889628706660588
+    },
+    {
+      "seed": 1,
+      "tag": "steps_120",
+      "checkpoint_median_prompt_kl": 0.061695816075288,
+      "checkpoint_mean_prompt_kl": 0.06747256240540773
+    },
+    {
+      "seed": 1,
+      "tag": "steps_64",
+      "checkpoint_median_prompt_kl": 0.0140952204670181,
+      "checkpoint_mean_prompt_kl": 0.015455608040000447
+    },
+    {
+      "seed": 1,
+      "tag": "steps_90",
+      "checkpoint_median_prompt_kl": 0.0287402321353179,
+      "checkpoint_mean_prompt_kl": 0.031508210575124894
+    },
+    {
+      "seed": 2,
+      "tag": "steps_120",
+      "checkpoint_median_prompt_kl": 0.0647599199072401,
+      "checkpoint_mean_prompt_kl": 0.07358543747161958
+    },
+    {
+      "seed": 2,
+      "tag": "steps_64",
+      "checkpoint_median_prompt_kl": 0.0134294905975456,
+      "checkpoint_mean_prompt_kl": 0.014546155434580205
+    },
+    {
+      "seed": 2,
+      "tag": "steps_90",
+      "checkpoint_median_prompt_kl": 0.0314466486681834,
+      "checkpoint_mean_prompt_kl": 0.0339885671058838
+    }
+  ],
+  "n_prompt_checkpoint_cells": 2000,
+  "interpretation": "The checkpoint gate uses mean prompt KL. It retains the same ten checkpoints as the earlier median-KL gate. The reported distribution audits prompt-level radii inside those retained checkpoints."
+}

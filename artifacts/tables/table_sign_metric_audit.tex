@@ -1,0 +1,12 @@
+\begin{tabular}{llllll}
+\toprule
+Setting & Metric & Rows & Accuracy & Source & Interpretation \\
+\midrule
+SummEval human & B-sign agreement & 1589 & 90.7\% & 07\_prospective\_prediction/exp27\_human\_baseline & sign(calibration B) equals sign(evaluation fitted B) \\
+WMT MQM clusters & B-sign agreement & 7050 & 91.0\% & 07\_prospective\_prediction/exp27\_wmt\_mqm & sign(calibration B) equals sign(evaluation fitted B) \\
+OpenMEVA-MAGS & B-sign agreement & 500 & 91.8\% & 07\_prospective\_prediction/exp27\_openmeva & sign(calibration B) equals sign(evaluation fitted B) \\
+GPT-4o proxy & B-sign agreement & 200 & 97.5\% & 07\_prospective\_prediction/exp27\_model\_proxy\_4o & sign(calibration B) equals sign(evaluation fitted B) \\
+SummEval human & fixed-gain sign at $d=0.10$ & 1589 & 100.0\% & 12\_accept\_boost/d\_sweep\_human & sign(predicted Delta) equals sign(actual Delta) \\
+GPT-4o proxy & fixed-gain sign at $d=0.10$ & 200 & 100.0\% & 12\_accept\_boost/d\_sweep\_gpt4o & sign(predicted Delta) equals sign(actual Delta) \\
+\bottomrule
+\end{tabular}

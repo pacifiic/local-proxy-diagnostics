@@ -1,0 +1,55 @@
+{
+  "experiment": "exp33_calibration_only_flexible_baselines",
+  "information_setting": {
+    "prediction_inputs": "calibration proxy and gold values plus requested radius d",
+    "evaluation_proxy": "used only to compute realized held-out gain",
+    "evaluation_gold": "used only to compute realized held-out gain",
+    "target_pool_available_at_prediction_time": false
+  },
+  "datasets": [
+    {
+      "dataset": "WMT-MQM-human_heldout",
+      "human_long_csv": "data/wmt_mqm_long_main_protocol.csv",
+      "human_long_sha256": "5649ee3041340f7ee96c3079a4f1f859b9ddd625b2d82f731407d32fd88553c0",
+      "proxy_csv": null,
+      "proxy_sha256": null
+    }
+  ],
+  "calibration_fraction": 0.3,
+  "n_repeats": 50,
+  "d_targets": [
+    0.01,
+    0.025,
+    0.05,
+    0.075,
+    0.1
+  ],
+  "fit_max_d": 0.1,
+  "random_seed": 0,
+  "n_jobs": 40,
+  "baselines": [
+    "A+B",
+    "A-only",
+    "A_nu",
+    "pearson_corr",
+    "spearman_corr",
+    "empirical_curve",
+    "empirical_fit",
+    "zero",
+    "isotonic_calibration_only",
+    "binned_calibration_only",
+    "spline_calibration_only",
+    "mlp_calibration_only"
+  ],
+  "source_sha256": {
+    "build.py": "76c2d7c938cc576676c3fbac2c0e09edd264c67d8b9e23da3bf1dd585fca1574",
+    "exp21_builder": "df87b0aa159b5c23a543e073ec46321f31bcc9b6381570a8c70a1bca3ee39911",
+    "canonical_engine": "e2a28210a3462114bdc78bb1e6c4b35d260161bc1441fd89b2550409e8c28ae8"
+  },
+  "versions": {
+    "python": "3.11.11",
+    "numpy": "1.26.4",
+    "pandas": "2.3.3",
+    "scikit_learn": "1.8.0"
+  }
+}

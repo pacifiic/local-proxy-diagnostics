@@ -1,0 +1,30 @@
+[
+  {
+    "file": "coefficient_bootstrap.csv",
+    "rows": 12000,
+    "keys_text_equal": true,
+    "numerical_equal": true,
+    "max_abs_difference": 0.0
+  },
+  {
+    "file": "coefficients.csv",
+    "rows": 12,
+    "keys_text_equal": true,
+    "numerical_equal": true,
+    "max_abs_difference": 0.0
+  },
+  {
+    "file": "prospective_paths.csv",
+    "rows": 600,
+    "keys_text_equal": true,
+    "numerical_equal": true,
+    "max_abs_difference": 0.0
+  },
+  {
+    "file": "summary.csv",
+    "rows": 48,
+    "keys_text_equal": true,
+    "numerical_equal": true,
+    "max_abs_difference": 0.0
+  }
+]

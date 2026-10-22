@@ -1,0 +1,15 @@
+\begin{table}[t]
+\centering
+\small
+\begin{tabular}{llllllll}
+\toprule
+Setting & Paths & median min Var\_pi(r) & median min ESS & median max abs k4(r) & median max abs k4(J,r) & median tail-baseline & tail<baseline \% \\
+\midrule
+Human-heldout & 32 & 0.631 & 1338 & 0.258 & 0.150 & 0.571 & 0.0 \\
+GPT/4o proxy & 4 & 0.375 & 1327 & 0.035 & 0.040 & -0.054 & 50.0 \\
+\bottomrule
+\end{tabular}
+\vspace{0.25em}
+\caption{Finite-range stability diagnostics on the shared local range. The shared range is d <= 0.1.}
+\label{tab:finite-range-stability}
+\end{table}

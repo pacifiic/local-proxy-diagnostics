@@ -1,0 +1,17 @@
+{
+  "human_long_csv": "data/summeval_long.csv",
+  "proxy_csv": "data/model_proxy_4o_aggregated.csv",
+  "group_cols": [
+    "dimension"
+  ],
+  "fit_max_d": 0.1,
+  "top_fracs": [
+    0.01,
+    0.05,
+    0.1
+  ],
+  "n_model_paths": 4,
+  "human_compare": true,
+  "exp31_model_paths": "all_results_gpt4o_regen_corrected_20260505_045236/07_prospective_prediction/exp27_model_proxy_4o/exp27_prospective_paths.csv",
+  "exp31_human_paths": "all_results_gpt4o_regen_corrected_20260505_045236/07_prospective_prediction/exp27_human_baseline/exp27_prospective_paths.csv"
+}

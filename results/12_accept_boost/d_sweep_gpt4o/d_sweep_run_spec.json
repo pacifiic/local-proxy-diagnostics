@@ -1,0 +1,42 @@
+{
+  "human_long_csv": "data/summeval_long.csv",
+  "proxy_csv": "data/model_proxy_4o_aggregated.csv",
+  "item_cols": "article_id,model_id",
+  "group_cols": "dimension",
+  "rater_col": "rater_idx",
+  "score_col": "score",
+  "proxy_item_col": "item_id",
+  "proxy_score_col": "proxy_score_mean",
+  "calibration_frac": 0.3,
+  "n_repeats": 50,
+  "d_grid": [
+    0.005,
+    0.01,
+    0.02,
+    0.05,
+    0.1,
+    0.15,
+    0.2
+  ],
+  "empfit_max_d": 0.1,
+  "min_items": 200,
+  "min_raters": 3,
+  "random_seed": 0,
+  "n_grid": 240,
+  "n_boot": 1000,
+  "predictors": [
+    "theory",
+    "aonly",
+    "empfit",
+    "anu",
+    "zero",
+    "oracle"
+  ],
+  "n_paths": 4,
+  "n_rows": 1400,
+  "outputs": {
+    "paths": "all_results_gpt4o_regen_corrected_20260505_045236/12_accept_boost/d_sweep_gpt4o/d_sweep_paths_long.csv",
+    "summary_by_group": "all_results_gpt4o_regen_corrected_20260505_045236/12_accept_boost/d_sweep_gpt4o/d_sweep_summary_by_group.csv",
+    "summary_overall": "all_results_gpt4o_regen_corrected_20260505_045236/12_accept_boost/d_sweep_gpt4o/d_sweep_summary_overall.csv"
+  }
+}

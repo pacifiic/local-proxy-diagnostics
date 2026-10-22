@@ -1,0 +1,53 @@
+{
+  "prepared_manifest_sha256": "9fb0f7caf908a4dc4e86b07806bf172f6a07f5cd5bfcf6a8dcb47c0558365719",
+  "scores": {
+    "skywork": {
+      "scores": "f514b44055b292f94ae3c71ac8123aa859827d576c5fe47f0c6e072f39cf91be",
+      "spec": "698c5cc5ee815be61edef951df38804483857166bee79800254eb9123bf67f74"
+    },
+    "armorm": {
+      "scores": "d3073aa2d1747b70271384e76588b0657e9e8c4f51270721fa8bde3cad92cf8b",
+      "spec": "9a4ceeefbd59a7a8bf4116104584ad21e5c22e2ffbeef18544b2434972120f4d"
+    },
+    "deberta": {
+      "scores": "8ac9b081d8bfa5a4037c8b1b357f14d6072658e23cc33dbf0730074f628512e7",
+      "spec": "3adf8edca0a72c7f88aaef06ff83d72005e39b2a06023c35d2218a124607b116"
+    }
+  },
+  "radii": [
+    0.025,
+    0.05,
+    0.075,
+    0.1
+  ],
+  "repeats": 50,
+  "n_boot": 1000,
+  "bootstrap_seed": 1,
+  "bootstrap_unit": "article_id; same draw for every model and dimension",
+  "bootstrap_attempts": {
+    "coherence": 1000,
+    "consistency": 1000,
+    "fluency": 1000,
+    "relevance": 1000
+  },
+  "split_unit": "item",
+  "gold": "Mean of all eight human raters, separately per dimension",
+  "information": "Calibration-only predictions; evaluation gold is retrospective scoring only",
+  "shared_support": "Keep a split only if all models have finite predictions at every radius",
+  "engine_sha256": "47879538faf692bb3c20244c4696acd0f860e69cce4f11811c22006243a7ed99",
+  "math_sha256": "351f6d9b4bfacde9b8192c7e6085d173b3fc7559a2b8838ec328d9fac49a1518",
+  "code_sha256": {
+    "analyze.py": "fa5089fa1a698debd6fd1c98b28460f17d686b9f9d47d0b6bb73714a4027b640",
+    "prepare.py": "e0efaf56856afdb051d7befbec707f7ba5eb217c2f9e31f0bc98f3f89f407ddf",
+    "common.py": "3379843ac0c6a18b1566247986ea4b053d5f64365999195fb3d07d5c250b6d88"
+  },
+  "env": {
+    "numpy": "2.3.5",
+    "pandas": "2.3.3",
+    "scipy": "1.17.1",
+    "torch": "2.11.0",
+    "transformers": "4.57.6",
+    "huggingface-hub": "0.36.2",
+    "tokenizers": "0.22.2"
+  }
+}

@@ -1,0 +1,2 @@
+n_groups,n_paths_total,frac_bin_spearman_pos_pooled,frac_bin_spearman_ci_pos_pooled,frac_zero_violations_pooled,median_violation_frac_pooled,median_isotonic_r2_pooled
+8,32,0.96875,0.84375,0.90625,0.0,0.4240099216297194

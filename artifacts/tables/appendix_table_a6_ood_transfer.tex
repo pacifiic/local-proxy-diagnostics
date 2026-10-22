@@ -1,0 +1,19 @@
+\begin{table}[t]
+\centering
+\small
+\begin{tabular}{lll}
+\toprule
+Predictor & MAE @0.10 & sign acc. \\
+\midrule
+source\_mean & 0.0407 & 100.0 \\
+target\_cal & 0.0258 & 100.0 \\
+source\_prior & 0.0235 & 100.0 \\
+target\_anu & 0.2053 & 100.0 \\
+source\_anu & 0.2031 & 100.0 \\
+zero & 0.2432 & 0.0 \\
+\bottomrule
+\end{tabular}
+\vspace{0.25em}
+\caption{Cross-dataset transfer prediction (SummEval to admitted WMT MQM clusters). Source-only uses SummEval mean coefficients. Target calibration uses 30\textbackslash{}\% held-out split.}
+\label{tab:ood-transfer}
+\end{table}

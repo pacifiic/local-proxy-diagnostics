@@ -1,0 +1,21 @@
+{
+  "selection": "Preselected coherence, repeat 0, d=0.10; no outcome-based example selection",
+  "prepared_manifest_sha256": "9fb0f7caf908a4dc4e86b07806bf172f6a07f5cd5bfcf6a8dcb47c0558365719",
+  "analysis_spec_sha256": "6732d6ef61a3316e5c3cabcb2f9527e417212a390439cb0085bffae610610119",
+  "context": {
+    "n_articles": 100,
+    "mean_supplied_chars": 1797.74,
+    "max_supplied_chars": 2000,
+    "mean_retained_fraction": 0.9608200172044365
+  },
+  "split_sha256": "1a4a459849d1de7e4ae23529ca2a87a17eb4165c102f3781613e3e21d99ac780",
+  "report_code_sha256": "c27b801a60edf641aca22f85aa1d777c6ad6655905c48eb657ec73bb042d9a01",
+  "files": {
+    "fig_reward_model_worked_example.png": "4341942398c09303417386762de052d4cbb4bbd2b5c82bf160a5e003c82ff7bc",
+    "fig_reward_model_worked_example.pdf": "5b3a4a98f0139e51b448cd05a8c872aeea728473788ce3c740fd1c97972ee412",
+    "table_reward_model_coefficients.tex": "71083c66163d46111bb06ced0c7757063cc50b85709ec9fa2bb8810bf7126ecd",
+    "worked_example.csv": "15b60f6c647274a5477a259e8595030b4754391c31f19efd081a4c775120ef3b",
+    "worked_example_curves.csv": "97e6e61c40a1108fbc854aa175d3d9a7a769ab460b239ed6d1b63d418f1b40ea",
+    "table_reward_model_worked_example.tex": "68403d00d91e6f0ee00806c2579c42bbd70cf6c8865e77f8df28a1bbd1b2669f"
+  }
+}

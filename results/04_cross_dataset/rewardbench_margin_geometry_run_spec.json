@@ -1,0 +1,13 @@
+{
+  "fit_max_d": 0.1,
+  "include_missingness_counts": false,
+  "min_items": 40,
+  "missingness_mode": "pairwise_available",
+  "n_grid": 241,
+  "n_rows": 2515,
+  "n_trajectory_rows": 606115,
+  "pseudo_gold": "loo_mean",
+  "score_transform": "model_z",
+  "scores_csv": "data2/rewardbench/rewardbench_scores.csv",
+  "t_max": 4.0
+}

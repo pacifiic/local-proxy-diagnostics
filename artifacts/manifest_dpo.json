@@ -1,0 +1,127 @@
+{
+  "dpo_comparators": {
+    "description": "Full DPO comparator table by information setting: pre-pool coefficient and frozen-curve predictors (exp09/exp28/exp34), target-pool-aware direct and two-term projection (exp28 follow-up), and evaluation-prompt cross-fit diagnostics; frontier and realized MAE, mean +/- SD over 3 seeds.",
+    "inputs": {
+      "results/actual_dpo/target_pool_aware_ab_direct/run_spec.json": "3f0f7a6cee1171d2ba2a25461de0edcdec38a3fbdbc2d69c8a44a15e5f695e06",
+      "results/actual_dpo/target_pool_aware_ab_direct/selected_checkpoints.csv": "1c639048acffb6f7f1897e6a50059c659e7b332bb393e0a1a79c3ca468fe7316",
+      "results/actual_dpo/target_pool_aware_ab_direct/summary_mean_sd.csv": "9d3c555e715d42282b22354a2321e74bb355a7ea7e57a7272e73009288c0b6d0",
+      "results/actual_dpo/three_seed_canonical/window_summary_mean_sd.csv": "4bd4699f8a645074a5e33a4d7f8c024d57bf8c6320168c3996e5c98e45c87bb5",
+      "results/dpo_flexible_calibration_only/audit.json": "c4335bd26ac9114db1f27f10b1517e5d0762f8b586f8fa3d2f34d556473a7dd2",
+      "results/dpo_flexible_calibration_only/run_spec.json": "62708e3d4e3050a55acc7ab1e8026185cfe75c8edd301f2476bfc8c986ecb789",
+      "results/dpo_flexible_calibration_only/summary_mean_sd.csv": "4c52c67af179ee275bd0853ffb309ebf3b101c4316df06b4735ba9efe68e59ec"
+    },
+    "outputs": {
+      "artifacts/data/dpo_comparators.csv": "3d15e29d0dbf9b4a28b6afde567be684a35940c76c24d5eacdd170e4dd44123c",
+      "artifacts/notes/dpo_comparators.md": "bf3017b178b3616e592b36c7b288b6354ec0f2ae56394f8fedd34613e834dc7c",
+      "artifacts/tables/dpo_comparators.tex": "9a4d03c3220f686f83ff322ea3d486a4ee92b3161b542554d2e2c3ccc454f77b"
+    },
+    "placement": "appendix"
+  },
+  "dpo_table3": {
+    "description": "Three-seed LoRA-DPO bridge: KL radius, likelihood-ratio vs idealized-tilt silver gain, and MAE of A+B / A-only / zero / A_nu against both targets (mean +/- sample SD over seed means).",
+    "inputs": {
+      "results/actual_dpo/coefficients.json": "a94aa7d29226834c43125fae7c9af84e2c2c76412d724c74a304d22432603adc",
+      "results/actual_dpo/three_seed_canonical/checkpoint_predictions.csv": "17421f79f5b06faba478a55e02f7758bf67fcbd36d6f8d23d1819a34f0d261f5",
+      "results/actual_dpo/three_seed_canonical/prompt_radius_audit/prompt_radius_cells.csv": "1b336e4407ed10ea6134bb3b740290da77341769c1f379fd5cb470f9277baa9e",
+      "results/actual_dpo/three_seed_canonical/prompt_radius_audit/prompt_radius_summary.csv": "15458060d5d1bfa2b7b41d53235c3b52158fe87ecdb463d9ae3475f8a81417d6",
+      "results/actual_dpo/three_seed_canonical/prompt_radius_audit/run_spec.json": "41a416f594f513d33c5672c64b581a0a9be93cc69e9e319a9a79f55ea7b2dcbc",
+      "results/actual_dpo/three_seed_canonical/run_spec.json": "3fe519fac22e721573450695f6e114e2998741666aa66906fd13d08e0fbf5f67",
+      "results/actual_dpo/three_seed_canonical/window_summary_mean_sd.csv": "4bd4699f8a645074a5e33a4d7f8c024d57bf8c6320168c3996e5c98e45c87bb5"
+    },
+    "outputs": {
+      "artifacts/data/dpo_table3.csv": "fe08ddccbf202edb1f80ace7eebcd5b224ec7f87808d3cfc79a9c6afdadd1337",
+      "artifacts/data/dpo_table3_checkpoints.csv": "3a584b571d066997b0507c8f0fa32f06e0b1f91ffee8cb0b970adf57be005ced",
+      "artifacts/notes/dpo_table3.md": "cdce52007ac03a99fc2a82bc2356818643353ce272fb638d928c2ae1ed8ea235",
+      "artifacts/tables/dpo_table3.tex": "c42fd4c8e4b6dd8b15b2d040e5b23950d453c61f18aa67f6c9a5332626ee2cf4"
+    },
+    "placement": "main text"
+  },
+  "proxy_open_judge_rm": {
+    "description": "SummEval open proxies (Skywork-Reward-Llama-3.1-8B-v0.2 RM; Qwen2.5-32B-Instruct 5-pass judge): d=0.10 endpoint MAE of A+B, A-only, A_nu, empirical fit and zero, with a path-clustered paired interval.",
+    "inputs": {
+      "data/open_proxy_inputs/README.md": "cff60cedd94c1852921aa7f6447d73dd56085993ff203ee3b35367d02d9baae4",
+      "data/open_proxy_inputs/model_proxy_openjudge_aggregated.csv": "9083b173dedab9661de439f61fb1722b36b143fc253a5304167af1d39c2ae455",
+      "data/open_proxy_inputs/proxy_rm_skywork_v02.csv": "1e7b09507c62daedc7e52ccf9cdd2643855be5f1df15497f773bfe99b8f71598",
+      "data/open_proxy_inputs/scoring_run_specs/model_proxy_openjudge_aggregated.run_spec.json": "58ddcbb4239735b4d97d3140828ff0e35b50be1fe9c294f76088c66b87b9290d",
+      "data/open_proxy_inputs/scoring_run_specs/proxy_rm_skywork_v02.run_spec.json": "5be61b6358a243723ed3de957e7944f7a747cc751f618073cd8be9f8b0ca2207",
+      "results/open_proxy/proxy_openjudge/exp27_prospective_paths.csv": "107bda90311133062895ce8005d7e371e49b8d080162ce6dcd693c30efd839a5",
+      "results/open_proxy/proxy_openjudge/exp27_prospective_summary.csv": "06129d62845625e525294d4b6dfbaaaf46fcb15ceccb66696e5bca1a64182370",
+      "results/open_proxy/proxy_openjudge/exp27_run_spec.json": "cff8dbf4c1aa936b9fb2ed02de3b36162db6ddf31fee0ccd86c80f572bda4e46",
+      "results/open_proxy/proxy_rm_skywork/exp27_prospective_paths.csv": "3ef129b23dad3f39c4cf435659a5c8239d48bf27bb369b4906349fbb408530db",
+      "results/open_proxy/proxy_rm_skywork/exp27_prospective_summary.csv": "adaede97f0404812d3437dc20fc0512927609e5251932f8c704117452ab3b326",
+      "results/open_proxy/proxy_rm_skywork/exp27_run_spec.json": "fd3e3c46088281c650ce39a0b0b98c725d6d670b2bdb64a165b07c822bd8b729",
+      "results/reward_model_coefficients/canonical/prepared/models.json": "34312a5fd4da6650cb0e78e85869b2a39a07fb642ffa899352df0ac7b006e7b1"
+    },
+    "outputs": {
+      "artifacts/data/proxy_open_judge_rm.csv": "6bd3c067a0bff9c620f8caa6d2562b006293a0a2f2c5ce36c34aa1d20ee80fd0",
+      "artifacts/data/proxy_open_judge_rm_bootstrap.csv": "6bad5f3a8d6a55774342bf2b7e453ffcc38b74fad9771ce56cb37e9ad682ba4a",
+      "artifacts/data/proxy_open_judge_rm_by_dimension.csv": "69607e24a4272edbf9ef11306e159f40cf2f4d4dafbd0ebd80fa919815c63627",
+      "artifacts/notes/proxy_open_judge_rm.md": "7ed374b04b36dcf9202489512dcfc0588c86543b58d794668dd490399d026355",
+      "artifacts/tables/proxy_open_judge_rm.tex": "94f97d477a74c2d249e1ebd54929d01f70d7026ff6308eff8f1b289966c523d9",
+      "artifacts/tables/proxy_open_judge_rm_by_dimension.tex": "cc457141745043a55caccaae89034c1d593b4a6d43a9358da00856cf956bd0b7"
+    },
+    "placement": "appendix (short external-proxy summary sentence in main)"
+  },
+  "rm_coefficients": {
+    "description": "Exp37 full-pool descriptive A and B for 3 RMs x 4 SummEval dimensions with 1,000-draw paired article-cluster bootstrap 95% intervals, plus the tail and skewness parts of B.",
+    "inputs": {
+      "results/reward_model_coefficients/canonical/analysis/coefficient_bootstrap.csv": "a7a7d1ce85f045bee26faf1c522b40c333e3937536635d0fb7ebc5b9264e6468",
+      "results/reward_model_coefficients/canonical/analysis/coefficients.csv": "03dc857736a94dd649ceae2c54bf35751b002d548b1a6bd17f69f8e4f2002ef2",
+      "results/reward_model_coefficients/canonical/analysis/run_spec.json": "6732d6ef61a3316e5c3cabcb2f9527e417212a390439cb0085bffae610610119",
+      "results/reward_model_coefficients/canonical/paper_example/table_reward_model_coefficients.tex": "71083c66163d46111bb06ced0c7757063cc50b85709ec9fa2bb8810bf7126ecd"
+    },
+    "outputs": {
+      "artifacts/data/rm_coefficients.csv": "9a191e0c90dd6bf95e34219a26dfe4e77a73c5d24f620d16bd0601bfbabdf61f",
+      "artifacts/notes/rm_coefficients.md": "298cce95f5b4098ea39e4f7e365df22e2ab172175eb25a11c8369e9f0720aec6",
+      "artifacts/tables/rm_coefficients.tex": "c3a21b875f176cc4606ca15eb22377f2ba5651c07caa602fd5c6d9eb9014c5e4"
+    },
+    "placement": "appendix"
+  },
+  "rm_endpoint_mae": {
+    "description": "Exp37 d=0.10 endpoint MAE of A-only, A+B and calibration empirical fit for three RMs, averaged over 4 SummEval dimensions x 50 item splits, plus a 12-row per-dimension variant.",
+    "inputs": {
+      "results/reward_model_coefficients/canonical/analysis/prospective_paths.csv": "e55939fc3ed0aeeb3fad2834f50e4f1ff622eeb4863b6efcc01e28859b460eed",
+      "results/reward_model_coefficients/canonical/analysis/run_spec.json": "6732d6ef61a3316e5c3cabcb2f9527e417212a390439cb0085bffae610610119",
+      "results/reward_model_coefficients/canonical/analysis/summary.csv": "b5b9dc0232c5bb2ad861c2e4a360e26d7520a9d6c879f4f43e48b586c97eee98"
+    },
+    "outputs": {
+      "artifacts/data/rm_endpoint_mae.csv": "61906621f5d7b913123dd4e94d6ee625804bd717a208223d1ce8ed3fe161f33e",
+      "artifacts/data/rm_endpoint_mae_all_radii.csv": "a08c17fe2af6c9f5008f3959d81eb8ff1422c4a6aee7d98d30ce5889f273b871",
+      "artifacts/data/rm_endpoint_mae_by_dimension.csv": "08d25406341827261210784c02f7e33c8da359167b0104dfb008b75a7483bbd3",
+      "artifacts/notes/rm_endpoint_mae.md": "b90ea2f80a68b5c126b7ebaa6f3787c51658816af9af0bbafec12dff48c5766b",
+      "artifacts/tables/rm_endpoint_mae.tex": "b92cb2eaa9cc1086989464aee18b99226eb47a19a11745eaed74e7b74b7598ce",
+      "artifacts/tables/rm_endpoint_mae_by_dimension.tex": "8a7be4765f3cf33f07912261df704a7fdd1af0468e680f25dc9c7e9725cecf1d"
+    },
+    "placement": "appendix (main-eligible)"
+  },
+  "rm_fig_worked_example": {
+    "description": "Exp37 worked example as three panels: held-out exact coherence gain vs calibration-only A+B and A-only predictions over d in [0, 0.10], regenerated in the publication style.",
+    "inputs": {
+      "results/reward_model_coefficients/canonical/paper_example/fig_reward_model_worked_example.pdf": "5b3a4a98f0139e51b448cd05a8c872aeea728473788ce3c740fd1c97972ee412",
+      "results/reward_model_coefficients/canonical/paper_example/worked_example_curves.csv": "97e6e61c40a1108fbc854aa175d3d9a7a769ab460b239ed6d1b63d418f1b40ea"
+    },
+    "outputs": {
+      "artifacts/data/rm_fig_worked_example.csv": "43ea4525246b9732d17ed4ef2ffdecb85e1407121b71620f77c78458328a64a0",
+      "artifacts/figures/rm_fig_worked_example.pdf": "b132885869f79a4c0de9454cc83348bf05b106fb596cefed23f1d55b5b8ad91b",
+      "artifacts/figures/rm_fig_worked_example.png": "fbe152d126151d5a931e7aed08b5f682e730c7e4c91c3814375594299238ac79",
+      "artifacts/notes/rm_fig_worked_example.md": "f6f515f38564f26bd41660fb0ef8f6559d41d8ea586641f9ae868b2e6f5ebd56"
+    },
+    "placement": "appendix (worked example; the main text states it in prose)"
+  },
+  "rm_worked_example": {
+    "description": "Exp37 preselected SummEval coherence split (repeat 0, d=0.10): calibration-only A, B, their contributions, predicted and held-out exact gain for Skywork, ArmoRM and DeBERTa.",
+    "inputs": {
+      "results/reward_model_coefficients/canonical/analysis/run_spec.json": "6732d6ef61a3316e5c3cabcb2f9527e417212a390439cb0085bffae610610119",
+      "results/reward_model_coefficients/canonical/paper_example/report_spec.json": "c88fdbe4f0f5523bed00c19a5275d3b50a773962fc29260ebfb96474119272b2",
+      "results/reward_model_coefficients/canonical/paper_example/table_reward_model_worked_example.tex": "68403d00d91e6f0ee00806c2579c42bbd70cf6c8865e77f8df28a1bbd1b2669f",
+      "results/reward_model_coefficients/canonical/paper_example/worked_example.csv": "15b60f6c647274a5477a259e8595030b4754391c31f19efd081a4c775120ef3b",
+      "results/reward_model_coefficients/canonical/prepared/models.json": "34312a5fd4da6650cb0e78e85869b2a39a07fb642ffa899352df0ac7b006e7b1"
+    },
+    "outputs": {
+      "artifacts/data/rm_worked_example.csv": "3aad55c95e4e1185905d9b7a6d0bacf33c4c2867bc853a02a8746b82fb866755",
+      "artifacts/notes/rm_worked_example.md": "072daab6c75579b88d6af1920cd266d8ca4756ed70cd1b9582e2abdeb9424488",
+      "artifacts/tables/rm_worked_example.tex": "ce7b08eb8e656efb99aa0d067e8077fd5a52eac113d90b524b927ba0fc1a6d43"
+    },
+    "placement": "appendix (worked example; the main text states all three rows in prose)"
+  }
+}

@@ -1,0 +1,24 @@
+\begin{table}[t]
+\centering
+\small
+\begin{tabular}{lllllll}
+\toprule
+Dataset & N & mean KL & median KL & prompts KL<=.10 (\%) & pooled tilt reachable, d<=0.25 (\%) & mean BoN gain \\
+\midrule
+SummEval & 2 & 0.144 & 0.161 & 12.5 & 100.0 & 0.226 \\
+SummEval & 4 & 0.436 & 0.518 & 5.8 & 18.8 & 0.361 \\
+SummEval & 8 & 0.741 & 0.922 & 5.8 & 0.0 & 0.437 \\
+SummEval & 16 & 0.989 & 1.244 & 5.8 & 0.0 & 0.476 \\
+SummEval & 32 & 1.143 & 1.385 & 5.8 & 0.0 & 0.493 \\
+SummEval & 64 & 1.207 & 1.386 & 5.8 & 0.0 & 0.497 \\
+OpenMEVA-MAGS & 2 & 0.131 & 0.142 & 11.7 & 100.0 & 0.285 \\
+OpenMEVA-MAGS & 4 & 0.451 & 0.499 & 3.0 & 0.0 & 0.531 \\
+OpenMEVA-MAGS & 8 & 0.803 & 0.835 & 3.0 & 0.0 & 0.698 \\
+OpenMEVA-MAGS & 16 & 1.043 & 0.914 & 3.0 & 0.0 & 0.772 \\
+OpenMEVA-MAGS & 32 & 1.113 & 0.916 & 3.0 & 0.0 & 0.785 \\
+OpenMEVA-MAGS & 64 & 1.117 & 0.916 & 3.0 & 0.0 & 0.786 \\
+\bottomrule
+\end{tabular}
+\caption{Prompt-conditional Best-of-N scope audit. Even small Best-of-N interventions often leave the shared local KL window, especially for N greater than two.}
+\label{tab:prompt-conditional-bon-scope}
+\end{table}

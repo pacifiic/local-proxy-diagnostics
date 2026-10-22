@@ -1,0 +1,5 @@
+dataset,model_family,calibration_only_curve_mae,target_aware_curve_mae,calibration_only_complete_units,target_aware_complete_units
+WMT-MQM-human_heldout,isotonic,0.06661465008933787,0.05932496801143773,6950,6950
+WMT-MQM-human_heldout,binned,0.07725188421413322,0.07207841488975095,6950,6950
+WMT-MQM-human_heldout,spline,0.06970464790230677,0.06405945218102886,6950,6950
+WMT-MQM-human_heldout,mlp,0.06678957560771302,0.05951242715472257,6950,6950

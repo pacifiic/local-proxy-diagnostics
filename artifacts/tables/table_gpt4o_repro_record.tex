@@ -1,0 +1,15 @@
+\begin{tabular}{lll}
+\toprule
+Field & Value & Status \\
+\midrule
+Aggregated proxy artifact & data/model\_proxy\_4o\_aggregated.csv & 6400 rows; dimensions=coherence,consistency,fluency,relevance; n\_judges=[3, 6, 9, 12] \\
+Exact model snapshot & not stored in aggregated artifact & filename indicates GPT-4o; raw per-call log is needed for an exact model id \\
+System prompt & experiments/09\_gpt\_proxy\_analysis/examples/summary\_system\_prompt.txt & sha256[:12]=ec6ab5c98615 \\
+User prompt template & experiments/09\_gpt\_proxy\_analysis/examples/summary\_user\_template.txt & sha256[:12]=e121b070a2ea \\
+Score parser & Pydantic RatingOutput(score, confidence, rationale) & experiments/09\_gpt\_proxy\_analysis/01\_generate\_proxy\_scores.py \\
+Score range & 1.0--5.0 in generator defaults & score is clamped to range after parsing \\
+Decoding parameters & not explicitly set in generator & temperature/top\_p/max\_tokens use API defaults unless original command overrode code \\
+Invalid-output handling & structured parse with retries & default max\_retries=5; invalid count not stored in aggregate \\
+Normalization split & not stored in proxy artifact & downstream experiments standardize inside each analysis protocol \\
+\bottomrule
+\end{tabular}

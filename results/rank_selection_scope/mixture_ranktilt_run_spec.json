@@ -1,0 +1,47 @@
+{
+  "alpha_grid": [
+    0.0,
+    0.002,
+    0.005,
+    0.01,
+    0.02,
+    0.05,
+    0.1,
+    0.2,
+    0.4,
+    0.7,
+    1.0
+  ],
+  "lambda_grid": [
+    0.0,
+    0.05,
+    0.1,
+    0.2,
+    0.4,
+    0.8,
+    1.5,
+    3.0,
+    6.0,
+    12.0,
+    24.0
+  ],
+  "bon_n_for_mixture": 8,
+  "d_valid": 0.1,
+  "calibration_frac": 0.3,
+  "n_repeats": 30,
+  "random_seed": 0,
+  "scope": "pooled_global_item_set_stress_test_not_prompt_conditional",
+  "baselines": [
+    "A+B",
+    "A-only",
+    "A_nu",
+    "empirical_fit",
+    "zero"
+  ],
+  "configs": [
+    "SummEval-human_heldout",
+    "SummEval-GPT4o",
+    "WMT-MQM-human_heldout",
+    "OpenMEVA-MAGS-human_heldout"
+  ]
+}

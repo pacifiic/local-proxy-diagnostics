@@ -1,0 +1,13 @@
+model,fit_split,n_prompts,n_candidates,n_thresholds,n_knots,ridge_alpha,cv_mse,cv_scheme,n_bins_requested,n_bins_actual,shrink_k,hyperparameter_source
+cal_raw_isotonic,calibration,100,3200,36.0,,,,,,,,locked canonical direct-run metadata
+cal_raw_spline,calibration,100,3200,,4.0,31.622776601683796,4.269411674126859,5-fold GroupKFold by prompt,,,,locked canonical direct-run metadata
+cal_raw_binned,calibration,100,3200,,,,4.327892819711949,5-fold GroupKFold by prompt,3.0,3.0,20.0,locked canonical direct-run metadata
+cal_centered_isotonic,calibration,100,3200,46.0,,,,,,,,locked canonical direct-run metadata
+cal_centered_spline,calibration,100,3200,,4.0,1.0,0.6516305554349271,5-fold GroupKFold by prompt,,,,locked canonical direct-run metadata
+cal_centered_binned,calibration,100,3200,,,,0.6539949433602297,5-fold GroupKFold by prompt,12.0,12.0,20.0,locked canonical direct-run metadata
+cal_zscore_isotonic,calibration,100,3200,49.0,,,,,,,,locked canonical direct-run metadata
+cal_zscore_spline,calibration,100,3200,,4.0,0.01,0.6578123412061548,5-fold GroupKFold by prompt,,,,locked canonical direct-run metadata
+cal_zscore_binned,calibration,100,3200,,,,0.6615723860632898,5-fold GroupKFold by prompt,5.0,5.0,20.0,locked canonical direct-run metadata
+cal_rank_isotonic,calibration,100,3200,19.0,,,,,,,,locked canonical direct-run metadata
+cal_rank_spline,calibration,100,3200,,8.0,3.1622776601683795,0.6584951010516148,5-fold GroupKFold by prompt,,,,locked canonical direct-run metadata
+cal_rank_binned,calibration,100,3200,,,,0.6599903927126302,5-fold GroupKFold by prompt,8.0,8.0,20.0,locked canonical direct-run metadata

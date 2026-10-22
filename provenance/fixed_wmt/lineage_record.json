@@ -1,0 +1,358 @@
+{
+  "lineage": "fixed_141",
+  "wmt_input": "data/wmt_mqm_long.csv",
+  "wmt_input_sha256": "6f20c0669ff7e76bef71a584f6c627dadab063d560d931cae74acff78d8cbbf8",
+  "primary": [
+    {
+      "task": "exp02_filter_min100",
+      "command": [
+        "python",
+        "experiments/prospective_prediction_path_macro/01_prospective_prediction.py",
+        "--human-long-csv",
+        "data/wmt_mqm_long.csv",
+        "--item-cols",
+        "item_id",
+        "--group-cols",
+        "dataset_id",
+        "--rater-col",
+        "rater",
+        "--min-items",
+        "100",
+        "--n-repeats",
+        "8",
+        "--n-boot",
+        "300",
+        "--outdir",
+        "outputs/wmt_input_lineage_pair_complete_20260725/fixed_141/exp02_filter_min100/results"
+      ],
+      "returncode": 0,
+      "elapsed_seconds": 16.419291019439697,
+      "log": "outputs/wmt_input_lineage_pair_complete_20260725/fixed_141/exp02_filter_min100/command.log"
+    },
+    {
+      "task": "exp02_filter_min400",
+      "command": [
+        "python",
+        "experiments/prospective_prediction_path_macro/01_prospective_prediction.py",
+        "--human-long-csv",
+        "data/wmt_mqm_long.csv",
+        "--item-cols",
+        "item_id",
+        "--group-cols",
+        "dataset_id",
+        "--rater-col",
+        "rater",
+        "--min-items",
+        "400",
+        "--n-repeats",
+        "8",
+        "--n-boot",
+        "300",
+        "--outdir",
+        "outputs/wmt_input_lineage_pair_complete_20260725/fixed_141/exp02_filter_min400/results"
+      ],
+      "returncode": 0,
+      "elapsed_seconds": 16.479419708251953,
+      "log": "outputs/wmt_input_lineage_pair_complete_20260725/fixed_141/exp02_filter_min400/command.log"
+    },
+    {
+      "task": "exp03_calibration_crossover",
+      "command": [
+        "python",
+        "experiments/exp03_calibration_crossover/01_calibration_crossover.py",
+        "--track",
+        "wmt",
+        "--human-long-csv",
+        "data/wmt_mqm_long.csv",
+        "--cal-fracs",
+        "0.05,0.10,0.20,0.30,0.50",
+        "--n-repeats",
+        "50",
+        "--min-items",
+        "100",
+        "--n-boot",
+        "500",
+        "--extended",
+        "--out-name",
+        "merged_wmt.csv",
+        "--splits-name",
+        "splits_wmt.csv",
+        "--outdir",
+        "outputs/wmt_input_lineage_pair_complete_20260725/fixed_141/exp03_calibration_crossover/results"
+      ],
+      "returncode": 0,
+      "elapsed_seconds": 438.2046067714691,
+      "log": "outputs/wmt_input_lineage_pair_complete_20260725/fixed_141/exp03_calibration_crossover/command.log"
+    },
+    {
+      "task": "exp14_conditional_tilt",
+      "command": [
+        "python",
+        "experiments/exp14_conditional_tilt/build_conditional.py",
+        "--datasets",
+        "WMT-MQM",
+        "--outdir",
+        "outputs/wmt_input_lineage_pair_complete_20260725/fixed_141/exp14_conditional_tilt/results"
+      ],
+      "returncode": 0,
+      "elapsed_seconds": 28.544732332229614,
+      "log": "outputs/wmt_input_lineage_pair_complete_20260725/fixed_141/exp14_conditional_tilt/command.log"
+    },
+    {
+      "task": "exp16_fallback_rule",
+      "command": [
+        "python",
+        "experiments/exp16_fallback_rule/build_fallback.py",
+        "--datasets",
+        "WMT-MQM",
+        "--outdir",
+        "outputs/wmt_input_lineage_pair_complete_20260725/fixed_141/exp16_fallback_rule/results"
+      ],
+      "returncode": 0,
+      "elapsed_seconds": 22.470130920410156,
+      "log": "outputs/wmt_input_lineage_pair_complete_20260725/fixed_141/exp16_fallback_rule/command.log"
+    },
+    {
+      "task": "exp18_calbudget",
+      "command": [
+        "python",
+        "experiments/exp18_calbudget/build_calbudget.py",
+        "--datasets",
+        "WMT-MQM",
+        "--outdir",
+        "outputs/wmt_input_lineage_pair_complete_20260725/fixed_141/exp18_calbudget/results"
+      ],
+      "returncode": 0,
+      "elapsed_seconds": 29.533319234848022,
+      "log": "outputs/wmt_input_lineage_pair_complete_20260725/fixed_141/exp18_calbudget/command.log"
+    },
+    {
+      "task": "exp20_bon_window_gate",
+      "command": [
+        "python",
+        "experiments/exp20_bon_window_gate/build_bon_gate.py",
+        "--datasets",
+        "WMT-MQM-human_heldout",
+        "--outdir",
+        "outputs/wmt_input_lineage_pair_complete_20260725/fixed_141/exp20_bon_window_gate/results"
+      ],
+      "returncode": 0,
+      "elapsed_seconds": 2.9247984886169434,
+      "log": "outputs/wmt_input_lineage_pair_complete_20260725/fixed_141/exp20_bon_window_gate/command.log"
+    },
+    {
+      "task": "exp21_direct_calibration",
+      "command": [
+        "python",
+        "experiments/exp21_direct_calibration/build_direct_calibration.py",
+        "--datasets",
+        "wmt",
+        "--jobs",
+        "40",
+        "--outdir",
+        "outputs/wmt_input_lineage_pair_complete_20260725/fixed_141/exp21_direct_calibration/results"
+      ],
+      "returncode": 0,
+      "elapsed_seconds": 68.44687485694885,
+      "log": "outputs/wmt_input_lineage_pair_complete_20260725/fixed_141/exp21_direct_calibration/command.log"
+    },
+    {
+      "task": "exp22_b_stability",
+      "command": [
+        "python",
+        "experiments/exp22_b_stability/build_b_stability.py",
+        "--datasets",
+        "WMT-MQM-human_heldout",
+        "--outdir",
+        "outputs/wmt_input_lineage_pair_complete_20260725/fixed_141/exp22_b_stability/results"
+      ],
+      "returncode": 0,
+      "elapsed_seconds": 237.791499376297,
+      "log": "outputs/wmt_input_lineage_pair_complete_20260725/fixed_141/exp22_b_stability/command.log"
+    },
+    {
+      "task": "exp23_mixture_ranktilt",
+      "command": [
+        "python",
+        "experiments/exp23_mixture_ranktilt/build_mixture_ranktilt.py",
+        "--datasets",
+        "WMT-MQM-human_heldout",
+        "--outdir",
+        "outputs/wmt_input_lineage_pair_complete_20260725/fixed_141/exp23_mixture_ranktilt/results"
+      ],
+      "returncode": 0,
+      "elapsed_seconds": 39.46447396278381,
+      "log": "outputs/wmt_input_lineage_pair_complete_20260725/fixed_141/exp23_mixture_ranktilt/command.log"
+    },
+    {
+      "task": "exp24_ood_transfer",
+      "command": [
+        "python",
+        "experiments/exp24_direct_calibration_followup/build_ood_transfer.py",
+        "--jobs",
+        "40",
+        "--outdir",
+        "outputs/wmt_input_lineage_pair_complete_20260725/fixed_141/exp24_ood_transfer/results"
+      ],
+      "returncode": 0,
+      "elapsed_seconds": 93.80503249168396,
+      "log": "outputs/wmt_input_lineage_pair_complete_20260725/fixed_141/exp24_ood_transfer/command.log"
+    },
+    {
+      "task": "exp24_within_dataset",
+      "command": [
+        "python",
+        "experiments/exp24_direct_calibration_followup/build_within_dataset.py",
+        "--datasets",
+        "wmt",
+        "--jobs",
+        "40",
+        "--outdir",
+        "outputs/wmt_input_lineage_pair_complete_20260725/fixed_141/exp24_within_dataset/results"
+      ],
+      "returncode": 0,
+      "elapsed_seconds": 282.6270990371704,
+      "log": "outputs/wmt_input_lineage_pair_complete_20260725/fixed_141/exp24_within_dataset/command.log"
+    },
+    {
+      "task": "exp32_evaluation_aware_ab",
+      "command": [
+        "python",
+        "experiments/exp32_evaluation_aware_ab/build_evaluation_aware_ab.py",
+        "--datasets",
+        "wmt",
+        "--jobs",
+        "40",
+        "--outdir",
+        "outputs/wmt_input_lineage_pair_complete_20260725/fixed_141/exp32_evaluation_aware_ab/results"
+      ],
+      "returncode": 0,
+      "elapsed_seconds": 69.38828921318054,
+      "log": "outputs/wmt_input_lineage_pair_complete_20260725/fixed_141/exp32_evaluation_aware_ab/command.log"
+    },
+    {
+      "task": "exp33_calibration_only",
+      "command": [
+        "python",
+        "experiments/exp33_calibration_only_flexible_baselines/build.py",
+        "--datasets",
+        "wmt",
+        "--jobs",
+        "40",
+        "--outdir",
+        "outputs/wmt_input_lineage_pair_complete_20260725/fixed_141/exp33_calibration_only/results"
+      ],
+      "returncode": 0,
+      "elapsed_seconds": 63.45297169685364,
+      "log": "outputs/wmt_input_lineage_pair_complete_20260725/fixed_141/exp33_calibration_only/command.log"
+    }
+  ],
+  "derived": [
+    {
+      "task": "exp13_paired_stats",
+      "command": [
+        "python",
+        "experiments/exp13_paired_stats/build_paired_stats.py",
+        "--wmt-splits",
+        "outputs/wmt_input_lineage_pair_complete_20260725/fixed_141/exp03_calibration_crossover/results/splits_wmt.csv",
+        "--expected-wmt-paths",
+        "141",
+        "--outdir",
+        "outputs/wmt_input_lineage_pair_complete_20260725/fixed_141/exp13_paired_stats/results"
+      ],
+      "returncode": 0,
+      "elapsed_seconds": 1.9534435272216797,
+      "log": "outputs/wmt_input_lineage_pair_complete_20260725/fixed_141/exp13_paired_stats/command.log"
+    },
+    {
+      "task": "exp14_conditional_audit",
+      "command": [
+        "python",
+        "experiments/exp14_conditional_tilt/audit_conditional.py",
+        "--outdir",
+        "outputs/wmt_input_lineage_pair_complete_20260725/fixed_141/exp14_conditional_tilt/results"
+      ],
+      "returncode": 0,
+      "elapsed_seconds": 2.3426806926727295,
+      "log": "outputs/wmt_input_lineage_pair_complete_20260725/fixed_141/exp14_conditional_audit/command.log"
+    },
+    {
+      "task": "exp24_ood_audit",
+      "command": [
+        "python",
+        "experiments/exp24_direct_calibration_followup/audit_ood_transfer.py",
+        "--outdir",
+        "outputs/wmt_input_lineage_pair_complete_20260725/fixed_141/exp24_ood_transfer/results"
+      ],
+      "returncode": 0,
+      "elapsed_seconds": 3.8211445808410645,
+      "log": "outputs/wmt_input_lineage_pair_complete_20260725/fixed_141/exp24_ood_audit/command.log"
+    },
+    {
+      "task": "exp24_within_audit",
+      "command": [
+        "python",
+        "experiments/exp24_direct_calibration_followup/audit_within_dataset.py",
+        "--outdir",
+        "outputs/wmt_input_lineage_pair_complete_20260725/fixed_141/exp24_within_dataset/results"
+      ],
+      "returncode": 0,
+      "elapsed_seconds": 3.3063395023345947,
+      "log": "outputs/wmt_input_lineage_pair_complete_20260725/fixed_141/exp24_within_audit/command.log"
+    },
+    {
+      "task": "exp30_positioning_audit",
+      "command": [
+        "python",
+        "experiments/exp30_positioning_audit/run_positioning_audit.py",
+        "--dpo-checkpoints",
+        "results/prompt_conditional_calibration/checkpoint_predictions.csv",
+        "--dpo-binned-checkpoints",
+        "results/actual_dpo/calibration_models/binned/checkpoint_predictions.csv",
+        "--dpo-fit-metadata",
+        "results/prompt_conditional_calibration/model_fit_metadata.csv",
+        "--dpo-binned-fit-metadata",
+        "results/actual_dpo/calibration_models/binned/model_fit_metadata.csv",
+        "--direct-predictions",
+        "outputs/wmt_input_lineage_pair_complete_20260725/fixed_141/exp21_direct_calibration/results/direct_calibration_predictions.csv",
+        "--b-stability-rows",
+        "outputs/wmt_input_lineage_pair_complete_20260725/fixed_141/exp22_b_stability/results/b_stability_rows.csv",
+        "--bootstrap-reps",
+        "10000",
+        "--random-seed",
+        "0",
+        "--outdir",
+        "outputs/wmt_input_lineage_pair_complete_20260725/fixed_141/exp30_positioning_audit/results"
+      ],
+      "returncode": 0,
+      "elapsed_seconds": 1.6220991611480713,
+      "log": "outputs/wmt_input_lineage_pair_complete_20260725/fixed_141/exp30_positioning_audit/command.log"
+    },
+    {
+      "task": "exp32_evaluation_aware_audit",
+      "command": [
+        "python",
+        "experiments/exp32_evaluation_aware_ab/audit_evaluation_aware_ab.py",
+        "--outdir",
+        "outputs/wmt_input_lineage_pair_complete_20260725/fixed_141/exp32_evaluation_aware_ab/results"
+      ],
+      "returncode": 0,
+      "elapsed_seconds": 2.793591260910034,
+      "log": "outputs/wmt_input_lineage_pair_complete_20260725/fixed_141/exp32_evaluation_aware_audit/command.log"
+    },
+    {
+      "task": "exp33_calibration_only_audit",
+      "command": [
+        "python",
+        "experiments/exp33_calibration_only_flexible_baselines/audit.py",
+        "--outdir",
+        "outputs/wmt_input_lineage_pair_complete_20260725/fixed_141/exp33_calibration_only/results",
+        "--target-aware-reference",
+        "outputs/wmt_input_lineage_pair_complete_20260725/fixed_141/exp21_direct_calibration/results"
+      ],
+      "returncode": 0,
+      "elapsed_seconds": 5.794277667999268,
+      "log": "outputs/wmt_input_lineage_pair_complete_20260725/fixed_141/exp33_calibration_only_audit/command.log"
+    }
+  ]
+}

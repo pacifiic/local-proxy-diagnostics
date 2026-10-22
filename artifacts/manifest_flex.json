@@ -1,0 +1,127 @@
+{
+  "flex_radius_endpoint": {
+    "description": "Pre-pool endpoint MAE at each radius d",
+    "inputs": {
+      "results/07_prospective_prediction/exp27_human_baseline/exp27_prospective_paths.csv": "f8f725f3b00e921397deeb06f299a03f1a02716a5eb258f2ff1d42ce93814f30",
+      "results/direct_calibration_strict/main_protocol/calibration_only_skipped.csv": "830f48a9eacbbe3c0f6178052dfd23f129ecc2baecfcbb7e9aeee9f960ca358c",
+      "results/direct_calibration_strict/main_protocol/endpoint_mae_by_d.csv": "855910a361f45a5d3db102898c0689e3b0ca55e0496ab564685c888fbf628f66",
+      "results/direct_calibration_strict/main_protocol/run_spec.json": "41433505cd4d352a6e3e5ec9697ac40c480bd25adeccb5e05f0b1fccd4f15cc8",
+      "results/direct_calibration_strict/wmt_fixed_141/calibration_only_skipped.csv": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "results/direct_calibration_strict/wmt_fixed_141/endpoint_mae_by_d.csv": "5c1ab4a8064ea76a7bfb8e3a33683596999cde59f8fe2b5ba74bc646ac6b8ff1",
+      "results/direct_calibration_strict/wmt_fixed_141/run_spec.json": "448523aac2fbe6c1153833ff56915ac28921ea4b46de53c9f935cc8a4d64035d",
+      "results/evaluation_aware_ab/common_support/evaluation_aware_ab_support.json": "e32bcb813427fe7789323b24594ad53ad466f6d2aefdcd4376ff5212eb838ce9",
+      "results/evaluation_aware_ab/manifest.json": "b5d6cee63924fa3a8a76546a93c6dee37830f8b697238a8481393a1fcb3ad79b",
+      "results/evaluation_aware_ab/non_wmt_canonical/direct_calibration_predictions.csv.gz": "f8ff427871183dd651b8b9ce02c50a303ad53252bc0c0ef38e07a91c734aabcf",
+      "results/evaluation_aware_ab/non_wmt_canonical/source_run_spec.json": "e9ff2d7fe1ac117d152bef0e286c323141e6810d442f7ba07255f5caa79b6a55",
+      "results/evaluation_aware_ab/wmt_fixed_141/direct_calibration_predictions.csv.gz": "8a09fefbadb172fb6e1602de64c1fc274afc58e7e18830d11c13d428399c0aed",
+      "results/evaluation_aware_ab/wmt_fixed_141/direct_calibration_run_spec.json": "8c9d99d03f8679fdda7fc867c48e9c75c0b19e6a60d1efa7ee7237cfe093db16"
+    },
+    "outputs": {
+      "artifacts/data/flex_radius_endpoint.csv": "c41125140f33d2e01b39ade95b5697dac6e7d19bec07586577c9932104d0dd5e",
+      "artifacts/notes/flex_radius_endpoint.md": "52aa85921fdeb0e8e6a7fbd7944dccecabacc7047258d2080ca54e61dba60c0b",
+      "artifacts/tables/flex_radius_endpoint.tex": "1b5d006f6c5f3a70f470136540aa38e74d544b9a1326f0808fae5baef672207e"
+    },
+    "placement": "Appendix"
+  },
+  "flex_table1b_paired": {
+    "description": "Pre-pool CurveMAE differences (method minus A+B) with path-clustered bootstrap CIs",
+    "inputs": {
+      "results/direct_calibration_strict/main_protocol/calibration_only_skipped.csv": "830f48a9eacbbe3c0f6178052dfd23f129ecc2baecfcbb7e9aeee9f960ca358c",
+      "results/direct_calibration_strict/main_protocol/paired_diff_curvemae_bootstrap.csv": "d306ef5f20c26838311cd8c42bb78031d3eb5a6dbe1ddc1f17778802afd1d6c9",
+      "results/direct_calibration_strict/main_protocol/run_spec.json": "41433505cd4d352a6e3e5ec9697ac40c480bd25adeccb5e05f0b1fccd4f15cc8",
+      "results/direct_calibration_strict/wmt_fixed_141/calibration_only_skipped.csv": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "results/direct_calibration_strict/wmt_fixed_141/paired_diff_curvemae_bootstrap.csv": "92d2727041fce7f3884583838cbd9167002f1e6db3bf6330c5f4f055ea7acb97",
+      "results/direct_calibration_strict/wmt_fixed_141/run_spec.json": "448523aac2fbe6c1153833ff56915ac28921ea4b46de53c9f935cc8a4d64035d",
+      "results/evaluation_aware_ab/common_support/evaluation_aware_ab_support.json": "e32bcb813427fe7789323b24594ad53ad466f6d2aefdcd4376ff5212eb838ce9",
+      "results/evaluation_aware_ab/manifest.json": "b5d6cee63924fa3a8a76546a93c6dee37830f8b697238a8481393a1fcb3ad79b",
+      "results/evaluation_aware_ab/non_wmt_canonical/direct_calibration_predictions.csv.gz": "f8ff427871183dd651b8b9ce02c50a303ad53252bc0c0ef38e07a91c734aabcf",
+      "results/evaluation_aware_ab/non_wmt_canonical/source_run_spec.json": "e9ff2d7fe1ac117d152bef0e286c323141e6810d442f7ba07255f5caa79b6a55",
+      "results/evaluation_aware_ab/wmt_fixed_141/direct_calibration_predictions.csv.gz": "8a09fefbadb172fb6e1602de64c1fc274afc58e7e18830d11c13d428399c0aed",
+      "results/evaluation_aware_ab/wmt_fixed_141/direct_calibration_run_spec.json": "8c9d99d03f8679fdda7fc867c48e9c75c0b19e6a60d1efa7ee7237cfe093db16"
+    },
+    "outputs": {
+      "artifacts/data/flex_table1b_paired.csv": "af231f4a5fe270db5adc45c32551ca692d0b0df701e51d2601d33f41e9b5447f",
+      "artifacts/notes/flex_table1b_paired.md": "544a94abdaa95ffe855ea88b3dd5ea79a515cb0bcac950d5814b4d7a0f3c734d",
+      "artifacts/tables/flex_table1b_paired.tex": "db3a258723a7a71f9b64ada90074c04d75a5bab36ad34edf10cdab9065d3f897"
+    },
+    "placement": "Appendix"
+  },
+  "flex_table1b_prepool": {
+    "description": "Pre-pool CurveMAE: A+B vs A-only, calibration-curve fits and flexible calibrators",
+    "inputs": {
+      "results/07_prospective_prediction/exp27_human_baseline/exp27_prospective_paths.csv": "f8f725f3b00e921397deeb06f299a03f1a02716a5eb258f2ff1d42ce93814f30",
+      "results/direct_calibration_strict/main_protocol/calibration_only_skipped.csv": "830f48a9eacbbe3c0f6178052dfd23f129ecc2baecfcbb7e9aeee9f960ca358c",
+      "results/direct_calibration_strict/main_protocol/paired_diff_curvemae_bootstrap.csv": "d306ef5f20c26838311cd8c42bb78031d3eb5a6dbe1ddc1f17778802afd1d6c9",
+      "results/direct_calibration_strict/main_protocol/run_spec.json": "41433505cd4d352a6e3e5ec9697ac40c480bd25adeccb5e05f0b1fccd4f15cc8",
+      "results/direct_calibration_strict/wmt_fixed_141/calibration_only_skipped.csv": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "results/direct_calibration_strict/wmt_fixed_141/paired_diff_curvemae_bootstrap.csv": "92d2727041fce7f3884583838cbd9167002f1e6db3bf6330c5f4f055ea7acb97",
+      "results/direct_calibration_strict/wmt_fixed_141/run_spec.json": "448523aac2fbe6c1153833ff56915ac28921ea4b46de53c9f935cc8a4d64035d",
+      "results/evaluation_aware_ab/common_support/evaluation_aware_ab_support.json": "e32bcb813427fe7789323b24594ad53ad466f6d2aefdcd4376ff5212eb838ce9",
+      "results/evaluation_aware_ab/manifest.json": "b5d6cee63924fa3a8a76546a93c6dee37830f8b697238a8481393a1fcb3ad79b",
+      "results/evaluation_aware_ab/non_wmt_canonical/direct_calibration_predictions.csv.gz": "f8ff427871183dd651b8b9ce02c50a303ad53252bc0c0ef38e07a91c734aabcf",
+      "results/evaluation_aware_ab/non_wmt_canonical/source_run_spec.json": "e9ff2d7fe1ac117d152bef0e286c323141e6810d442f7ba07255f5caa79b6a55",
+      "results/evaluation_aware_ab/wmt_fixed_141/direct_calibration_predictions.csv.gz": "8a09fefbadb172fb6e1602de64c1fc274afc58e7e18830d11c13d428399c0aed",
+      "results/evaluation_aware_ab/wmt_fixed_141/direct_calibration_run_spec.json": "8c9d99d03f8679fdda7fc867c48e9c75c0b19e6a60d1efa7ee7237cfe093db16"
+    },
+    "outputs": {
+      "artifacts/data/flex_table1b_prepool.csv": "bad77ca7270c911a1620995749936f0c9258ae2c592fe4e791e24e5694f8413e",
+      "artifacts/notes/flex_table1b_prepool.md": "e65a22314d85cbd0baa455776e459471904271d86c156ca3cdc6339f8c80d88f",
+      "artifacts/tables/flex_table1b_prepool.tex": "6857b55fb5f2b491efdf864174a9baadd10b74f19219ec10646385d9dbfdcaf3",
+      "artifacts/tables/flex_table1b_prepool_with_mlp.tex": "725641ccf4be0d62581141a43c62ab1d2c3d6d8b94401ba60812844fe5469b78"
+    },
+    "placement": "Main text, Table 1(b)"
+  },
+  "flex_table2_paired": {
+    "description": "Target-pool-aware paired differences: projection-direct, projection-anchor, direct-anchor",
+    "inputs": {
+      "results/direct_calibration_strict/main_protocol/calibration_only_skipped.csv": "830f48a9eacbbe3c0f6178052dfd23f129ecc2baecfcbb7e9aeee9f960ca358c",
+      "results/direct_calibration_strict/main_protocol/run_spec.json": "41433505cd4d352a6e3e5ec9697ac40c480bd25adeccb5e05f0b1fccd4f15cc8",
+      "results/direct_calibration_strict/wmt_fixed_141/calibration_only_skipped.csv": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "results/direct_calibration_strict/wmt_fixed_141/run_spec.json": "448523aac2fbe6c1153833ff56915ac28921ea4b46de53c9f935cc8a4d64035d",
+      "results/evaluation_aware_ab/common_support/evaluation_aware_ab_paired_bootstrap.csv": "c5fdba7563f3724fc3762df0b485931097cfa20b8867c2996e85a06b6df84adc",
+      "results/evaluation_aware_ab/common_support/evaluation_aware_ab_summary.csv": "e7b9ca7e0f3b9ba1610a79a47d07a9a99c69337376e880ffe8c3299a9776294e",
+      "results/evaluation_aware_ab/common_support/evaluation_aware_ab_support.json": "e32bcb813427fe7789323b24594ad53ad466f6d2aefdcd4376ff5212eb838ce9",
+      "results/evaluation_aware_ab/manifest.json": "b5d6cee63924fa3a8a76546a93c6dee37830f8b697238a8481393a1fcb3ad79b",
+      "results/evaluation_aware_ab/non_wmt_canonical/direct_calibration_predictions.csv.gz": "f8ff427871183dd651b8b9ce02c50a303ad53252bc0c0ef38e07a91c734aabcf",
+      "results/evaluation_aware_ab/non_wmt_canonical/source_run_spec.json": "e9ff2d7fe1ac117d152bef0e286c323141e6810d442f7ba07255f5caa79b6a55",
+      "results/evaluation_aware_ab/wmt_fixed_141/direct_calibration_predictions.csv.gz": "8a09fefbadb172fb6e1602de64c1fc274afc58e7e18830d11c13d428399c0aed",
+      "results/evaluation_aware_ab/wmt_fixed_141/direct_calibration_run_spec.json": "8c9d99d03f8679fdda7fc867c48e9c75c0b19e6a60d1efa7ee7237cfe093db16",
+      "results/evaluation_aware_ab/wmt_fixed_141/evaluation_aware_ab_paired_bootstrap.csv": "2fb182f34592ac263490ca80e713de864f8cd37b7a5b2f8a3027d2e78c3d87e1",
+      "results/evaluation_aware_ab/wmt_fixed_141/evaluation_aware_ab_summary.csv": "c69a2b14d8e65ba5ab0bf12d8fe15f54ba275eb490371fdb22701f6a17e1a493"
+    },
+    "outputs": {
+      "artifacts/data/flex_table2_paired.csv": "db49ec6ff23202963d7e835d92b0b78e3d89e27dab1219ff9423174e73f41662",
+      "artifacts/notes/flex_table2_paired.md": "73a7de6bf830be52306e6597e1008f5d399adaa7f52154aa03be49cf321b7c5b",
+      "artifacts/tables/flex_table2_paired.tex": "f02981a1fdba32ecc14cbbff3f90f33324276491daa9758119d7148dff8bbc40"
+    },
+    "placement": "Appendix"
+  },
+  "flex_table2_target_aware": {
+    "description": "Target-pool-aware projection vs direct integration of the same h, with pre-pool A+B anchor",
+    "inputs": {
+      "results/direct_calibration_strict/main_protocol/calibration_only_skipped.csv": "830f48a9eacbbe3c0f6178052dfd23f129ecc2baecfcbb7e9aeee9f960ca358c",
+      "results/direct_calibration_strict/main_protocol/run_spec.json": "41433505cd4d352a6e3e5ec9697ac40c480bd25adeccb5e05f0b1fccd4f15cc8",
+      "results/direct_calibration_strict/wmt_fixed_141/calibration_only_skipped.csv": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "results/direct_calibration_strict/wmt_fixed_141/run_spec.json": "448523aac2fbe6c1153833ff56915ac28921ea4b46de53c9f935cc8a4d64035d",
+      "results/evaluation_aware_ab/common_support/evaluation_aware_ab_paired_bootstrap.csv": "c5fdba7563f3724fc3762df0b485931097cfa20b8867c2996e85a06b6df84adc",
+      "results/evaluation_aware_ab/common_support/evaluation_aware_ab_summary.csv": "e7b9ca7e0f3b9ba1610a79a47d07a9a99c69337376e880ffe8c3299a9776294e",
+      "results/evaluation_aware_ab/common_support/evaluation_aware_ab_support.json": "e32bcb813427fe7789323b24594ad53ad466f6d2aefdcd4376ff5212eb838ce9",
+      "results/evaluation_aware_ab/evaluation_aware_ab_summary_fixed_141.csv": "678b2f436f2f138221581cf30df2586da95c174422ecdccbf8fb29a47a8a7109",
+      "results/evaluation_aware_ab/manifest.json": "b5d6cee63924fa3a8a76546a93c6dee37830f8b697238a8481393a1fcb3ad79b",
+      "results/evaluation_aware_ab/non_wmt_canonical/direct_calibration_predictions.csv.gz": "f8ff427871183dd651b8b9ce02c50a303ad53252bc0c0ef38e07a91c734aabcf",
+      "results/evaluation_aware_ab/non_wmt_canonical/source_run_spec.json": "e9ff2d7fe1ac117d152bef0e286c323141e6810d442f7ba07255f5caa79b6a55",
+      "results/evaluation_aware_ab/wmt_fixed_141/direct_calibration_predictions.csv.gz": "8a09fefbadb172fb6e1602de64c1fc274afc58e7e18830d11c13d428399c0aed",
+      "results/evaluation_aware_ab/wmt_fixed_141/direct_calibration_run_spec.json": "8c9d99d03f8679fdda7fc867c48e9c75c0b19e6a60d1efa7ee7237cfe093db16",
+      "results/evaluation_aware_ab/wmt_fixed_141/evaluation_aware_ab_paired_bootstrap.csv": "2fb182f34592ac263490ca80e713de864f8cd37b7a5b2f8a3027d2e78c3d87e1",
+      "results/evaluation_aware_ab/wmt_fixed_141/evaluation_aware_ab_summary.csv": "c69a2b14d8e65ba5ab0bf12d8fe15f54ba275eb490371fdb22701f6a17e1a493"
+    },
+    "outputs": {
+      "artifacts/data/flex_table2_target_aware.csv": "5e4d61c4fb0df43a3b56b490f6f216e1d622d9e0b7a3854f5e50111392789306",
+      "artifacts/notes/flex_table2_target_aware.md": "542b6e5ac57a06da5b454cb16b53fd916cbf4a7dd4239e6bb9de1059a514cc10",
+      "artifacts/tables/flex_table2_target_aware.tex": "9448703a689dc1d084e8eb0d74818145b1eabbf89ab19d00cd1a53fc9f612ec8",
+      "artifacts/tables/flex_table2_target_aware_main.tex": "52e50570c8bc2feaff8e2619d2f55635dabf556f7c054bb4607f2567d3973393",
+      "artifacts/tables/flex_table2_target_aware_with_mlp.tex": "d3ed3a7e5a1242b2f3e92f6d7f072de65725d1fa8ccac8195cd8fb50bd340392"
+    },
+    "placement": "Main text, Table 2"
+  }
+}

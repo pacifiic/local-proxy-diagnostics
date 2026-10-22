@@ -1,0 +1,2 @@
+n_datasets,datasets_with_paths,n_paths_total,corr_A_pooled,corr_B_pooled,sign_agreement_total,frac_B_theory_neg_pooled,frac_B_fit_neg_pooled,median_r2_pooled
+2,2,12,0.9999970680568335,0.9927963119464696,12,0.9166666666666666,0.9166666666666666,0.9999996551434609

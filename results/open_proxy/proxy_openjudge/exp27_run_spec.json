@@ -1,0 +1,30 @@
+{
+  "human_long_csv": "data/summeval_long.csv",
+  "proxy_csv": "regenerate with experiments/exp06_rm_judge_proxy_prediction",
+  "proxy_item_col": "item_id",
+  "proxy_score_col": "proxy_score_mean",
+  "group_cols": [
+    "dimension"
+  ],
+  "item_cols": [
+    "article_id",
+    "model_id"
+  ],
+  "rater_col": "rater_idx",
+  "score_col": "score",
+  "calibration_frac": 0.3,
+  "n_repeats": 50,
+  "fit_max_d": 0.1,
+  "d_targets": [
+    0.05,
+    0.1
+  ],
+  "min_items": 200,
+  "min_raters": 3,
+  "random_seed": 0,
+  "n_boot": 500,
+  "n_paths": 4,
+  "n_attempted_splits": 200,
+  "n_rows": 200,
+  "n_skipped_splits": 0
+}

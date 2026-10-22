@@ -1,0 +1,9 @@
+{
+  "n_train": 1000,
+  "n_cal": 100,
+  "n_eval": 200,
+  "seed": 0,
+  "max_prompt_chars": 1500,
+  "outdir": "data/dpo_candidate_pool",
+  "n_unique_source": 54331
+}

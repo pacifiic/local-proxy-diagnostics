@@ -1,0 +1,21 @@
+{
+  "date": "2026-10-20",
+  "status": "PASS",
+  "scope": "Publication files, compressed artifacts, filenames, PDF text and metadata",
+  "credentials_in_publication_files": 0,
+  "researcher_identity_matches": 0,
+  "researcher_machine_path_matches": 0,
+  "korean_in_code_docs_metadata_or_filenames": 0,
+  "scientific_text_exception": "Unmodified benchmark prompts and model responses contain multilingual text and example filesystem paths.",
+  "public_attribution": "The GitHub account and existing MIT copyright attribution remain pacifiic.",
+  "verification": {
+    "release_checks_passed": 36,
+    "prediction_summaries_checked": 16,
+    "stale_prediction_summaries": 0,
+    "pipeline_checks_passed": 149,
+    "pipeline_failures": 0,
+    "unit_tests_passed": 18,
+    "compressed_artifacts_verified": 218
+  },
+  "numerical_results_changed_by_documentation_cleanup": false
+}

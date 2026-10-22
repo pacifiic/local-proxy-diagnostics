@@ -1,0 +1,13 @@
+dataset,gamma_fraction_of_sigma_j,n_path_repeat_units,proceed_ab_rate
+OpenMEVA-MAGS-human_heldout,0.05,500,1.0
+SummEval-GPT4o,0.05,200,0.83
+SummEval-human_heldout,0.05,1600,1.0
+WMT-MQM-human_heldout,0.05,7050,0.9866666666666667
+OpenMEVA-MAGS-human_heldout,0.1,500,1.0
+SummEval-GPT4o,0.1,200,0.275
+SummEval-human_heldout,0.1,1600,1.0
+WMT-MQM-human_heldout,0.1,7050,0.931063829787234
+OpenMEVA-MAGS-human_heldout,0.2,500,1.0
+SummEval-GPT4o,0.2,200,0.0
+SummEval-human_heldout,0.2,1600,0.879375
+WMT-MQM-human_heldout,0.2,7050,0.28070921985815606

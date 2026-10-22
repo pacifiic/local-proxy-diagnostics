@@ -1,0 +1,22 @@
+\begin{table}[t]
+\centering
+\small
+\begin{tabular}{ll}
+\toprule
+Diagnostic & Overall \\
+\midrule
+median proxy std. & 0.678 \\
+median Spearman(proxy,human gold) & 0.285 \\
+median Pearson(proxy,human gold) & 0.329 \\
+median top-10\% overlap & 0.150 \\
+median top-10\% gold delta & 0.1666 \\
+median top-10\% oracle gap & 0.682 \\
+std ratio model/human, median over dims & 0.909 \\
+Delta Spearman model-human, median & -0.288 \\
+Delta top-10 overlap model-human, median & -0.256 \\
+\bottomrule
+\end{tabular}
+\vspace{0.25em}
+\caption{GPT/4o external-proxy ranking and tail diagnostics. Overall rows are medians over SummEval dimensions unless otherwise stated.}
+\label{tab:gpt-diagnostics}
+\end{table}

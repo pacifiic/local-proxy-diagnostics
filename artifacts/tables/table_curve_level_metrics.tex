@@ -1,0 +1,18 @@
+\begin{tabular}{llllll}
+\toprule
+Setting & Predictor & Curves & Grid MAE & Median max error & 90\% max error \\
+\midrule
+SummEval human & A+B & 1589 & 0.0094 & 0.0143 & 0.0361 \\
+SummEval human & A-only & 1589 & 0.0137 & 0.0210 & 0.0812 \\
+SummEval human & empirical fit & 1589 & 0.0093 & 0.0137 & 0.0342 \\
+SummEval human & $A_\nu$ & 1589 & 0.0434 & 0.0676 & 0.1744 \\
+SummEval human & zero & 1589 & 0.1201 & 0.1988 & 0.3003 \\
+SummEval human & oracle & 1589 & 0.0012 & 0.0018 & 0.0141 \\
+GPT-4o proxy & A+B & 200 & 0.0064 & 0.0095 & 0.0231 \\
+GPT-4o proxy & A-only & 200 & 0.0080 & 0.0153 & 0.0312 \\
+GPT-4o proxy & empirical fit & 200 & 0.0064 & 0.0099 & 0.0226 \\
+GPT-4o proxy & $A_\nu$ & 200 & 0.0794 & 0.1521 & 0.1920 \\
+GPT-4o proxy & zero & 200 & 0.0385 & 0.0707 & 0.0876 \\
+GPT-4o proxy & oracle & 200 & 0.0002 & 0.0004 & 0.0012 \\
+\bottomrule
+\end{tabular}

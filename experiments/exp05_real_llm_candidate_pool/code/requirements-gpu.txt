@@ -1,0 +1,6 @@
+# Optional GPU dependencies for Experiment 19.
+# Install these in a CUDA-compatible environment appropriate for the local host.
+transformers
+accelerate
+torch
+vllm

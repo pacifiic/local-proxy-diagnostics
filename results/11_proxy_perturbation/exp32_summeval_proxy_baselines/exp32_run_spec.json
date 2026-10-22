@@ -1,0 +1,28 @@
+{
+  "human_long_csv": "data2/summeval_long.csv",
+  "proxy_csv": null,
+  "n_paths": 32,
+  "n_rows": 33918,
+  "n_skipped": 2,
+  "modes": [
+    "original",
+    "shuffle",
+    "random_normal",
+    "noisy",
+    "sign_flip",
+    "oracle"
+  ],
+  "noise_sigmas": [
+    0.5,
+    1.0,
+    2.0
+  ],
+  "baseline_repeats": 10,
+  "n_repeats": 20,
+  "calibration_frac": 0.3,
+  "fit_max_d": 0.1,
+  "d_targets": [
+    0.05,
+    0.1
+  ]
+}

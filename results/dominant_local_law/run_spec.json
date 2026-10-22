@@ -1,0 +1,151 @@
+{
+  "experiment": "exp36_dominant_local_law",
+  "purpose": "Test whether flexible regressions in radius d materially improve held-out gain prediction beyond the moment-derived local law.",
+  "information_settings": {
+    "prospective": "30% calibration proxy and gold plus requested d only; no evaluation proxy or gold enters prediction",
+    "eval_oracle_A+B": "evaluation gold and proxy; retrospective truncation diagnostic only, never a predictor"
+  },
+  "datasets": [
+    {
+      "dataset": "SummEval-human_heldout",
+      "human_long_csv": "data/summeval_long.csv",
+      "human_long_sha256": "d4c4dd815cc851920c796343f9952d0ec60c124db63d913d2826998881c1531e",
+      "proxy_csv": null,
+      "proxy_sha256": null
+    },
+    {
+      "dataset": "SummEval-GPT4o",
+      "human_long_csv": "data/summeval_long.csv",
+      "human_long_sha256": "d4c4dd815cc851920c796343f9952d0ec60c124db63d913d2826998881c1531e",
+      "proxy_csv": "data/model_proxy_4o_aggregated.csv",
+      "proxy_sha256": "9440315ccb82939e360e8bbac802f31bb3a17d6af244997cfbfa34eeeeeb4599"
+    },
+    {
+      "dataset": "WMT-MQM-human_heldout",
+      "human_long_csv": "data/wmt_mqm_long.csv",
+      "human_long_sha256": "6f20c0669ff7e76bef71a584f6c627dadab063d560d931cae74acff78d8cbbf8",
+      "proxy_csv": null,
+      "proxy_sha256": null
+    },
+    {
+      "dataset": "OpenMEVA-MAGS-human_heldout",
+      "human_long_csv": "data/openmeva_long.csv",
+      "human_long_sha256": "4e205f20b5183ab21b3caa1a5270e89068f35ae2aa14356e3b425f18f314a10b",
+      "proxy_csv": null,
+      "proxy_sha256": null
+    }
+  ],
+  "calibration_fraction": 0.3,
+  "n_repeats": 50,
+  "random_seed": 0,
+  "d_targets": [
+    0.01,
+    0.025,
+    0.05,
+    0.075,
+    0.1
+  ],
+  "curve_fit_grid": [
+    0.0,
+    0.0025,
+    0.005,
+    0.0075,
+    0.01,
+    0.0125,
+    0.015,
+    0.0175,
+    0.02,
+    0.0225,
+    0.025,
+    0.0275,
+    0.03,
+    0.0325,
+    0.035,
+    0.0375,
+    0.04,
+    0.0425,
+    0.045,
+    0.0475,
+    0.05,
+    0.0525,
+    0.055,
+    0.0575,
+    0.06,
+    0.0625,
+    0.065,
+    0.0675,
+    0.07,
+    0.0725,
+    0.075,
+    0.0775,
+    0.08,
+    0.0825,
+    0.085,
+    0.08750000000000001,
+    0.09,
+    0.0925,
+    0.095,
+    0.0975,
+    0.1
+  ],
+  "curve_fit_max_d": 0.1,
+  "curve_fit_evaluation": "independent exact KL root solve at every fit-grid radius; no interpolation from a t-grid",
+  "methods": [
+    "A+B_moment",
+    "A-only_moment",
+    "calibration_curve",
+    "empirical_two_term",
+    "empirical_cubic",
+    "direct_spline",
+    "A+B_residual_spline",
+    "eval_oracle_A+B"
+  ],
+  "model_complexity": {
+    "A+B_moment": "2 moment-derived coefficients; no curve fit",
+    "A-only_moment": "1 moment-derived coefficient; no curve fit",
+    "calibration_curve": "exact calibration gain transferred at each requested radius",
+    "empirical_two_term": "2 fitted coefficients in sqrt(d), d",
+    "empirical_cubic": "3 fitted coefficients in sqrt(d), d, d^(3/2)",
+    "direct_spline": "degree-3 spline with 6 knots and RidgeCV smoothing",
+    "A+B_residual_spline": "moment A+B plus the same spline fitted to calibration residuals"
+  },
+  "spline_alphas": [
+    1e-08,
+    3.162277660168379e-08,
+    1e-07,
+    3.162277660168379e-07,
+    1e-06,
+    3.162277660168379e-06,
+    9.999999999999999e-06,
+    3.1622776601683795e-05,
+    9.999999999999999e-05,
+    0.00031622776601683794,
+    0.001,
+    0.0031622776601683794,
+    0.01,
+    0.03162277660168379,
+    0.09999999999999999,
+    0.31622776601683794,
+    1.0,
+    3.162277660168379,
+    10.0,
+    31.622776601683796,
+    100.0
+  ],
+  "n_jobs": 32,
+  "parallelization_unit": "path",
+  "source_sha256": {
+    "build.py": "1ff049e1f97e9c6dc27bde6134a1abb26685566882369d71e38edc312bf1d972",
+    "audit.py": "6f0b7089cedc2d85daff549c74b14d8664e779fbea414ac972a89f13bd9ef8df",
+    "data_chain_audit.py": "d29e38046afdb3736f513fa5a3199724cd5e68e7275d76378375a0e651120939",
+    "run.sh": "4a7444da8cc9bad0d754042a3d6ab0d8a6484b490672be66cf718e838bc07ed9",
+    "exp21_builder": "91632bc18403fd5a3a991541409016a62f98fc800491c8ab36fe8b004053233d",
+    "canonical_engine": "e2a28210a3462114bdc78bb1e6c4b35d260161bc1441fd89b2550409e8c28ae8"
+  },
+  "versions": {
+    "python": "3.11.11",
+    "numpy": "1.26.4",
+    "pandas": "2.3.3",
+    "scikit_learn": "1.8.0"
+  }
+}

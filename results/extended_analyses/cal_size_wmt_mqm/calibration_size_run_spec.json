@@ -1,0 +1,44 @@
+{
+  "human_long_csv": "data/wmt_mqm_long.csv",
+  "proxy_csv": null,
+  "item_cols": "item_id",
+  "group_cols": "dataset_id",
+  "rater_col": "rater",
+  "score_col": "score",
+  "proxy_item_col": "item_id",
+  "proxy_score_col": "proxy_score",
+  "calibration_fracs": [
+    0.1,
+    0.2,
+    0.3,
+    0.5,
+    0.7
+  ],
+  "d_targets": [
+    0.05,
+    0.1
+  ],
+  "empfit_max_d": 0.1,
+  "n_repeats": 50,
+  "min_items": 200,
+  "min_raters": 3,
+  "random_seed": 0,
+  "split_seed_policy": "paired across calibration fractions; same base seed as the 30% prospective/d-sweep setting",
+  "n_grid": 240,
+  "n_boot": 1000,
+  "predictors": [
+    "theory",
+    "aonly",
+    "empfit",
+    "anu",
+    "zero",
+    "oracle"
+  ],
+  "n_paths": 141,
+  "n_rows": 70500,
+  "outputs": {
+    "paths": "outputs/wmt_input_lineage_pair_complete_20260725/fixed_141/paper_calibration_size/results/calibration_size_paths_long.csv",
+    "summary_by_group": "outputs/wmt_input_lineage_pair_complete_20260725/fixed_141/paper_calibration_size/results/calibration_size_summary_by_group.csv",
+    "summary_overall": "outputs/wmt_input_lineage_pair_complete_20260725/fixed_141/paper_calibration_size/results/calibration_size_summary_overall.csv"
+  }
+}

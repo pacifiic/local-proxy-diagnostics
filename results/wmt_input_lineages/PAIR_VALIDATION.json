@@ -1,0 +1,21 @@
+{
+  "status": "PASS",
+  "input_hashes": {
+    "submitted_139": "5649ee3041340f7ee96c3079a4f1f859b9ddd625b2d82f731407d32fd88553c0",
+    "fixed_141": "6f20c0669ff7e76bef71a584f6c627dadab063d560d931cae74acff78d8cbbf8"
+  },
+  "tasks_per_lineage": 43,
+  "failed_tasks": 0,
+  "failures": [],
+  "path_counts": {
+    "submitted_139": 139,
+    "fixed_141": 141
+  },
+  "cluster_counts": {
+    "submitted_139": 45,
+    "fixed_141": 47
+  },
+  "independent_of_wmt": {
+    "dpo": true
+  }
+}

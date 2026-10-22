@@ -1,0 +1,13 @@
+dataset,baseline,curve_mae,n_complete_units,n_attempted_units,complete_unit_rate
+WMT-MQM-human_heldout,A+B,0.06674533820078413,6950,6950,1.0
+WMT-MQM-human_heldout,A-only,0.08266500311346017,6950,6950,1.0
+WMT-MQM-human_heldout,A_nu,0.4505382256577744,6950,6950,1.0
+WMT-MQM-human_heldout,binned_calibration_only,0.07725188421413322,6950,6950,1.0
+WMT-MQM-human_heldout,empirical_curve,0.06594478967805965,6950,6950,1.0
+WMT-MQM-human_heldout,empirical_fit,0.06595779349633893,6950,6950,1.0
+WMT-MQM-human_heldout,isotonic_calibration_only,0.06661465008933787,6950,6950,1.0
+WMT-MQM-human_heldout,mlp_calibration_only,0.06678957560771302,6950,6950,1.0
+WMT-MQM-human_heldout,pearson_corr,0.08266500311346016,6950,6950,1.0
+WMT-MQM-human_heldout,spearman_corr,0.08007748619238614,6950,6950,1.0
+WMT-MQM-human_heldout,spline_calibration_only,0.06970464790230677,6950,6950,1.0
+WMT-MQM-human_heldout,zero,0.5600262875952816,6950,6950,1.0

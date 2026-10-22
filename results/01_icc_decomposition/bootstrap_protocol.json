@@ -1,0 +1,362 @@
+[
+  {
+    "dimension": "coherence",
+    "pool": "all",
+    "protocol": "mean",
+    "mean_corr": 0.5902763641113069,
+    "std_corr": 0.1552686186692974,
+    "ci_lower": 0.2082979821127175,
+    "ci_upper": 0.7243259904959319,
+    "n_raters": 8
+  },
+  {
+    "dimension": "coherence",
+    "pool": "all",
+    "protocol": "median",
+    "mean_corr": 0.5196152985099849,
+    "std_corr": 0.14706595299074296,
+    "ci_lower": 0.15592196793783822,
+    "ci_upper": 0.6381309346574405,
+    "n_raters": 8
+  },
+  {
+    "dimension": "coherence",
+    "pool": "all",
+    "protocol": "trimmed_mean",
+    "mean_corr": 0.5902763641113069,
+    "std_corr": 0.1552686186692974,
+    "ci_lower": 0.2082979821127175,
+    "ci_upper": 0.7243259904959319,
+    "n_raters": 8
+  },
+  {
+    "dimension": "coherence",
+    "pool": "crowd",
+    "protocol": "mean",
+    "mean_corr": 0.6613456386327994,
+    "std_corr": 0.017784068365161842,
+    "ci_lower": 0.6375774964390476,
+    "ci_upper": 0.7050601026433136,
+    "n_raters": 5
+  },
+  {
+    "dimension": "coherence",
+    "pool": "crowd",
+    "protocol": "median",
+    "mean_corr": 0.6613456386327994,
+    "std_corr": 0.017784068365161842,
+    "ci_lower": 0.6375774964390476,
+    "ci_upper": 0.7050601026433136,
+    "n_raters": 5
+  },
+  {
+    "dimension": "coherence",
+    "pool": "crowd",
+    "protocol": "trimmed_mean",
+    "mean_corr": 0.6613456386327994,
+    "std_corr": 0.017784068365161842,
+    "ci_lower": 0.6375774964390476,
+    "ci_upper": 0.7050601026433136,
+    "n_raters": 5
+  },
+  {
+    "dimension": "coherence",
+    "pool": "expert",
+    "protocol": "mean",
+    "mean_corr": NaN,
+    "std_corr": NaN,
+    "ci_lower": NaN,
+    "ci_upper": NaN,
+    "n_raters": 3
+  },
+  {
+    "dimension": "coherence",
+    "pool": "expert",
+    "protocol": "median",
+    "mean_corr": NaN,
+    "std_corr": NaN,
+    "ci_lower": NaN,
+    "ci_upper": NaN,
+    "n_raters": 3
+  },
+  {
+    "dimension": "coherence",
+    "pool": "expert",
+    "protocol": "trimmed_mean",
+    "mean_corr": NaN,
+    "std_corr": NaN,
+    "ci_lower": NaN,
+    "ci_upper": NaN,
+    "n_raters": 3
+  },
+  {
+    "dimension": "consistency",
+    "pool": "all",
+    "protocol": "mean",
+    "mean_corr": 0.6277199968181287,
+    "std_corr": 0.17008630427358942,
+    "ci_lower": 0.1983171365087219,
+    "ci_upper": 0.7382641572526756,
+    "n_raters": 8
+  },
+  {
+    "dimension": "consistency",
+    "pool": "all",
+    "protocol": "median",
+    "mean_corr": 0.4907989989803146,
+    "std_corr": 0.1899723142364815,
+    "ci_lower": 0.015289160438325648,
+    "ci_upper": 0.5946767446960228,
+    "n_raters": 8
+  },
+  {
+    "dimension": "consistency",
+    "pool": "all",
+    "protocol": "trimmed_mean",
+    "mean_corr": 0.6277199968181287,
+    "std_corr": 0.17008630427358942,
+    "ci_lower": 0.1983171365087219,
+    "ci_upper": 0.7382641572526756,
+    "n_raters": 8
+  },
+  {
+    "dimension": "consistency",
+    "pool": "crowd",
+    "protocol": "mean",
+    "mean_corr": 0.6622832616512264,
+    "std_corr": 0.014127629913952307,
+    "ci_lower": 0.6365067129362562,
+    "ci_upper": 0.6839543527929905,
+    "n_raters": 5
+  },
+  {
+    "dimension": "consistency",
+    "pool": "crowd",
+    "protocol": "median",
+    "mean_corr": 0.6622832616512264,
+    "std_corr": 0.014127629913952307,
+    "ci_lower": 0.6365067129362562,
+    "ci_upper": 0.6839543527929905,
+    "n_raters": 5
+  },
+  {
+    "dimension": "consistency",
+    "pool": "crowd",
+    "protocol": "trimmed_mean",
+    "mean_corr": 0.6622832616512264,
+    "std_corr": 0.014127629913952307,
+    "ci_lower": 0.6365067129362562,
+    "ci_upper": 0.6839543527929905,
+    "n_raters": 5
+  },
+  {
+    "dimension": "consistency",
+    "pool": "expert",
+    "protocol": "mean",
+    "mean_corr": NaN,
+    "std_corr": NaN,
+    "ci_lower": NaN,
+    "ci_upper": NaN,
+    "n_raters": 3
+  },
+  {
+    "dimension": "consistency",
+    "pool": "expert",
+    "protocol": "median",
+    "mean_corr": NaN,
+    "std_corr": NaN,
+    "ci_lower": NaN,
+    "ci_upper": NaN,
+    "n_raters": 3
+  },
+  {
+    "dimension": "consistency",
+    "pool": "expert",
+    "protocol": "trimmed_mean",
+    "mean_corr": NaN,
+    "std_corr": NaN,
+    "ci_lower": NaN,
+    "ci_upper": NaN,
+    "n_raters": 3
+  },
+  {
+    "dimension": "fluency",
+    "pool": "all",
+    "protocol": "mean",
+    "mean_corr": 0.6200489740588416,
+    "std_corr": 0.13576858432489874,
+    "ci_lower": 0.26075416469854573,
+    "ci_upper": 0.707826836564968,
+    "n_raters": 8
+  },
+  {
+    "dimension": "fluency",
+    "pool": "all",
+    "protocol": "median",
+    "mean_corr": 0.5250234973344847,
+    "std_corr": 0.17417164743987548,
+    "ci_lower": 0.07419149244141719,
+    "ci_upper": 0.6295062088656046,
+    "n_raters": 8
+  },
+  {
+    "dimension": "fluency",
+    "pool": "all",
+    "protocol": "trimmed_mean",
+    "mean_corr": 0.6200489740588416,
+    "std_corr": 0.13576858432489874,
+    "ci_lower": 0.26075416469854573,
+    "ci_upper": 0.707826836564968,
+    "n_raters": 8
+  },
+  {
+    "dimension": "fluency",
+    "pool": "crowd",
+    "protocol": "mean",
+    "mean_corr": 0.6515355953194611,
+    "std_corr": 0.011565199823528197,
+    "ci_lower": 0.6365306902758221,
+    "ci_upper": 0.6736296880618277,
+    "n_raters": 5
+  },
+  {
+    "dimension": "fluency",
+    "pool": "crowd",
+    "protocol": "median",
+    "mean_corr": 0.6515355953194611,
+    "std_corr": 0.011565199823528197,
+    "ci_lower": 0.6365306902758221,
+    "ci_upper": 0.6736296880618277,
+    "n_raters": 5
+  },
+  {
+    "dimension": "fluency",
+    "pool": "crowd",
+    "protocol": "trimmed_mean",
+    "mean_corr": 0.6515355953194611,
+    "std_corr": 0.011565199823528197,
+    "ci_lower": 0.6365306902758221,
+    "ci_upper": 0.6736296880618277,
+    "n_raters": 5
+  },
+  {
+    "dimension": "fluency",
+    "pool": "expert",
+    "protocol": "mean",
+    "mean_corr": NaN,
+    "std_corr": NaN,
+    "ci_lower": NaN,
+    "ci_upper": NaN,
+    "n_raters": 3
+  },
+  {
+    "dimension": "fluency",
+    "pool": "expert",
+    "protocol": "median",
+    "mean_corr": NaN,
+    "std_corr": NaN,
+    "ci_lower": NaN,
+    "ci_upper": NaN,
+    "n_raters": 3
+  },
+  {
+    "dimension": "fluency",
+    "pool": "expert",
+    "protocol": "trimmed_mean",
+    "mean_corr": NaN,
+    "std_corr": NaN,
+    "ci_lower": NaN,
+    "ci_upper": NaN,
+    "n_raters": 3
+  },
+  {
+    "dimension": "relevance",
+    "pool": "all",
+    "protocol": "mean",
+    "mean_corr": 0.5782524621653661,
+    "std_corr": 0.12485674488496247,
+    "ci_lower": 0.26669061452202736,
+    "ci_upper": 0.6606349430932671,
+    "n_raters": 8
+  },
+  {
+    "dimension": "relevance",
+    "pool": "all",
+    "protocol": "median",
+    "mean_corr": 0.5415344940296926,
+    "std_corr": 0.13632163176063206,
+    "ci_lower": 0.20598927286529695,
+    "ci_upper": 0.6328535184638799,
+    "n_raters": 8
+  },
+  {
+    "dimension": "relevance",
+    "pool": "all",
+    "protocol": "trimmed_mean",
+    "mean_corr": 0.5782524621653661,
+    "std_corr": 0.12485674488496247,
+    "ci_lower": 0.26669061452202736,
+    "ci_upper": 0.6606349430932671,
+    "n_raters": 8
+  },
+  {
+    "dimension": "relevance",
+    "pool": "crowd",
+    "protocol": "mean",
+    "mean_corr": 0.6477934922582186,
+    "std_corr": 0.009116239312710422,
+    "ci_lower": 0.6234771790652471,
+    "ci_upper": 0.6588492352328221,
+    "n_raters": 5
+  },
+  {
+    "dimension": "relevance",
+    "pool": "crowd",
+    "protocol": "median",
+    "mean_corr": 0.6477934922582186,
+    "std_corr": 0.009116239312710422,
+    "ci_lower": 0.6234771790652471,
+    "ci_upper": 0.6588492352328221,
+    "n_raters": 5
+  },
+  {
+    "dimension": "relevance",
+    "pool": "crowd",
+    "protocol": "trimmed_mean",
+    "mean_corr": 0.6477934922582186,
+    "std_corr": 0.009116239312710422,
+    "ci_lower": 0.6234771790652471,
+    "ci_upper": 0.6588492352328221,
+    "n_raters": 5
+  },
+  {
+    "dimension": "relevance",
+    "pool": "expert",
+    "protocol": "mean",
+    "mean_corr": NaN,
+    "std_corr": NaN,
+    "ci_lower": NaN,
+    "ci_upper": NaN,
+    "n_raters": 3
+  },
+  {
+    "dimension": "relevance",
+    "pool": "expert",
+    "protocol": "median",
+    "mean_corr": NaN,
+    "std_corr": NaN,
+    "ci_lower": NaN,
+    "ci_upper": NaN,
+    "n_raters": 3
+  },
+  {
+    "dimension": "relevance",
+    "pool": "expert",
+    "protocol": "trimmed_mean",
+    "mean_corr": NaN,
+    "std_corr": NaN,
+    "ci_lower": NaN,
+    "ci_upper": NaN,
+    "n_raters": 3
+  }
+]

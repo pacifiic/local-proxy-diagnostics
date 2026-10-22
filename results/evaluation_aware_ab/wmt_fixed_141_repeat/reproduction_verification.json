@@ -1,0 +1,62 @@
+{
+  "experiment": "exp32_evaluation_aware_ab",
+  "dataset_lineage": "WMT fixed_141",
+  "protocol": {
+    "calibration_fraction": 0.3,
+    "repeats": 50,
+    "random_seed": 0,
+    "radii": [
+      0.01,
+      0.025,
+      0.05,
+      0.075,
+      0.1
+    ]
+  },
+  "expected_source_predictions_sha256": "3ec6becf431a7eed607410c7cf44497f007fdf4edf40929d91480efe623b7bb1",
+  "repeat_predictions_payload_sha256": "3ec6becf431a7eed607410c7cf44497f007fdf4edf40929d91480efe623b7bb1",
+  "dimensions": {
+    "rows": 564000,
+    "paths": 141,
+    "repeats": 50,
+    "radii": 5,
+    "baselines": 16
+  },
+  "expected_dimensions": {
+    "rows": 564000,
+    "paths": 141,
+    "repeats": 50,
+    "radii": 5,
+    "baselines": 16
+  },
+  "exact_files": {
+    "direct_calibration_run_spec.json": {
+      "canonical_sha256": "8c9d99d03f8679fdda7fc867c48e9c75c0b19e6a60d1efa7ee7237cfe093db16",
+      "repeat_sha256": "8c9d99d03f8679fdda7fc867c48e9c75c0b19e6a60d1efa7ee7237cfe093db16",
+      "byte_identical": true
+    },
+    "evaluation_aware_ab_summary.csv": {
+      "canonical_sha256": "c69a2b14d8e65ba5ab0bf12d8fe15f54ba275eb490371fdb22701f6a17e1a493",
+      "repeat_sha256": "c69a2b14d8e65ba5ab0bf12d8fe15f54ba275eb490371fdb22701f6a17e1a493",
+      "byte_identical": true
+    },
+    "evaluation_aware_ab_paired_bootstrap.csv": {
+      "canonical_sha256": "2fb182f34592ac263490ca80e713de864f8cd37b7a5b2f8a3027d2e78c3d87e1",
+      "repeat_sha256": "2fb182f34592ac263490ca80e713de864f8cd37b7a5b2f8a3027d2e78c3d87e1",
+      "byte_identical": true
+    },
+    "EVALUATION_AWARE_AB_RESULTS.md": {
+      "canonical_sha256": "56bae8d8c63fae62b1a05a19552f697ae8416750e78a55eb0434d709ad9684ff",
+      "repeat_sha256": "56bae8d8c63fae62b1a05a19552f697ae8416750e78a55eb0434d709ad9684ff",
+      "byte_identical": true
+    }
+  },
+  "checks": {
+    "prediction_values_and_order_identical": true,
+    "repeat_payload_matches_original_source_hash": true,
+    "all_small_artifacts_byte_identical": true,
+    "dimensions_match": true,
+    "no_skipped_file": true
+  },
+  "status": "PASS"
+}

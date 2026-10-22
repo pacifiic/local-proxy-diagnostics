@@ -1,0 +1,29 @@
+{
+  "skywork": {
+    "model_id": "Skywork/Skywork-Reward-Llama-3.1-8B-v0.2",
+    "revision": "d4117fbfd81b72f41b96341238baa1e3e90a4ce1",
+    "input_format": "chat",
+    "output_field": "logits",
+    "max_length": 4096,
+    "dtype": "bfloat16",
+    "trust_remote_code": false
+  },
+  "armorm": {
+    "model_id": "RLHFlow/ArmoRM-Llama3-8B-v0.1",
+    "revision": "eb2676d20da2f2d41082289d23c59b9f7427f955",
+    "input_format": "chat",
+    "output_field": "score",
+    "max_length": 4096,
+    "dtype": "bfloat16",
+    "trust_remote_code": true
+  },
+  "deberta": {
+    "model_id": "OpenAssistant/reward-model-deberta-v3-large-v2",
+    "revision": "c355404efa9ad2ad069f3a197cae0523c14244fc",
+    "input_format": "pair",
+    "output_field": "logits",
+    "max_length": 512,
+    "dtype": "float32",
+    "trust_remote_code": false
+  }
+}

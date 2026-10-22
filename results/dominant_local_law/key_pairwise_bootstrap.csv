@@ -1,0 +1,17 @@
+dataset,first_method,second_method,difference_first_minus_second,ci_low,ci_high,n_paired_units,n_paths
+OpenMEVA-MAGS-human_heldout,empirical_two_term,A+B_moment,-6.516576455897508e-05,-0.00020546934967565403,5.678375857894035e-05,500,10
+OpenMEVA-MAGS-human_heldout,empirical_cubic,empirical_two_term,-1.1109555736932115e-07,-3.879959859974649e-06,3.2439525376607076e-06,500,10
+OpenMEVA-MAGS-human_heldout,direct_spline,empirical_two_term,-1.033079594253372e-07,-3.885918336080199e-06,3.259878305363344e-06,500,10
+OpenMEVA-MAGS-human_heldout,A+B_residual_spline,empirical_two_term,-1.0539122715452439e-07,-3.878084787721555e-06,3.252425485265488e-06,500,10
+SummEval-GPT4o,empirical_two_term,A+B_moment,-1.2216292327630311e-05,-6.149117713898962e-05,6.36836263680934e-05,200,4
+SummEval-GPT4o,empirical_cubic,empirical_two_term,6.101826980534033e-07,-7.81732426781566e-07,3.26296268762733e-06,200,4
+SummEval-GPT4o,direct_spline,empirical_two_term,6.783884024276748e-07,-7.325381610644622e-07,3.415749168616955e-06,200,4
+SummEval-GPT4o,A+B_residual_spline,empirical_two_term,6.817289854404529e-07,-7.242650062083851e-07,3.4143593751820142e-06,200,4
+SummEval-human_heldout,empirical_two_term,A+B_moment,-0.00011033785537804494,-0.000403269001449764,7.602323496171159e-05,1600,32
+SummEval-human_heldout,empirical_cubic,empirical_two_term,7.592231510201047e-06,-1.0624602370631027e-05,2.910719501220719e-05,1600,32
+SummEval-human_heldout,direct_spline,empirical_two_term,2.029142555452817e-05,-1.0538754780475428e-05,6.752198376232463e-05,1600,32
+SummEval-human_heldout,A+B_residual_spline,empirical_two_term,-2.4064879463561823e-06,-1.5798770608720858e-05,8.526218807641945e-06,1600,32
+WMT-MQM-human_heldout,empirical_two_term,A+B_moment,-0.0007794756212226279,-0.0009966501227517803,-0.0005823254669816797,7050,141
+WMT-MQM-human_heldout,empirical_cubic,empirical_two_term,-7.729536628355464e-06,-1.4513876157041732e-05,-8.851062577405913e-07,7050,141
+WMT-MQM-human_heldout,direct_spline,empirical_two_term,-7.706579356898748e-06,-1.4659463738483428e-05,-8.668602264862763e-07,7050,141
+WMT-MQM-human_heldout,A+B_residual_spline,empirical_two_term,-7.6226053446156206e-06,-1.4526207452643391e-05,-8.148475526441006e-07,7050,141

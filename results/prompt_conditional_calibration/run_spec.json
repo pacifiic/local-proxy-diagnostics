@@ -1,0 +1,32 @@
+{
+  "seeds": [
+    0,
+    1,
+    2
+  ],
+  "modes": [
+    "raw",
+    "centered",
+    "zscore",
+    "rank"
+  ],
+  "families": [
+    "isotonic",
+    "spline"
+  ],
+  "evaluation_crossfit_folds": 5,
+  "spline_cv": "5-fold GroupKFold by prompt",
+  "strict_local_window": "checkpoint median d <= 0.10",
+  "historical_scope": "six checkpoints with d <= 1 and ESS >= 8",
+  "main_fit_scope": "calibration_only",
+  "input_sha256": {
+    "pool_scored": "1c6ba78bf5b0e4ddfc1c6b6cc6b4ba2aae51dcdcb3196ef47fba1f2b8ee55ab2",
+    "seed_0_per_prompt": "ff6152cabac2f5b5722f250f92db8ff78db90b1245cdafef6f35fa44ca28b75c",
+    "seed_1_per_prompt": "d2d02ebe1c249586e86447072c204b99c9852755b37b7b96263a082a481cfc67",
+    "seed_2_per_prompt": "3539808b82697d46f8a5d6f534a633e89a3b6ba212f685a00e5bbf6e71ddbe8e"
+  },
+  "code_sha256": {
+    "builder": "6eeca0bfefceb55f0cd6d4ca2af5c93c028ab78e7a081066b659de58159239e4",
+    "spline_helper": "39486cea9b370984ef36c20d8558be514c04244d3a7e6437fb11842adab646ea"
+  }
+}

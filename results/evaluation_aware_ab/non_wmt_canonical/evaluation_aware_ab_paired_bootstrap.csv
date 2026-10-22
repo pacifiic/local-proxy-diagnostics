@@ -1,0 +1,25 @@
+dataset,conditional_mean_model,comparison,difference,ci_lo,ci_hi
+SummEval-human_heldout,isotonic,evaluation-aware A+B minus raw A+B,-0.0022630821048064266,-0.0033657163746512965,-0.0013184100660761611
+SummEval-human_heldout,isotonic,evaluation-aware A+B minus direct calibrator,0.0005186883547358212,8.134530629212697e-05,0.0010737027167547855
+SummEval-human_heldout,binned,evaluation-aware A+B minus raw A+B,0.015950598754720845,0.012443880900733225,0.019067087088696328
+SummEval-human_heldout,binned,evaluation-aware A+B minus direct calibrator,-0.001303649852676659,-0.0015484534550893347,-0.0010748149976716247
+SummEval-human_heldout,spline,evaluation-aware A+B minus raw A+B,-0.0014508879347561099,-0.002795001328449701,-0.0002560317821440318
+SummEval-human_heldout,spline,evaluation-aware A+B minus direct calibrator,0.00014369867366803433,-0.0002278560112553036,0.0006177533348020809
+SummEval-human_heldout,MLP,evaluation-aware A+B minus raw A+B,-0.002128900490244284,-0.003237248130219634,-0.0011690785043930638
+SummEval-human_heldout,MLP,evaluation-aware A+B minus direct calibrator,0.0005223850093800475,0.00010490123230987911,0.0010686174902421433
+SummEval-GPT4o,isotonic,evaluation-aware A+B minus raw A+B,-4.990224237260885e-05,-0.0009355077920565982,0.00048171245748485515
+SummEval-GPT4o,isotonic,evaluation-aware A+B minus direct calibrator,-0.00010045465534344621,-0.00021657222799601633,-3.034998792611921e-05
+SummEval-GPT4o,binned,evaluation-aware A+B minus raw A+B,0.0005452521676069773,0.00023643014088152794,0.0007543861886299295
+SummEval-GPT4o,binned,evaluation-aware A+B minus direct calibrator,-4.250894192634196e-05,-8.814911256055944e-05,3.131228707875522e-06
+SummEval-GPT4o,spline,evaluation-aware A+B minus raw A+B,-0.00025857498768876576,-0.001081204985490792,0.0003716789060892111
+SummEval-GPT4o,spline,evaluation-aware A+B minus direct calibrator,3.176768685682449e-05,-4.593972759397015e-05,0.00013023369747590125
+SummEval-GPT4o,MLP,evaluation-aware A+B minus raw A+B,-0.00012993388217775017,-0.0006074030466082672,0.0002667798907778768
+SummEval-GPT4o,MLP,evaluation-aware A+B minus direct calibrator,4.246707167355015e-05,3.553668050176287e-05,4.904587784795248e-05
+OpenMEVA-MAGS-human_heldout,isotonic,evaluation-aware A+B minus raw A+B,-0.0027869625212512553,-0.0034224675246147538,-0.0020983199738978595
+OpenMEVA-MAGS-human_heldout,isotonic,evaluation-aware A+B minus direct calibrator,6.073061856167791e-05,-7.121763968473223e-05,0.0001903595318499558
+OpenMEVA-MAGS-human_heldout,binned,evaluation-aware A+B minus raw A+B,0.0033897863501525074,8.016214612209294e-05,0.007947107267124819
+OpenMEVA-MAGS-human_heldout,binned,evaluation-aware A+B minus direct calibrator,-0.0009900168656799297,-0.001247467172562878,-0.0007512386176730264
+OpenMEVA-MAGS-human_heldout,spline,evaluation-aware A+B minus raw A+B,-0.0026490992822936488,-0.003355181261947583,-0.0018431202648195191
+OpenMEVA-MAGS-human_heldout,spline,evaluation-aware A+B minus direct calibrator,-1.9963325090147783e-05,-0.00014722636910061203,0.0001091509225727781
+OpenMEVA-MAGS-human_heldout,MLP,evaluation-aware A+B minus raw A+B,-0.0029523687539835105,-0.0035893531100212733,-0.0022191126534230753
+OpenMEVA-MAGS-human_heldout,MLP,evaluation-aware A+B minus direct calibrator,2.498871075353789e-05,-7.005541317864963e-05,0.00013081747889204042

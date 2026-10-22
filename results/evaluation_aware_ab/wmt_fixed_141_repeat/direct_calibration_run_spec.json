@@ -1,0 +1,105 @@
+{
+  "configs": [
+    {
+      "config_key": "wmt",
+      "dataset_name": "WMT-MQM-human_heldout",
+      "human_long_csv": "data/wmt_mqm_long.csv",
+      "human_long_sha256": "6f20c0669ff7e76bef71a584f6c627dadab063d560d931cae74acff78d8cbbf8",
+      "proxy_csv": null,
+      "proxy_sha256": null,
+      "item_cols": "item_id",
+      "group_cols": "dataset_id",
+      "min_items": 200,
+      "min_raters": 3
+    }
+  ],
+  "d_targets": [
+    0.01,
+    0.025,
+    0.05,
+    0.075,
+    0.1
+  ],
+  "calibration_frac": 0.3,
+  "n_repeats": 50,
+  "random_seed": 0,
+  "n_jobs": 40,
+  "parallelization_unit": "path",
+  "calibration_model_fit_frequency": "once per path/repeat split",
+  "fit_max_d": 0.1,
+  "reachability_policy": {
+    "evaluation": "skip only the requested d when unreachable",
+    "empirical_curve": "unavailable when calibration cannot reach requested d",
+    "empirical_fit": "fit through 95% of calibration max reachable KL, capped at fit_max_d"
+  },
+  "all_baselines": [
+    "A+B",
+    "A-only",
+    "A_nu",
+    "empirical_curve",
+    "empirical_fit",
+    "pearson_corr",
+    "spearman_corr",
+    "isotonic_calibration",
+    "zero",
+    "binned_shrinkage",
+    "spline_ridge",
+    "mlp_calibration",
+    "A+B (isotonic h)",
+    "A+B (binned h)",
+    "A+B (spline h)",
+    "A+B (MLP h)"
+  ],
+  "new_baselines": [
+    "binned_shrinkage",
+    "spline_ridge",
+    "mlp_calibration",
+    "A+B (isotonic h)",
+    "A+B (binned h)",
+    "A+B (spline h)",
+    "A+B (MLP h)"
+  ],
+  "bin_candidates": [
+    3,
+    5,
+    8,
+    12
+  ],
+  "shrink_k_candidates": [
+    0.0,
+    5.0,
+    20.0
+  ],
+  "spline_knot_candidates": [
+    4,
+    6,
+    8
+  ],
+  "mlp": {
+    "hidden_layers": [
+      16,
+      16
+    ],
+    "n_parameters": 321,
+    "activation": "relu",
+    "solver": "adam",
+    "alpha": 0.001,
+    "max_iter": 1000,
+    "learning_rate_init": 0.001,
+    "random_seed": 0,
+    "hyperparameter_selection": "none; pre-specified"
+  },
+  "evaluation_aware_conditional_mean_ab": {
+    "fit_labels": "calibration gold labels only",
+    "evaluation_inputs": "evaluation proxy scores only; no evaluation gold",
+    "coefficient_distribution": "(h(r_eval), r_eval)",
+    "formula": "A_h*sqrt(d)+B_h*d",
+    "direct_comparator": "exact integration of the same h(r_eval) under evaluation tilt",
+    "source_to_projection": {
+      "isotonic_calibration": "A+B (isotonic h)",
+      "binned_shrinkage": "A+B (binned h)",
+      "spline_ridge": "A+B (spline h)",
+      "mlp_calibration": "A+B (MLP h)"
+    }
+  }
+}

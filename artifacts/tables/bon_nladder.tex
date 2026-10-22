@@ -1,0 +1,14 @@
+\begin{tabular}{lrrrrrrr}
+\toprule
+ &  & \multicolumn{2}{c}{Median at $N=2$} & \multicolumn{2}{c}{Nontrivial points ($N\ge2$)} & \multicolumn{2}{c}{In-window MAE} \\
+\cmidrule(lr){3-4}\cmidrule(lr){5-6}\cmidrule(lr){7-8}Setting & Paths & $d_{\mathrm{BoN}}$ & RelESS & $d\le0.10$ & $d\le0.25$ & A+B & A-only \\
+\midrule
+SummEval human & 32 & 0.172 & 0.772 & 4 (1.1\%) & 92 (26.1\%) & 0.0197 & 0.0884 \\
+SummEval ROUGE-1 & 4 & 0.193 & 0.750 & 0 (0.0\%) & 4 (9.1\%) & -- & -- \\
+SummEval GPT-4o & 4 & 0.189 & 0.754 & 0 (0.0\%) & 4 (9.1\%) & -- & -- \\
+WMT MQM & 141 & 0.186 & 0.760 & 0 (0.0\%) & 154 (9.9\%) & -- & -- \\
+OpenMEVA-MAGS & 10 & 0.166 & 0.771 & 0 (0.0\%) & 10 (9.1\%) & -- & -- \\
+\midrule
+All settings & 191 & 0.185 & 0.761 & 4 (0.2\%) & 264 (12.6\%) & 0.0197 & 0.0884 \\
+\bottomrule
+\end{tabular}

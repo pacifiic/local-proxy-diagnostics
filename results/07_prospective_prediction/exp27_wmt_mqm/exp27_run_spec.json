@@ -1,0 +1,29 @@
+{
+  "human_long_csv": "data/wmt_mqm_long.csv",
+  "proxy_csv": null,
+  "proxy_item_col": "item_id",
+  "proxy_score_col": "proxy_score",
+  "group_cols": [
+    "dataset_id"
+  ],
+  "item_cols": [
+    "item_id"
+  ],
+  "rater_col": "rater",
+  "score_col": "score",
+  "calibration_frac": 0.3,
+  "n_repeats": 50,
+  "fit_max_d": 0.1,
+  "d_targets": [
+    0.05,
+    0.1
+  ],
+  "min_items": 200,
+  "min_raters": 3,
+  "random_seed": 0,
+  "n_boot": 1000,
+  "n_paths": 141,
+  "n_attempted_splits": 7050,
+  "n_rows": 7050,
+  "n_skipped_splits": 0
+}

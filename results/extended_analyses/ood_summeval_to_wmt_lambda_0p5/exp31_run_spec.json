@@ -1,0 +1,26 @@
+{
+  "source_name": "SummEval",
+  "target_name": "WMT_MQM",
+  "source_human_long_csv": "data/summeval_long.csv",
+  "target_human_long_csv": "data/wmt_mqm_long.csv",
+  "n_source_paths": 32,
+  "n_target_paths": 141,
+  "n_target_rows": 7050,
+  "n_skipped_target_splits": 0,
+  "source_prior": {
+    "source_a_exact": 0.9519505228641001,
+    "source_b_theory": -0.2525702380750067,
+    "source_a_nu": 1.4142135623730951
+  },
+  "standardize_pairs": "z_cal",
+  "calibration_frac": 0.3,
+  "n_repeats": 50,
+  "source_prior_repeats": 50,
+  "source_prior_estimator": "mean",
+  "shrinkage_lambda": 0.5,
+  "fit_max_d": 0.1,
+  "d_targets": [
+    0.05,
+    0.1
+  ]
+}

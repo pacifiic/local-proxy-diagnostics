@@ -1,0 +1,30 @@
+{
+  "human_long_csv": "data2/openmeva_long.csv",
+  "proxy_csv": null,
+  "proxy_item_col": "item_id",
+  "proxy_score_col": "proxy_score",
+  "group_cols": [
+    "dataset"
+  ],
+  "item_cols": [
+    "story_id",
+    "model_id"
+  ],
+  "rater_col": "rater_idx",
+  "score_col": "score",
+  "calibration_frac": 0.3,
+  "n_repeats": 50,
+  "fit_max_d": 0.1,
+  "d_targets": [
+    0.05,
+    0.1
+  ],
+  "min_items": 200,
+  "min_raters": 3,
+  "random_seed": 0,
+  "n_boot": 1000,
+  "n_paths": 10,
+  "n_attempted_splits": 500,
+  "n_rows": 500,
+  "n_skipped_splits": 0
+}

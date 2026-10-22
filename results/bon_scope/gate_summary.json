@@ -1,0 +1,24 @@
+{
+  "pooled_crossover": {
+    "crossover_N": 2,
+    "crossover_d": 0.1852498720013261,
+    "crossover_ess": 780.7721941797976
+  },
+  "retrospective_switch_at_checked_window": {
+    "switch_d_threshold": 0.1,
+    "mae_retrospective_switch": 0.13620683102934214,
+    "mae_always_theory": 0.19809924915043928,
+    "mae_always_empfit": 0.1361800220974246,
+    "mae_oracle": 0.12862495330048007,
+    "frac_using_theory": 0.08507853403141362
+  },
+  "retrospective_switch_at_empirical_crossover": {
+    "switch_d_threshold": 0.1852498720013261,
+    "mae_retrospective_switch": 0.1373787907156187,
+    "mae_always_theory": 0.19809924915043928,
+    "mae_always_empfit": 0.1361800220974246,
+    "mae_oracle": 0.12862495330048007,
+    "frac_using_theory": 0.15139616055846422
+  },
+  "deployment_note": "This switch is a same-data descriptive audit, not a validated fallback rule. Outside the checked window, abstain or evaluate directly."
+}

@@ -1,0 +1,49 @@
+model,fit_split,n_prompts,n_candidates,n_thresholds,n_knots,ridge_alpha,cv_mse,cv_scheme
+cal_raw_isotonic,calibration,100,3200,36.0,,,,
+cal_raw_spline,calibration,100,3200,,4.0,31.622776601683793,4.269411674126859,5-fold GroupKFold by prompt
+cal_centered_isotonic,calibration,100,3200,46.0,,,,
+cal_centered_spline,calibration,100,3200,,4.0,1.0,0.6516305554349271,5-fold GroupKFold by prompt
+cal_zscore_isotonic,calibration,100,3200,49.0,,,,
+cal_zscore_spline,calibration,100,3200,,4.0,0.01,0.6578123412061548,5-fold GroupKFold by prompt
+cal_rank_isotonic,calibration,100,3200,19.0,,,,
+cal_rank_spline,calibration,100,3200,,8.0,3.1622776601683795,0.6584951010516148,5-fold GroupKFold by prompt
+eval_xfit_raw_isotonic,eval_crossfit_fold_0,160,5120,26.0,,,,
+eval_xfit_raw_spline,eval_crossfit_fold_0,160,5120,,8.0,0.001,4.431125427690293,5-fold GroupKFold by prompt
+eval_xfit_centered_isotonic,eval_crossfit_fold_0,160,5120,54.0,,,,
+eval_xfit_centered_spline,eval_crossfit_fold_0,160,5120,,4.0,0.001,0.5658450370960608,5-fold GroupKFold by prompt
+eval_xfit_zscore_isotonic,eval_crossfit_fold_0,160,5120,51.0,,,,
+eval_xfit_zscore_spline,eval_crossfit_fold_0,160,5120,,6.0,0.0031622776601683794,0.5795997693494443,5-fold GroupKFold by prompt
+eval_xfit_rank_isotonic,eval_crossfit_fold_0,160,5120,30.0,,,,
+eval_xfit_rank_spline,eval_crossfit_fold_0,160,5120,,4.0,0.31622776601683794,0.5802718313428309,5-fold GroupKFold by prompt
+eval_xfit_raw_isotonic,eval_crossfit_fold_1,160,5120,19.0,,,,
+eval_xfit_raw_spline,eval_crossfit_fold_1,160,5120,,4.0,10.0,4.426108975601913,5-fold GroupKFold by prompt
+eval_xfit_centered_isotonic,eval_crossfit_fold_1,160,5120,69.0,,,,
+eval_xfit_centered_spline,eval_crossfit_fold_1,160,5120,,4.0,0.31622776601683794,0.5940416900018868,5-fold GroupKFold by prompt
+eval_xfit_zscore_isotonic,eval_crossfit_fold_1,160,5120,46.0,,,,
+eval_xfit_zscore_spline,eval_crossfit_fold_1,160,5120,,6.0,1.0,0.6099348700101187,5-fold GroupKFold by prompt
+eval_xfit_rank_isotonic,eval_crossfit_fold_1,160,5120,24.0,,,,
+eval_xfit_rank_spline,eval_crossfit_fold_1,160,5120,,4.0,3.1622776601683795,0.6130007121399476,5-fold GroupKFold by prompt
+eval_xfit_raw_isotonic,eval_crossfit_fold_2,160,5120,32.0,,,,
+eval_xfit_raw_spline,eval_crossfit_fold_2,160,5120,,4.0,0.001,4.6795520202095755,5-fold GroupKFold by prompt
+eval_xfit_centered_isotonic,eval_crossfit_fold_2,160,5120,68.0,,,,
+eval_xfit_centered_spline,eval_crossfit_fold_2,160,5120,,8.0,0.03162277660168379,0.5551187304800071,5-fold GroupKFold by prompt
+eval_xfit_zscore_isotonic,eval_crossfit_fold_2,160,5120,51.0,,,,
+eval_xfit_zscore_spline,eval_crossfit_fold_2,160,5120,,6.0,0.31622776601683794,0.5739547257373678,5-fold GroupKFold by prompt
+eval_xfit_rank_isotonic,eval_crossfit_fold_2,160,5120,29.0,,,,
+eval_xfit_rank_spline,eval_crossfit_fold_2,160,5120,,4.0,1.0,0.5761991925001924,5-fold GroupKFold by prompt
+eval_xfit_raw_isotonic,eval_crossfit_fold_3,160,5120,29.0,,,,
+eval_xfit_raw_spline,eval_crossfit_fold_3,160,5120,,6.0,100.0,4.167765799451788,5-fold GroupKFold by prompt
+eval_xfit_centered_isotonic,eval_crossfit_fold_3,160,5120,56.0,,,,
+eval_xfit_centered_spline,eval_crossfit_fold_3,160,5120,,4.0,0.31622776601683794,0.5826178093223294,5-fold GroupKFold by prompt
+eval_xfit_zscore_isotonic,eval_crossfit_fold_3,160,5120,59.0,,,,
+eval_xfit_zscore_spline,eval_crossfit_fold_3,160,5120,,4.0,10.0,0.5972588284117608,5-fold GroupKFold by prompt
+eval_xfit_rank_isotonic,eval_crossfit_fold_3,160,5120,25.0,,,,
+eval_xfit_rank_spline,eval_crossfit_fold_3,160,5120,,4.0,3.1622776601683795,0.5999732045796097,5-fold GroupKFold by prompt
+eval_xfit_raw_isotonic,eval_crossfit_fold_4,160,5120,30.0,,,,
+eval_xfit_raw_spline,eval_crossfit_fold_4,160,5120,,4.0,10.0,4.600906389988895,5-fold GroupKFold by prompt
+eval_xfit_centered_isotonic,eval_crossfit_fold_4,160,5120,54.0,,,,
+eval_xfit_centered_spline,eval_crossfit_fold_4,160,5120,,4.0,0.31622776601683794,0.5775571584218981,5-fold GroupKFold by prompt
+eval_xfit_zscore_isotonic,eval_crossfit_fold_4,160,5120,41.0,,,,
+eval_xfit_zscore_spline,eval_crossfit_fold_4,160,5120,,6.0,3.1622776601683795,0.5922453071632315,5-fold GroupKFold by prompt
+eval_xfit_rank_isotonic,eval_crossfit_fold_4,160,5120,24.0,,,,
+eval_xfit_rank_spline,eval_crossfit_fold_4,160,5120,,4.0,3.1622776601683795,0.5943581002008419,5-fold GroupKFold by prompt

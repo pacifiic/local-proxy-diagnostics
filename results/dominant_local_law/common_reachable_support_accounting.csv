@@ -1,0 +1,5 @@
+dataset,n_units,n_common_support,n_excluded
+OpenMEVA-MAGS-human_heldout,500,500,0
+SummEval-GPT4o,200,200,0
+SummEval-human_heldout,1600,1589,11
+WMT-MQM-human_heldout,7050,7050,0

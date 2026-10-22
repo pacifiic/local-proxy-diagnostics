@@ -1,0 +1,16 @@
+{
+  "status": "PASS",
+  "n_cells": 56100,
+  "key": [
+    "dataset",
+    "path_id",
+    "repeat",
+    "calibration_frac",
+    "d"
+  ],
+  "max_absolute_differences": {
+    "actual_gain": 8.881784197001252e-16,
+    "predicted_ab": 8.881784197001252e-16,
+    "ab_abs_error": 2.220446049250313e-16
+  }
+}

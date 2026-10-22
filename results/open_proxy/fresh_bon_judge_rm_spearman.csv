@@ -1,0 +1,7 @@
+metric,value,n
+pooled_spearman,0.43357843214601677,7200
+pooled_spearman_p,0.0,7200
+pooled_pearson,0.4567849783377009,7200
+within_prompt_spearman_mean,0.4147901479130877,98
+within_prompt_spearman_median,0.4376805877370148,98
+within_prompt_spearman_frac_positive,1.0,98

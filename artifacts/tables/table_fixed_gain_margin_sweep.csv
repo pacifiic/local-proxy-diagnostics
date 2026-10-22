@@ -1,0 +1,15 @@
+Setting,Condition,Coverage,$n$,Fixed-gain sign acc.,MAE
+SummEval human,all,100.0%,1589,100.0%,0.0174
+SummEval human,$|\Delta|>0.001$,100.0%,1589,100.0%,0.0174
+SummEval human,$|\Delta|>0.005$,100.0%,1589,100.0%,0.0174
+SummEval human,$|\Delta|>0.01$,100.0%,1589,100.0%,0.0174
+SummEval human,$|\Delta|>0.02$,100.0%,1589,100.0%,0.0174
+SummEval human,$|\Delta|>0.05$,100.0%,1589,100.0%,0.0174
+SummEval human,$|\Delta|>0.1$,100.0%,1589,100.0%,0.0174
+GPT-4o proxy,all,100.0%,200,100.0%,0.0118
+GPT-4o proxy,$|\Delta|>0.001$,100.0%,200,100.0%,0.0118
+GPT-4o proxy,$|\Delta|>0.005$,100.0%,200,100.0%,0.0118
+GPT-4o proxy,$|\Delta|>0.01$,100.0%,200,100.0%,0.0118
+GPT-4o proxy,$|\Delta|>0.02$,100.0%,200,100.0%,0.0118
+GPT-4o proxy,$|\Delta|>0.05$,78.5%,157,100.0%,0.0121
+GPT-4o proxy,$|\Delta|>0.1$,0.0%,0,--,--

@@ -1,0 +1,7 @@
+{
+  "status": "PASS",
+  "aligned_jsonl_sha256": "f0d4166e0cdeb439b387c4449634b067b7e9f721b9ef4c2b722f6b7550d3d6ab",
+  "n_verified_summaries": 1600,
+  "n_verified_ratings": 51200,
+  "article_text": "Aligned JSONL has no source article text; article context comes from supplied item CSV"
+}

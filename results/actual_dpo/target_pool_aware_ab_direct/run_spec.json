@@ -1,0 +1,60 @@
+{
+  "experiment": "DPO target-pool-aware conditional-mean A+B follow-up",
+  "information_setting": {
+    "conditional_mean_fit": "calibration prompts only",
+    "evaluation_proxy_geometry": "used",
+    "evaluation_silver_labels_for_prediction": "not used",
+    "coefficient_scope": "prompt-specific moments of (h(r_eval), r_eval)",
+    "direct_comparator": "exact integration of the same h(r_eval) under raw-proxy tilt"
+  },
+  "selection": {
+    "checkpoint_mean_prompt_kl_max": 0.1,
+    "n_seed_checkpoints": 10
+  },
+  "seeds": [
+    0,
+    1,
+    2
+  ],
+  "modes": [
+    "raw",
+    "centered",
+    "zscore",
+    "rank"
+  ],
+  "families": [
+    "isotonic",
+    "spline",
+    "binned"
+  ],
+  "inputs": {
+    "pool_scored": "data/dpo_candidate_pool/pool_scored.jsonl",
+    "multiseed_root": "results/actual_dpo/training_runs",
+    "existing_primary_checkpoints": "results/prompt_conditional_calibration/checkpoint_predictions.csv",
+    "existing_binned_checkpoints": "results/actual_dpo/calibration_models/binned/checkpoint_predictions.csv",
+    "existing_primary_metadata": "results/prompt_conditional_calibration/model_fit_metadata.csv",
+    "existing_binned_metadata": "results/actual_dpo/calibration_models/binned/model_fit_metadata.csv",
+    "canonical_checkpoints": "results/actual_dpo/three_seed_canonical/checkpoint_predictions.csv"
+  },
+  "input_sha256": {
+    "pool_scored": "1c6ba78bf5b0e4ddfc1c6b6cc6b4ba2aae51dcdcb3196ef47fba1f2b8ee55ab2",
+    "existing_primary_checkpoints": "04721b16b024aa349140f575112fb1a1dcac69cfb35128dfdff56821f66285ed",
+    "existing_binned_checkpoints": "58950e150a80a009320b7d9485da0550bf6ab9b7a0b60931bb1692b6974a551c",
+    "existing_primary_metadata": "e8ddd7c93ba2ec982b39c6c2688a6dbba05a9605c8e883d58e50fc2fdf1e0670",
+    "existing_binned_metadata": "2ef17cbaebc7c8dc65ab13fbf959c46455945eabcf6a1c405f4d62c127ac30df",
+    "canonical_checkpoints": "17421f79f5b06faba478a55e02f7758bf67fcbd36d6f8d23d1819a34f0d261f5",
+    "seed_0_per_prompt": "ff6152cabac2f5b5722f250f92db8ff78db90b1245cdafef6f35fa44ca28b75c",
+    "seed_1_per_prompt": "d2d02ebe1c249586e86447072c204b99c9852755b37b7b96263a082a481cfc67",
+    "seed_2_per_prompt": "3539808b82697d46f8a5d6f534a633e89a3b6ba212f685a00e5bbf6e71ddbe8e"
+  },
+  "code_sha256": {
+    "this_script": "150d336d49d26204742f5435d9cb57cb00a42b932adec1653f0837c2533f4bb8",
+    "primary_builder": "b453960892013ee56cb6bd89e4f64a418dd6837632787797381228a8d840df7d",
+    "binned_builder": "f825b1f3b19fb4af9100589f590e31f58442882ad9ad389e5e8a6238ceab00e9"
+  },
+  "integrity": {
+    "max_abs_direct_prediction_difference": 3.2612801348363973e-16,
+    "n_per_prompt_rows": 24000,
+    "n_checkpoint_rows": 120
+  }
+}

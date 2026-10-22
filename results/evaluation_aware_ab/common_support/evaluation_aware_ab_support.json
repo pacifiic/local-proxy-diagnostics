@@ -1,0 +1,13 @@
+{
+  "mode": "common_support",
+  "exclusions_csv": "results/direct_calibration_strict/main_protocol/calibration_only_skipped.csv",
+  "n_excluded_radius_cells": 11,
+  "excluded_cells_by_dataset": {
+    "SummEval-human_heldout": 11
+  },
+  "prediction_rows_before": 183989,
+  "prediction_rows_after": 183824,
+  "predictions_csv": "results/evaluation_aware_ab/non_wmt_canonical/direct_calibration_predictions.csv.gz",
+  "predictions_sha256": "f8ff427871183dd651b8b9ce02c50a303ad53252bc0c0ef38e07a91c734aabcf",
+  "support_exclusions_sha256": "830f48a9eacbbe3c0f6178052dfd23f129ecc2baecfcbb7e9aeee9f960ca358c"
+}

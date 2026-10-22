@@ -1,0 +1,4539 @@
+[
+  {
+    "name": "prepared input present: summeval_long.csv",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "prepared input present: openmeva_long.csv",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "prepared input present: wmt_mqm_long.csv",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "prepared input present: model_proxy_4o_aggregated.csv",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "corrected WMT pinned hash",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh raw WMT rebuild byte identity",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "no broken internal symlinks",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "missing-input guard: experiments/data_preparation/prepare_wmt_mqm_long.py",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "overwrite guard: experiments/data_preparation/prepare_wmt_mqm_long.py",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "path cardinality: exp27_human_baseline",
+    "passed": true,
+    "detail": 32
+  },
+  {
+    "name": "unique split keys: exp27_human_baseline",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh split has saved row: exp27_human_baseline/0/0",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_human_baseline/0/0/cal_b_theory",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_human_baseline/0/0/cal_b_fit",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_human_baseline/0/0/eval_b_theory",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_human_baseline/0/0/eval_b_fit",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_human_baseline/0/0/eval_headroom_fit",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_human_baseline/0/0/pred_theory_delta_0p05",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_human_baseline/0/0/abs_err_theory_0p05",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_human_baseline/0/0/abs_err_empfit_0p05",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_human_baseline/0/0/abs_err_aonly_0p05",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_human_baseline/0/0/abs_err_oracle_0p05",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_human_baseline/0/0/pred_anu_delta_0p1",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_human_baseline/0/0/pred_aonly_delta_0p1",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_human_baseline/0/0/actual_eval_delta_0p1",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_human_baseline/0/0/abs_err_theory_0p1",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_human_baseline/0/0/abs_err_anu_0p1",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_human_baseline/0/0/abs_err_empfit_0p1",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_human_baseline/0/0/abs_err_aonly_0p1",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_human_baseline/0/0/abs_err_zero_0p1",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_human_baseline/0/0/abs_err_oracle_0p1",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh split has saved row: exp27_human_baseline/0/1",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_human_baseline/0/1/cal_b_theory",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_human_baseline/0/1/cal_b_fit",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_human_baseline/0/1/eval_a_theory",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_human_baseline/0/1/eval_b_theory",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_human_baseline/0/1/eval_b_fit",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_human_baseline/0/1/pred_anu_delta_0p05",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_human_baseline/0/1/pred_empfit_delta_0p05",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_human_baseline/0/1/pred_aonly_delta_0p05",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_human_baseline/0/1/abs_err_theory_0p05",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_human_baseline/0/1/abs_err_anu_0p05",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_human_baseline/0/1/abs_err_empfit_0p05",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_human_baseline/0/1/abs_err_aonly_0p05",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_human_baseline/0/1/abs_err_oracle_0p05",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_human_baseline/0/1/pred_aonly_delta_0p1",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_human_baseline/0/1/actual_eval_delta_0p1",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_human_baseline/0/1/abs_err_theory_0p1",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_human_baseline/0/1/abs_err_anu_0p1",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_human_baseline/0/1/abs_err_empfit_0p1",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_human_baseline/0/1/abs_err_aonly_0p1",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_human_baseline/0/1/abs_err_zero_0p1",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_human_baseline/0/1/abs_err_oracle_0p1",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh split has saved row: exp27_human_baseline/0/49",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_human_baseline/0/49/cal_b_theory",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_human_baseline/0/49/cal_a_fit",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_human_baseline/0/49/cal_b_fit",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_human_baseline/0/49/eval_b_theory",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_human_baseline/0/49/eval_b_fit",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_human_baseline/0/49/cal_peak_d_theory",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_human_baseline/0/49/pred_theory_delta_0p05",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_human_baseline/0/49/pred_anu_delta_0p05",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_human_baseline/0/49/pred_empfit_delta_0p05",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_human_baseline/0/49/pred_oracle_delta_0p05",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_human_baseline/0/49/abs_err_theory_0p05",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_human_baseline/0/49/abs_err_anu_0p05",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_human_baseline/0/49/abs_err_empfit_0p05",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_human_baseline/0/49/abs_err_aonly_0p05",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_human_baseline/0/49/abs_err_oracle_0p05",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_human_baseline/0/49/pred_anu_delta_0p1",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_human_baseline/0/49/pred_oracle_delta_0p1",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_human_baseline/0/49/actual_eval_delta_0p1",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_human_baseline/0/49/abs_err_theory_0p1",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_human_baseline/0/49/abs_err_anu_0p1",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_human_baseline/0/49/abs_err_empfit_0p1",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_human_baseline/0/49/abs_err_aonly_0p1",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_human_baseline/0/49/abs_err_zero_0p1",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_human_baseline/0/49/abs_err_oracle_0p1",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh split has saved row: exp27_human_baseline/16/0",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_human_baseline/16/0/cal_headroom_theory",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_human_baseline/16/0/cal_peak_d_empfit",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_human_baseline/16/0/cal_headroom_empfit",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_human_baseline/16/0/pred_theory_delta_0p05",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_human_baseline/16/0/pred_aonly_delta_0p05",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_human_baseline/16/0/abs_err_theory_0p05",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_human_baseline/16/0/abs_err_empfit_0p05",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_human_baseline/16/0/abs_err_aonly_0p05",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_human_baseline/16/0/abs_err_oracle_0p05",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_human_baseline/16/0/pred_empfit_delta_0p1",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_human_baseline/16/0/actual_eval_delta_0p1",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_human_baseline/16/0/abs_err_theory_0p1",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_human_baseline/16/0/abs_err_empfit_0p1",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_human_baseline/16/0/abs_err_aonly_0p1",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_human_baseline/16/0/abs_err_zero_0p1",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_human_baseline/16/0/abs_err_oracle_0p1",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh split has saved row: exp27_human_baseline/16/1",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_human_baseline/16/1/eval_a_fit",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_human_baseline/16/1/cal_headroom_theory",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_human_baseline/16/1/cal_peak_d_empfit",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_human_baseline/16/1/cal_headroom_empfit",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_human_baseline/16/1/eval_peak_d_fit",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_human_baseline/16/1/eval_headroom_fit",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_human_baseline/16/1/pred_theory_delta_0p05",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_human_baseline/16/1/pred_anu_delta_0p05",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_human_baseline/16/1/pred_aonly_delta_0p05",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_human_baseline/16/1/pred_oracle_delta_0p05",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_human_baseline/16/1/abs_err_theory_0p05",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_human_baseline/16/1/abs_err_anu_0p05",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_human_baseline/16/1/abs_err_empfit_0p05",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_human_baseline/16/1/abs_err_aonly_0p05",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_human_baseline/16/1/abs_err_oracle_0p05",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_human_baseline/16/1/pred_theory_delta_0p1",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_human_baseline/16/1/pred_anu_delta_0p1",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_human_baseline/16/1/pred_empfit_delta_0p1",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_human_baseline/16/1/pred_oracle_delta_0p1",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_human_baseline/16/1/actual_eval_delta_0p1",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_human_baseline/16/1/abs_err_theory_0p1",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_human_baseline/16/1/abs_err_anu_0p1",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_human_baseline/16/1/abs_err_empfit_0p1",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_human_baseline/16/1/abs_err_aonly_0p1",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_human_baseline/16/1/abs_err_zero_0p1",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_human_baseline/16/1/abs_err_oracle_0p1",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh split has saved row: exp27_human_baseline/16/49",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_human_baseline/16/49/eval_r2",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_human_baseline/16/49/cal_headroom_theory",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_human_baseline/16/49/cal_peak_d_empfit",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_human_baseline/16/49/eval_peak_d_fit",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_human_baseline/16/49/eval_headroom_fit",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_human_baseline/16/49/pred_empfit_delta_0p05",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_human_baseline/16/49/pred_aonly_delta_0p05",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_human_baseline/16/49/pred_oracle_delta_0p05",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_human_baseline/16/49/abs_err_theory_0p05",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_human_baseline/16/49/abs_err_anu_0p05",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_human_baseline/16/49/abs_err_empfit_0p05",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_human_baseline/16/49/abs_err_aonly_0p05",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_human_baseline/16/49/abs_err_oracle_0p05",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_human_baseline/16/49/actual_eval_delta_0p1",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_human_baseline/16/49/abs_err_theory_0p1",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_human_baseline/16/49/abs_err_anu_0p1",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_human_baseline/16/49/abs_err_empfit_0p1",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_human_baseline/16/49/abs_err_zero_0p1",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_human_baseline/16/49/abs_err_oracle_0p1",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh split has saved row: exp27_human_baseline/31/0",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_human_baseline/31/0/cal_b_theory",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_human_baseline/31/0/eval_b_theory",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_human_baseline/31/0/eval_b_fit",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_human_baseline/31/0/eval_r2",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_human_baseline/31/0/cal_headroom_theory",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_human_baseline/31/0/pred_theory_delta_0p05",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_human_baseline/31/0/pred_anu_delta_0p05",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_human_baseline/31/0/pred_oracle_delta_0p05",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_human_baseline/31/0/actual_eval_delta_0p05",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_human_baseline/31/0/abs_err_theory_0p05",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_human_baseline/31/0/abs_err_anu_0p05",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_human_baseline/31/0/abs_err_empfit_0p05",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_human_baseline/31/0/abs_err_aonly_0p05",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_human_baseline/31/0/abs_err_zero_0p05",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_human_baseline/31/0/abs_err_oracle_0p05",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_human_baseline/31/0/pred_anu_delta_0p1",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_human_baseline/31/0/pred_empfit_delta_0p1",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_human_baseline/31/0/pred_aonly_delta_0p1",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_human_baseline/31/0/pred_oracle_delta_0p1",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_human_baseline/31/0/actual_eval_delta_0p1",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_human_baseline/31/0/abs_err_theory_0p1",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_human_baseline/31/0/abs_err_anu_0p1",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_human_baseline/31/0/abs_err_empfit_0p1",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_human_baseline/31/0/abs_err_aonly_0p1",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_human_baseline/31/0/abs_err_zero_0p1",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_human_baseline/31/0/abs_err_oracle_0p1",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh split has saved row: exp27_human_baseline/31/1",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_human_baseline/31/1/cal_b_theory",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_human_baseline/31/1/cal_b_fit",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_human_baseline/31/1/eval_b_theory",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_human_baseline/31/1/eval_b_fit",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_human_baseline/31/1/eval_r2",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_human_baseline/31/1/pred_theory_delta_0p05",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_human_baseline/31/1/pred_anu_delta_0p05",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_human_baseline/31/1/pred_empfit_delta_0p05",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_human_baseline/31/1/pred_aonly_delta_0p05",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_human_baseline/31/1/actual_eval_delta_0p05",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_human_baseline/31/1/abs_err_theory_0p05",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_human_baseline/31/1/abs_err_anu_0p05",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_human_baseline/31/1/abs_err_empfit_0p05",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_human_baseline/31/1/abs_err_aonly_0p05",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_human_baseline/31/1/abs_err_zero_0p05",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_human_baseline/31/1/abs_err_oracle_0p05",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_human_baseline/31/1/pred_theory_delta_0p1",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_human_baseline/31/1/pred_anu_delta_0p1",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_human_baseline/31/1/pred_aonly_delta_0p1",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_human_baseline/31/1/pred_oracle_delta_0p1",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_human_baseline/31/1/actual_eval_delta_0p1",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_human_baseline/31/1/abs_err_theory_0p1",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_human_baseline/31/1/abs_err_anu_0p1",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_human_baseline/31/1/abs_err_empfit_0p1",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_human_baseline/31/1/abs_err_aonly_0p1",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_human_baseline/31/1/abs_err_zero_0p1",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_human_baseline/31/1/abs_err_oracle_0p1",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh split has saved row: exp27_human_baseline/31/49",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_human_baseline/31/49/cal_b_theory",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_human_baseline/31/49/cal_b_fit",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_human_baseline/31/49/eval_b_fit",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_human_baseline/31/49/pred_theory_delta_0p05",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_human_baseline/31/49/pred_empfit_delta_0p05",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_human_baseline/31/49/pred_aonly_delta_0p05",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_human_baseline/31/49/actual_eval_delta_0p05",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_human_baseline/31/49/abs_err_theory_0p05",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_human_baseline/31/49/abs_err_anu_0p05",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_human_baseline/31/49/abs_err_empfit_0p05",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_human_baseline/31/49/abs_err_aonly_0p05",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_human_baseline/31/49/abs_err_zero_0p05",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_human_baseline/31/49/abs_err_oracle_0p05",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_human_baseline/31/49/pred_theory_delta_0p1",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_human_baseline/31/49/pred_anu_delta_0p1",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_human_baseline/31/49/pred_aonly_delta_0p1",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_human_baseline/31/49/pred_oracle_delta_0p1",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_human_baseline/31/49/abs_err_theory_0p1",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_human_baseline/31/49/abs_err_anu_0p1",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_human_baseline/31/49/abs_err_empfit_0p1",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_human_baseline/31/49/abs_err_aonly_0p1",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_human_baseline/31/49/abs_err_oracle_0p1",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh endpoint recomputation: exp27_human_baseline",
+    "passed": true,
+    "detail": {
+      "rows": 9,
+      "max_abs_difference": 2.842170943040401e-14
+    }
+  },
+  {
+    "name": "raw rows -> overall MAE: exp27_human_baseline/theory",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "raw rows -> overall MAE: exp27_human_baseline/aonly",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "raw rows -> overall MAE: exp27_human_baseline/anu",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "raw rows -> overall MAE: exp27_human_baseline/zero",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "path cardinality: exp27_model_proxy_4o",
+    "passed": true,
+    "detail": 4
+  },
+  {
+    "name": "unique split keys: exp27_model_proxy_4o",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh split has saved row: exp27_model_proxy_4o/0/0",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_model_proxy_4o/0/0/cal_a_exact",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_model_proxy_4o/0/0/cal_b_theory",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_model_proxy_4o/0/0/cal_b_fit",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_model_proxy_4o/0/0/eval_b_theory",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_model_proxy_4o/0/0/eval_r2",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_model_proxy_4o/0/0/cal_spearman_r_j",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_model_proxy_4o/0/0/eval_spearman_r_j",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_model_proxy_4o/0/0/pred_theory_delta_0p05",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_model_proxy_4o/0/0/pred_anu_delta_0p05",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_model_proxy_4o/0/0/pred_empfit_delta_0p05",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_model_proxy_4o/0/0/pred_aonly_delta_0p05",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_model_proxy_4o/0/0/pred_oracle_delta_0p05",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_model_proxy_4o/0/0/actual_eval_delta_0p05",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_model_proxy_4o/0/0/abs_err_theory_0p05",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_model_proxy_4o/0/0/abs_err_anu_0p05",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_model_proxy_4o/0/0/abs_err_empfit_0p05",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_model_proxy_4o/0/0/abs_err_aonly_0p05",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_model_proxy_4o/0/0/abs_err_zero_0p05",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_model_proxy_4o/0/0/abs_err_oracle_0p05",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_model_proxy_4o/0/0/pred_theory_delta_0p1",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_model_proxy_4o/0/0/pred_empfit_delta_0p1",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_model_proxy_4o/0/0/pred_aonly_delta_0p1",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_model_proxy_4o/0/0/pred_oracle_delta_0p1",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_model_proxy_4o/0/0/actual_eval_delta_0p1",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_model_proxy_4o/0/0/abs_err_theory_0p1",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_model_proxy_4o/0/0/abs_err_anu_0p1",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_model_proxy_4o/0/0/abs_err_empfit_0p1",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_model_proxy_4o/0/0/abs_err_aonly_0p1",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_model_proxy_4o/0/0/abs_err_zero_0p1",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_model_proxy_4o/0/0/abs_err_oracle_0p1",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh split has saved row: exp27_model_proxy_4o/0/1",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_model_proxy_4o/0/1/cal_a_exact",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_model_proxy_4o/0/1/cal_b_theory",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_model_proxy_4o/0/1/cal_b_fit",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_model_proxy_4o/0/1/eval_a_theory",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_model_proxy_4o/0/1/eval_b_theory",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_model_proxy_4o/0/1/eval_a_fit",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_model_proxy_4o/0/1/eval_b_fit",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_model_proxy_4o/0/1/eval_r2",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_model_proxy_4o/0/1/cal_headroom_theory",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_model_proxy_4o/0/1/pred_theory_delta_0p05",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_model_proxy_4o/0/1/pred_anu_delta_0p05",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_model_proxy_4o/0/1/pred_empfit_delta_0p05",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_model_proxy_4o/0/1/pred_aonly_delta_0p05",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_model_proxy_4o/0/1/pred_oracle_delta_0p05",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_model_proxy_4o/0/1/actual_eval_delta_0p05",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_model_proxy_4o/0/1/abs_err_theory_0p05",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_model_proxy_4o/0/1/abs_err_anu_0p05",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_model_proxy_4o/0/1/abs_err_empfit_0p05",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_model_proxy_4o/0/1/abs_err_aonly_0p05",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_model_proxy_4o/0/1/abs_err_zero_0p05",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_model_proxy_4o/0/1/pred_theory_delta_0p1",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_model_proxy_4o/0/1/pred_anu_delta_0p1",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_model_proxy_4o/0/1/pred_empfit_delta_0p1",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_model_proxy_4o/0/1/pred_aonly_delta_0p1",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_model_proxy_4o/0/1/pred_oracle_delta_0p1",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_model_proxy_4o/0/1/actual_eval_delta_0p1",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_model_proxy_4o/0/1/abs_err_theory_0p1",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_model_proxy_4o/0/1/abs_err_anu_0p1",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_model_proxy_4o/0/1/abs_err_empfit_0p1",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_model_proxy_4o/0/1/abs_err_aonly_0p1",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_model_proxy_4o/0/1/abs_err_zero_0p1",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_model_proxy_4o/0/1/abs_err_oracle_0p1",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh split has saved row: exp27_model_proxy_4o/0/49",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_model_proxy_4o/0/49/cal_b_theory",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_model_proxy_4o/0/49/cal_b_fit",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_model_proxy_4o/0/49/eval_b_theory",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_model_proxy_4o/0/49/eval_b_fit",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_model_proxy_4o/0/49/eval_r2",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_model_proxy_4o/0/49/cal_headroom_theory",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_model_proxy_4o/0/49/cal_headroom_empfit",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_model_proxy_4o/0/49/pred_theory_delta_0p05",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_model_proxy_4o/0/49/pred_anu_delta_0p05",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_model_proxy_4o/0/49/pred_empfit_delta_0p05",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_model_proxy_4o/0/49/pred_aonly_delta_0p05",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_model_proxy_4o/0/49/pred_oracle_delta_0p05",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_model_proxy_4o/0/49/abs_err_theory_0p05",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_model_proxy_4o/0/49/abs_err_anu_0p05",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_model_proxy_4o/0/49/abs_err_empfit_0p05",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_model_proxy_4o/0/49/abs_err_aonly_0p05",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_model_proxy_4o/0/49/abs_err_oracle_0p05",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_model_proxy_4o/0/49/pred_empfit_delta_0p1",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_model_proxy_4o/0/49/pred_aonly_delta_0p1",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_model_proxy_4o/0/49/pred_oracle_delta_0p1",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_model_proxy_4o/0/49/actual_eval_delta_0p1",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_model_proxy_4o/0/49/abs_err_theory_0p1",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_model_proxy_4o/0/49/abs_err_anu_0p1",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_model_proxy_4o/0/49/abs_err_empfit_0p1",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_model_proxy_4o/0/49/abs_err_aonly_0p1",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_model_proxy_4o/0/49/abs_err_zero_0p1",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_model_proxy_4o/0/49/abs_err_oracle_0p1",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh split has saved row: exp27_model_proxy_4o/2/0",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_model_proxy_4o/2/0/cal_a_exact",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_model_proxy_4o/2/0/cal_b_theory",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_model_proxy_4o/2/0/cal_b_fit",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_model_proxy_4o/2/0/eval_a_theory",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_model_proxy_4o/2/0/eval_a_fit",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_model_proxy_4o/2/0/eval_b_fit",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_model_proxy_4o/2/0/eval_r2",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_model_proxy_4o/2/0/cal_spearman_r_j",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_model_proxy_4o/2/0/cal_peak_d_theory",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_model_proxy_4o/2/0/cal_headroom_theory",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_model_proxy_4o/2/0/cal_headroom_empfit",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_model_proxy_4o/2/0/eval_headroom_fit",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_model_proxy_4o/2/0/pred_theory_delta_0p05",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_model_proxy_4o/2/0/pred_anu_delta_0p05",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_model_proxy_4o/2/0/pred_empfit_delta_0p05",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_model_proxy_4o/2/0/pred_aonly_delta_0p05",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_model_proxy_4o/2/0/pred_oracle_delta_0p05",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_model_proxy_4o/2/0/actual_eval_delta_0p05",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_model_proxy_4o/2/0/abs_err_theory_0p05",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_model_proxy_4o/2/0/abs_err_anu_0p05",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_model_proxy_4o/2/0/abs_err_empfit_0p05",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_model_proxy_4o/2/0/abs_err_aonly_0p05",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_model_proxy_4o/2/0/abs_err_zero_0p05",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_model_proxy_4o/2/0/abs_err_oracle_0p05",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_model_proxy_4o/2/0/pred_theory_delta_0p1",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_model_proxy_4o/2/0/pred_anu_delta_0p1",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_model_proxy_4o/2/0/pred_empfit_delta_0p1",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_model_proxy_4o/2/0/pred_aonly_delta_0p1",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_model_proxy_4o/2/0/pred_oracle_delta_0p1",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_model_proxy_4o/2/0/actual_eval_delta_0p1",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_model_proxy_4o/2/0/abs_err_theory_0p1",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_model_proxy_4o/2/0/abs_err_anu_0p1",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_model_proxy_4o/2/0/abs_err_empfit_0p1",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_model_proxy_4o/2/0/abs_err_aonly_0p1",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_model_proxy_4o/2/0/abs_err_zero_0p1",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_model_proxy_4o/2/0/abs_err_oracle_0p1",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh split has saved row: exp27_model_proxy_4o/2/1",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_model_proxy_4o/2/1/cal_a_exact",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_model_proxy_4o/2/1/cal_b_theory",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_model_proxy_4o/2/1/cal_b_fit",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_model_proxy_4o/2/1/eval_a_theory",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_model_proxy_4o/2/1/eval_a_fit",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_model_proxy_4o/2/1/eval_b_fit",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_model_proxy_4o/2/1/eval_r2",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_model_proxy_4o/2/1/cal_spearman_r_j",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_model_proxy_4o/2/1/eval_spearman_r_j",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_model_proxy_4o/2/1/eval_headroom_fit",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_model_proxy_4o/2/1/pred_theory_delta_0p05",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_model_proxy_4o/2/1/pred_anu_delta_0p05",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_model_proxy_4o/2/1/pred_empfit_delta_0p05",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_model_proxy_4o/2/1/pred_aonly_delta_0p05",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_model_proxy_4o/2/1/pred_oracle_delta_0p05",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_model_proxy_4o/2/1/actual_eval_delta_0p05",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_model_proxy_4o/2/1/abs_err_theory_0p05",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_model_proxy_4o/2/1/abs_err_empfit_0p05",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_model_proxy_4o/2/1/abs_err_aonly_0p05",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_model_proxy_4o/2/1/abs_err_zero_0p05",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_model_proxy_4o/2/1/abs_err_oracle_0p05",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_model_proxy_4o/2/1/pred_theory_delta_0p1",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_model_proxy_4o/2/1/pred_empfit_delta_0p1",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_model_proxy_4o/2/1/pred_aonly_delta_0p1",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_model_proxy_4o/2/1/pred_oracle_delta_0p1",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_model_proxy_4o/2/1/actual_eval_delta_0p1",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_model_proxy_4o/2/1/abs_err_theory_0p1",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_model_proxy_4o/2/1/abs_err_anu_0p1",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_model_proxy_4o/2/1/abs_err_empfit_0p1",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_model_proxy_4o/2/1/abs_err_aonly_0p1",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_model_proxy_4o/2/1/abs_err_zero_0p1",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_model_proxy_4o/2/1/abs_err_oracle_0p1",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh split has saved row: exp27_model_proxy_4o/2/49",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_model_proxy_4o/2/49/cal_a_exact",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_model_proxy_4o/2/49/cal_b_theory",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_model_proxy_4o/2/49/cal_b_fit",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_model_proxy_4o/2/49/eval_a_theory",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_model_proxy_4o/2/49/eval_b_theory",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_model_proxy_4o/2/49/eval_a_fit",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_model_proxy_4o/2/49/cal_spearman_r_j",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_model_proxy_4o/2/49/cal_peak_d_theory",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_model_proxy_4o/2/49/cal_headroom_theory",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_model_proxy_4o/2/49/cal_peak_d_empfit",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_model_proxy_4o/2/49/cal_headroom_empfit",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_model_proxy_4o/2/49/eval_headroom_fit",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_model_proxy_4o/2/49/pred_theory_delta_0p05",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_model_proxy_4o/2/49/pred_anu_delta_0p05",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_model_proxy_4o/2/49/pred_empfit_delta_0p05",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_model_proxy_4o/2/49/pred_aonly_delta_0p05",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_model_proxy_4o/2/49/pred_oracle_delta_0p05",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_model_proxy_4o/2/49/actual_eval_delta_0p05",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_model_proxy_4o/2/49/abs_err_theory_0p05",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_model_proxy_4o/2/49/abs_err_anu_0p05",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_model_proxy_4o/2/49/abs_err_empfit_0p05",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_model_proxy_4o/2/49/abs_err_aonly_0p05",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_model_proxy_4o/2/49/abs_err_zero_0p05",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_model_proxy_4o/2/49/abs_err_oracle_0p05",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_model_proxy_4o/2/49/pred_theory_delta_0p1",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_model_proxy_4o/2/49/pred_anu_delta_0p1",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_model_proxy_4o/2/49/pred_empfit_delta_0p1",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_model_proxy_4o/2/49/pred_aonly_delta_0p1",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_model_proxy_4o/2/49/pred_oracle_delta_0p1",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_model_proxy_4o/2/49/actual_eval_delta_0p1",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_model_proxy_4o/2/49/abs_err_anu_0p1",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_model_proxy_4o/2/49/abs_err_empfit_0p1",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_model_proxy_4o/2/49/abs_err_aonly_0p1",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_model_proxy_4o/2/49/abs_err_zero_0p1",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_model_proxy_4o/2/49/abs_err_oracle_0p1",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh split has saved row: exp27_model_proxy_4o/3/0",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_model_proxy_4o/3/0/cal_b_theory",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_model_proxy_4o/3/0/cal_a_fit",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_model_proxy_4o/3/0/cal_b_fit",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_model_proxy_4o/3/0/eval_a_theory",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_model_proxy_4o/3/0/eval_a_fit",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_model_proxy_4o/3/0/eval_b_fit",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_model_proxy_4o/3/0/eval_r2",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_model_proxy_4o/3/0/cal_headroom_theory",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_model_proxy_4o/3/0/cal_headroom_empfit",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_model_proxy_4o/3/0/eval_headroom_fit",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_model_proxy_4o/3/0/pred_anu_delta_0p05",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_model_proxy_4o/3/0/pred_empfit_delta_0p05",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_model_proxy_4o/3/0/pred_oracle_delta_0p05",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_model_proxy_4o/3/0/actual_eval_delta_0p05",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_model_proxy_4o/3/0/abs_err_theory_0p05",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_model_proxy_4o/3/0/abs_err_anu_0p05",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_model_proxy_4o/3/0/abs_err_empfit_0p05",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_model_proxy_4o/3/0/abs_err_aonly_0p05",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_model_proxy_4o/3/0/abs_err_zero_0p05",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_model_proxy_4o/3/0/pred_theory_delta_0p1",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_model_proxy_4o/3/0/pred_empfit_delta_0p1",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_model_proxy_4o/3/0/pred_aonly_delta_0p1",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_model_proxy_4o/3/0/pred_oracle_delta_0p1",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_model_proxy_4o/3/0/actual_eval_delta_0p1",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_model_proxy_4o/3/0/abs_err_theory_0p1",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_model_proxy_4o/3/0/abs_err_anu_0p1",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_model_proxy_4o/3/0/abs_err_empfit_0p1",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_model_proxy_4o/3/0/abs_err_aonly_0p1",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_model_proxy_4o/3/0/abs_err_zero_0p1",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_model_proxy_4o/3/0/abs_err_oracle_0p1",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh split has saved row: exp27_model_proxy_4o/3/1",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_model_proxy_4o/3/1/cal_b_theory",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_model_proxy_4o/3/1/cal_b_fit",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_model_proxy_4o/3/1/eval_a_theory",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_model_proxy_4o/3/1/eval_b_theory",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_model_proxy_4o/3/1/eval_a_fit",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_model_proxy_4o/3/1/eval_b_fit",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_model_proxy_4o/3/1/eval_r2",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_model_proxy_4o/3/1/cal_headroom_theory",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_model_proxy_4o/3/1/cal_headroom_empfit",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_model_proxy_4o/3/1/eval_peak_d_fit",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_model_proxy_4o/3/1/pred_theory_delta_0p05",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_model_proxy_4o/3/1/pred_anu_delta_0p05",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_model_proxy_4o/3/1/pred_aonly_delta_0p05",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_model_proxy_4o/3/1/pred_oracle_delta_0p05",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_model_proxy_4o/3/1/actual_eval_delta_0p05",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_model_proxy_4o/3/1/abs_err_theory_0p05",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_model_proxy_4o/3/1/abs_err_anu_0p05",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_model_proxy_4o/3/1/abs_err_empfit_0p05",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_model_proxy_4o/3/1/abs_err_aonly_0p05",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_model_proxy_4o/3/1/abs_err_zero_0p05",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_model_proxy_4o/3/1/pred_oracle_delta_0p1",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_model_proxy_4o/3/1/actual_eval_delta_0p1",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_model_proxy_4o/3/1/abs_err_theory_0p1",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_model_proxy_4o/3/1/abs_err_anu_0p1",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_model_proxy_4o/3/1/abs_err_empfit_0p1",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_model_proxy_4o/3/1/abs_err_aonly_0p1",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_model_proxy_4o/3/1/abs_err_zero_0p1",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_model_proxy_4o/3/1/abs_err_oracle_0p1",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh split has saved row: exp27_model_proxy_4o/3/49",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_model_proxy_4o/3/49/cal_a_exact",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_model_proxy_4o/3/49/cal_b_theory",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_model_proxy_4o/3/49/cal_b_fit",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_model_proxy_4o/3/49/eval_a_theory",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_model_proxy_4o/3/49/eval_b_theory",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_model_proxy_4o/3/49/eval_a_fit",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_model_proxy_4o/3/49/eval_b_fit",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_model_proxy_4o/3/49/eval_r2",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_model_proxy_4o/3/49/eval_spearman_r_j",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_model_proxy_4o/3/49/cal_headroom_theory",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_model_proxy_4o/3/49/cal_headroom_empfit",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_model_proxy_4o/3/49/eval_headroom_fit",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_model_proxy_4o/3/49/pred_theory_delta_0p05",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_model_proxy_4o/3/49/pred_empfit_delta_0p05",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_model_proxy_4o/3/49/pred_aonly_delta_0p05",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_model_proxy_4o/3/49/pred_oracle_delta_0p05",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_model_proxy_4o/3/49/actual_eval_delta_0p05",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_model_proxy_4o/3/49/abs_err_theory_0p05",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_model_proxy_4o/3/49/abs_err_anu_0p05",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_model_proxy_4o/3/49/abs_err_empfit_0p05",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_model_proxy_4o/3/49/abs_err_aonly_0p05",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_model_proxy_4o/3/49/abs_err_zero_0p05",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_model_proxy_4o/3/49/abs_err_oracle_0p05",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_model_proxy_4o/3/49/pred_theory_delta_0p1",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_model_proxy_4o/3/49/pred_anu_delta_0p1",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_model_proxy_4o/3/49/pred_empfit_delta_0p1",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_model_proxy_4o/3/49/pred_aonly_delta_0p1",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_model_proxy_4o/3/49/pred_oracle_delta_0p1",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_model_proxy_4o/3/49/actual_eval_delta_0p1",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_model_proxy_4o/3/49/abs_err_theory_0p1",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_model_proxy_4o/3/49/abs_err_empfit_0p1",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_model_proxy_4o/3/49/abs_err_aonly_0p1",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_model_proxy_4o/3/49/abs_err_zero_0p1",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_model_proxy_4o/3/49/abs_err_oracle_0p1",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh endpoint recomputation: exp27_model_proxy_4o",
+    "passed": true,
+    "detail": {
+      "rows": 9,
+      "max_abs_difference": 4.440892098500626e-16
+    }
+  },
+  {
+    "name": "raw rows -> overall MAE: exp27_model_proxy_4o/theory",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "raw rows -> overall MAE: exp27_model_proxy_4o/aonly",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "raw rows -> overall MAE: exp27_model_proxy_4o/anu",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "raw rows -> overall MAE: exp27_model_proxy_4o/zero",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "path cardinality: exp27_wmt_mqm",
+    "passed": true,
+    "detail": 141
+  },
+  {
+    "name": "unique split keys: exp27_wmt_mqm",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh split has saved row: exp27_wmt_mqm/0/0",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_wmt_mqm/0/0/cal_a_exact",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_wmt_mqm/0/0/cal_b_theory",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_wmt_mqm/0/0/eval_a_theory",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_wmt_mqm/0/0/eval_b_theory",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_wmt_mqm/0/0/cal_headroom_empfit",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_wmt_mqm/0/0/pred_theory_delta_0p05",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_wmt_mqm/0/0/pred_aonly_delta_0p05",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_wmt_mqm/0/0/pred_oracle_delta_0p05",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_wmt_mqm/0/0/actual_eval_delta_0p05",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_wmt_mqm/0/0/abs_err_theory_0p05",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_wmt_mqm/0/0/abs_err_anu_0p05",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_wmt_mqm/0/0/abs_err_empfit_0p05",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_wmt_mqm/0/0/abs_err_zero_0p05",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_wmt_mqm/0/0/abs_err_oracle_0p05",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_wmt_mqm/0/0/abs_err_theory_0p1",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_wmt_mqm/0/0/abs_err_anu_0p1",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_wmt_mqm/0/0/abs_err_empfit_0p1",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_wmt_mqm/0/0/abs_err_aonly_0p1",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_wmt_mqm/0/0/abs_err_oracle_0p1",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh split has saved row: exp27_wmt_mqm/0/1",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_wmt_mqm/0/1/cal_b_theory",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_wmt_mqm/0/1/eval_b_theory",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_wmt_mqm/0/1/eval_b_fit",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_wmt_mqm/0/1/eval_r2",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_wmt_mqm/0/1/pred_anu_delta_0p05",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_wmt_mqm/0/1/pred_empfit_delta_0p05",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_wmt_mqm/0/1/pred_aonly_delta_0p05",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_wmt_mqm/0/1/pred_oracle_delta_0p05",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_wmt_mqm/0/1/abs_err_theory_0p05",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_wmt_mqm/0/1/abs_err_anu_0p05",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_wmt_mqm/0/1/abs_err_empfit_0p05",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_wmt_mqm/0/1/abs_err_aonly_0p05",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_wmt_mqm/0/1/abs_err_oracle_0p05",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_wmt_mqm/0/1/abs_err_theory_0p1",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_wmt_mqm/0/1/abs_err_anu_0p1",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_wmt_mqm/0/1/abs_err_empfit_0p1",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_wmt_mqm/0/1/abs_err_aonly_0p1",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh split has saved row: exp27_wmt_mqm/0/49",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_wmt_mqm/0/49/cal_a_exact",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_wmt_mqm/0/49/cal_b_theory",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_wmt_mqm/0/49/cal_b_fit",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_wmt_mqm/0/49/eval_a_fit",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_wmt_mqm/0/49/eval_headroom_fit",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_wmt_mqm/0/49/pred_empfit_delta_0p05",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_wmt_mqm/0/49/actual_eval_delta_0p05",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_wmt_mqm/0/49/abs_err_theory_0p05",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_wmt_mqm/0/49/abs_err_anu_0p05",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_wmt_mqm/0/49/abs_err_empfit_0p05",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_wmt_mqm/0/49/abs_err_aonly_0p05",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_wmt_mqm/0/49/abs_err_zero_0p05",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_wmt_mqm/0/49/abs_err_oracle_0p05",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_wmt_mqm/0/49/abs_err_theory_0p1",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_wmt_mqm/0/49/abs_err_empfit_0p1",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_wmt_mqm/0/49/abs_err_aonly_0p1",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_wmt_mqm/0/49/abs_err_oracle_0p1",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh split has saved row: exp27_wmt_mqm/70/0",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_wmt_mqm/70/0/cal_b_theory",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_wmt_mqm/70/0/cal_peak_d_empfit",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_wmt_mqm/70/0/eval_headroom_fit",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_wmt_mqm/70/0/pred_aonly_delta_0p05",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_wmt_mqm/70/0/pred_oracle_delta_0p05",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_wmt_mqm/70/0/actual_eval_delta_0p05",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_wmt_mqm/70/0/abs_err_theory_0p05",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_wmt_mqm/70/0/abs_err_anu_0p05",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_wmt_mqm/70/0/abs_err_aonly_0p05",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_wmt_mqm/70/0/abs_err_zero_0p05",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_wmt_mqm/70/0/abs_err_oracle_0p05",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_wmt_mqm/70/0/pred_anu_delta_0p1",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_wmt_mqm/70/0/abs_err_theory_0p1",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_wmt_mqm/70/0/abs_err_empfit_0p1",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_wmt_mqm/70/0/abs_err_aonly_0p1",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_wmt_mqm/70/0/abs_err_oracle_0p1",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh split has saved row: exp27_wmt_mqm/70/1",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_wmt_mqm/70/1/pred_oracle_delta_0p05",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_wmt_mqm/70/1/actual_eval_delta_0p05",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_wmt_mqm/70/1/abs_err_theory_0p05",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_wmt_mqm/70/1/abs_err_empfit_0p05",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_wmt_mqm/70/1/abs_err_aonly_0p05",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_wmt_mqm/70/1/abs_err_zero_0p05",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_wmt_mqm/70/1/abs_err_oracle_0p05",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_wmt_mqm/70/1/actual_eval_delta_0p1",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_wmt_mqm/70/1/abs_err_theory_0p1",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_wmt_mqm/70/1/abs_err_anu_0p1",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_wmt_mqm/70/1/abs_err_empfit_0p1",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_wmt_mqm/70/1/abs_err_aonly_0p1",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_wmt_mqm/70/1/abs_err_zero_0p1",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_wmt_mqm/70/1/abs_err_oracle_0p1",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh split has saved row: exp27_wmt_mqm/70/49",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_wmt_mqm/70/49/eval_b_theory",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_wmt_mqm/70/49/eval_r2",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_wmt_mqm/70/49/cal_peak_d_empfit",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_wmt_mqm/70/49/pred_theory_delta_0p05",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_wmt_mqm/70/49/pred_oracle_delta_0p05",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_wmt_mqm/70/49/abs_err_theory_0p05",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_wmt_mqm/70/49/abs_err_empfit_0p05",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_wmt_mqm/70/49/abs_err_aonly_0p05",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_wmt_mqm/70/49/abs_err_oracle_0p05",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_wmt_mqm/70/49/pred_theory_delta_0p1",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_wmt_mqm/70/49/actual_eval_delta_0p1",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_wmt_mqm/70/49/abs_err_theory_0p1",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_wmt_mqm/70/49/abs_err_empfit_0p1",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_wmt_mqm/70/49/abs_err_aonly_0p1",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_wmt_mqm/70/49/abs_err_zero_0p1",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_wmt_mqm/70/49/abs_err_oracle_0p1",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh split has saved row: exp27_wmt_mqm/140/0",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_wmt_mqm/140/0/cal_a_nu",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_wmt_mqm/140/0/cal_b_fit",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_wmt_mqm/140/0/eval_a_theory",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_wmt_mqm/140/0/eval_r2",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_wmt_mqm/140/0/eval_peak_d_fit",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_wmt_mqm/140/0/abs_err_theory_0p05",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_wmt_mqm/140/0/abs_err_anu_0p05",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_wmt_mqm/140/0/abs_err_empfit_0p05",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_wmt_mqm/140/0/abs_err_aonly_0p05",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_wmt_mqm/140/0/abs_err_oracle_0p05",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_wmt_mqm/140/0/pred_anu_delta_0p1",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_wmt_mqm/140/0/abs_err_theory_0p1",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_wmt_mqm/140/0/abs_err_anu_0p1",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_wmt_mqm/140/0/abs_err_empfit_0p1",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh split has saved row: exp27_wmt_mqm/140/1",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_wmt_mqm/140/1/cal_a_exact",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_wmt_mqm/140/1/eval_b_theory",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_wmt_mqm/140/1/eval_a_fit",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_wmt_mqm/140/1/cal_peak_d_theory",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_wmt_mqm/140/1/cal_headroom_empfit",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_wmt_mqm/140/1/abs_err_theory_0p05",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_wmt_mqm/140/1/abs_err_anu_0p05",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_wmt_mqm/140/1/abs_err_empfit_0p05",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_wmt_mqm/140/1/abs_err_aonly_0p05",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_wmt_mqm/140/1/abs_err_oracle_0p05",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_wmt_mqm/140/1/pred_anu_delta_0p1",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_wmt_mqm/140/1/abs_err_empfit_0p1",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_wmt_mqm/140/1/abs_err_aonly_0p1",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_wmt_mqm/140/1/abs_err_oracle_0p1",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh split has saved row: exp27_wmt_mqm/140/49",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_wmt_mqm/140/49/cal_a_nu",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_wmt_mqm/140/49/eval_a_fit",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_wmt_mqm/140/49/cal_headroom_theory",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_wmt_mqm/140/49/eval_headroom_fit",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_wmt_mqm/140/49/abs_err_theory_0p05",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_wmt_mqm/140/49/abs_err_anu_0p05",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_wmt_mqm/140/49/abs_err_empfit_0p05",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_wmt_mqm/140/49/abs_err_aonly_0p05",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_wmt_mqm/140/49/abs_err_oracle_0p05",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_wmt_mqm/140/49/abs_err_theory_0p1",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_wmt_mqm/140/49/abs_err_empfit_0p1",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_wmt_mqm/140/49/abs_err_oracle_0p1",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh endpoint recomputation: exp27_wmt_mqm",
+    "passed": true,
+    "detail": {
+      "rows": 9,
+      "max_abs_difference": 4.440892098500626e-16
+    }
+  },
+  {
+    "name": "raw rows -> overall MAE: exp27_wmt_mqm/theory",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "raw rows -> overall MAE: exp27_wmt_mqm/aonly",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "raw rows -> overall MAE: exp27_wmt_mqm/anu",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "raw rows -> overall MAE: exp27_wmt_mqm/zero",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "path cardinality: exp27_openmeva",
+    "passed": true,
+    "detail": 10
+  },
+  {
+    "name": "unique split keys: exp27_openmeva",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh split has saved row: exp27_openmeva/0/0",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_openmeva/0/0/cal_b_theory",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_openmeva/0/0/eval_b_theory",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_openmeva/0/0/eval_r2",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_openmeva/0/0/cal_spearman_r_j",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_openmeva/0/0/eval_spearman_r_j",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_openmeva/0/0/pred_theory_delta_0p05",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_openmeva/0/0/pred_anu_delta_0p05",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_openmeva/0/0/actual_eval_delta_0p05",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_openmeva/0/0/abs_err_theory_0p05",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_openmeva/0/0/abs_err_anu_0p05",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_openmeva/0/0/abs_err_empfit_0p05",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_openmeva/0/0/abs_err_aonly_0p05",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_openmeva/0/0/abs_err_zero_0p05",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_openmeva/0/0/abs_err_oracle_0p05",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_openmeva/0/0/pred_anu_delta_0p1",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_openmeva/0/0/abs_err_theory_0p1",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_openmeva/0/0/abs_err_anu_0p1",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_openmeva/0/0/abs_err_aonly_0p1",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_openmeva/0/0/abs_err_oracle_0p1",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh split has saved row: exp27_openmeva/0/1",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_openmeva/0/1/cal_b_theory",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_openmeva/0/1/cal_a_fit",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_openmeva/0/1/cal_b_fit",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_openmeva/0/1/eval_b_theory",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_openmeva/0/1/eval_a_fit",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_openmeva/0/1/eval_b_fit",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_openmeva/0/1/eval_r2",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_openmeva/0/1/cal_spearman_r_j",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_openmeva/0/1/pred_theory_delta_0p05",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_openmeva/0/1/pred_empfit_delta_0p05",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_openmeva/0/1/actual_eval_delta_0p05",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_openmeva/0/1/abs_err_theory_0p05",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_openmeva/0/1/abs_err_anu_0p05",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_openmeva/0/1/abs_err_empfit_0p05",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_openmeva/0/1/abs_err_aonly_0p05",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_openmeva/0/1/abs_err_zero_0p05",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_openmeva/0/1/abs_err_oracle_0p05",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_openmeva/0/1/pred_theory_delta_0p1",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_openmeva/0/1/pred_oracle_delta_0p1",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_openmeva/0/1/actual_eval_delta_0p1",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_openmeva/0/1/abs_err_theory_0p1",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_openmeva/0/1/abs_err_anu_0p1",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_openmeva/0/1/abs_err_empfit_0p1",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_openmeva/0/1/abs_err_aonly_0p1",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_openmeva/0/1/abs_err_zero_0p1",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_openmeva/0/1/abs_err_oracle_0p1",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh split has saved row: exp27_openmeva/0/49",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_openmeva/0/49/cal_b_fit",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_openmeva/0/49/eval_b_fit",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_openmeva/0/49/eval_spearman_r_j",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_openmeva/0/49/pred_theory_delta_0p05",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_openmeva/0/49/pred_anu_delta_0p05",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_openmeva/0/49/pred_empfit_delta_0p05",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_openmeva/0/49/pred_aonly_delta_0p05",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_openmeva/0/49/abs_err_theory_0p05",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_openmeva/0/49/abs_err_anu_0p05",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_openmeva/0/49/abs_err_empfit_0p05",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_openmeva/0/49/abs_err_oracle_0p05",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_openmeva/0/49/pred_theory_delta_0p1",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_openmeva/0/49/pred_anu_delta_0p1",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_openmeva/0/49/pred_empfit_delta_0p1",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_openmeva/0/49/abs_err_theory_0p1",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_openmeva/0/49/abs_err_anu_0p1",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_openmeva/0/49/abs_err_empfit_0p1",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_openmeva/0/49/abs_err_oracle_0p1",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh split has saved row: exp27_openmeva/5/0",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_openmeva/5/0/cal_b_theory",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_openmeva/5/0/cal_b_fit",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_openmeva/5/0/eval_b_theory",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_openmeva/5/0/eval_b_fit",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_openmeva/5/0/eval_r2",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_openmeva/5/0/pred_anu_delta_0p05",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_openmeva/5/0/pred_empfit_delta_0p05",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_openmeva/5/0/pred_aonly_delta_0p05",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_openmeva/5/0/actual_eval_delta_0p05",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_openmeva/5/0/abs_err_theory_0p05",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_openmeva/5/0/abs_err_anu_0p05",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_openmeva/5/0/abs_err_empfit_0p05",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_openmeva/5/0/abs_err_zero_0p05",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_openmeva/5/0/abs_err_oracle_0p05",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_openmeva/5/0/pred_theory_delta_0p1",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_openmeva/5/0/pred_aonly_delta_0p1",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_openmeva/5/0/actual_eval_delta_0p1",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_openmeva/5/0/abs_err_theory_0p1",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_openmeva/5/0/abs_err_anu_0p1",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_openmeva/5/0/abs_err_empfit_0p1",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_openmeva/5/0/abs_err_aonly_0p1",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_openmeva/5/0/abs_err_zero_0p1",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_openmeva/5/0/abs_err_oracle_0p1",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh split has saved row: exp27_openmeva/5/1",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_openmeva/5/1/cal_b_theory",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_openmeva/5/1/cal_b_fit",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_openmeva/5/1/eval_b_theory",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_openmeva/5/1/eval_b_fit",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_openmeva/5/1/eval_r2",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_openmeva/5/1/pred_theory_delta_0p05",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_openmeva/5/1/pred_anu_delta_0p05",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_openmeva/5/1/pred_empfit_delta_0p05",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_openmeva/5/1/pred_aonly_delta_0p05",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_openmeva/5/1/pred_oracle_delta_0p05",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_openmeva/5/1/actual_eval_delta_0p05",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_openmeva/5/1/abs_err_theory_0p05",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_openmeva/5/1/abs_err_anu_0p05",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_openmeva/5/1/abs_err_empfit_0p05",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_openmeva/5/1/abs_err_aonly_0p05",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_openmeva/5/1/abs_err_zero_0p05",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_openmeva/5/1/abs_err_oracle_0p05",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_openmeva/5/1/pred_theory_delta_0p1",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_openmeva/5/1/pred_anu_delta_0p1",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_openmeva/5/1/pred_oracle_delta_0p1",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_openmeva/5/1/abs_err_theory_0p1",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_openmeva/5/1/abs_err_anu_0p1",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_openmeva/5/1/abs_err_empfit_0p1",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_openmeva/5/1/abs_err_aonly_0p1",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_openmeva/5/1/abs_err_oracle_0p1",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh split has saved row: exp27_openmeva/5/49",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_openmeva/5/49/cal_b_theory",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_openmeva/5/49/cal_a_nu",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_openmeva/5/49/cal_b_fit",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_openmeva/5/49/eval_a_theory",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_openmeva/5/49/eval_b_theory",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_openmeva/5/49/eval_b_fit",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_openmeva/5/49/pred_theory_delta_0p05",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_openmeva/5/49/pred_anu_delta_0p05",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_openmeva/5/49/pred_aonly_delta_0p05",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_openmeva/5/49/pred_oracle_delta_0p05",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_openmeva/5/49/actual_eval_delta_0p05",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_openmeva/5/49/abs_err_theory_0p05",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_openmeva/5/49/abs_err_anu_0p05",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_openmeva/5/49/abs_err_empfit_0p05",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_openmeva/5/49/abs_err_aonly_0p05",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_openmeva/5/49/abs_err_zero_0p05",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_openmeva/5/49/abs_err_oracle_0p05",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_openmeva/5/49/pred_anu_delta_0p1",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_openmeva/5/49/pred_aonly_delta_0p1",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_openmeva/5/49/pred_oracle_delta_0p1",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_openmeva/5/49/abs_err_anu_0p1",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_openmeva/5/49/abs_err_empfit_0p1",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_openmeva/5/49/abs_err_aonly_0p1",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_openmeva/5/49/abs_err_oracle_0p1",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh split has saved row: exp27_openmeva/9/0",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_openmeva/9/0/cal_b_theory",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_openmeva/9/0/cal_b_fit",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_openmeva/9/0/eval_a_theory",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_openmeva/9/0/eval_b_theory",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_openmeva/9/0/eval_b_fit",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_openmeva/9/0/pred_anu_delta_0p05",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_openmeva/9/0/pred_empfit_delta_0p05",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_openmeva/9/0/pred_aonly_delta_0p05",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_openmeva/9/0/pred_oracle_delta_0p05",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_openmeva/9/0/actual_eval_delta_0p05",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_openmeva/9/0/abs_err_theory_0p05",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_openmeva/9/0/abs_err_anu_0p05",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_openmeva/9/0/abs_err_empfit_0p05",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_openmeva/9/0/abs_err_aonly_0p05",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_openmeva/9/0/abs_err_zero_0p05",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_openmeva/9/0/abs_err_oracle_0p05",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_openmeva/9/0/pred_theory_delta_0p1",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_openmeva/9/0/pred_anu_delta_0p1",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_openmeva/9/0/pred_aonly_delta_0p1",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_openmeva/9/0/pred_oracle_delta_0p1",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_openmeva/9/0/abs_err_theory_0p1",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_openmeva/9/0/abs_err_anu_0p1",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_openmeva/9/0/abs_err_empfit_0p1",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_openmeva/9/0/abs_err_aonly_0p1",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_openmeva/9/0/abs_err_oracle_0p1",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh split has saved row: exp27_openmeva/9/1",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_openmeva/9/1/cal_b_theory",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_openmeva/9/1/cal_b_fit",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_openmeva/9/1/eval_b_theory",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_openmeva/9/1/eval_a_fit",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_openmeva/9/1/eval_b_fit",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_openmeva/9/1/eval_headroom_fit",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_openmeva/9/1/pred_theory_delta_0p05",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_openmeva/9/1/pred_anu_delta_0p05",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_openmeva/9/1/pred_aonly_delta_0p05",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_openmeva/9/1/actual_eval_delta_0p05",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_openmeva/9/1/abs_err_theory_0p05",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_openmeva/9/1/abs_err_anu_0p05",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_openmeva/9/1/abs_err_empfit_0p05",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_openmeva/9/1/abs_err_aonly_0p05",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_openmeva/9/1/abs_err_zero_0p05",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_openmeva/9/1/abs_err_oracle_0p05",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_openmeva/9/1/pred_empfit_delta_0p1",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_openmeva/9/1/pred_aonly_delta_0p1",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_openmeva/9/1/pred_oracle_delta_0p1",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_openmeva/9/1/actual_eval_delta_0p1",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_openmeva/9/1/abs_err_theory_0p1",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_openmeva/9/1/abs_err_anu_0p1",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_openmeva/9/1/abs_err_empfit_0p1",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_openmeva/9/1/abs_err_aonly_0p1",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_openmeva/9/1/abs_err_zero_0p1",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_openmeva/9/1/abs_err_oracle_0p1",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh split has saved row: exp27_openmeva/9/49",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_openmeva/9/49/cal_b_theory",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_openmeva/9/49/cal_b_fit",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_openmeva/9/49/eval_b_theory",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_openmeva/9/49/eval_a_fit",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_openmeva/9/49/cal_peak_d_empfit",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_openmeva/9/49/pred_theory_delta_0p05",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_openmeva/9/49/pred_empfit_delta_0p05",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_openmeva/9/49/pred_aonly_delta_0p05",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_openmeva/9/49/pred_oracle_delta_0p05",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_openmeva/9/49/actual_eval_delta_0p05",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_openmeva/9/49/abs_err_theory_0p05",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_openmeva/9/49/abs_err_anu_0p05",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_openmeva/9/49/abs_err_empfit_0p05",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_openmeva/9/49/abs_err_aonly_0p05",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_openmeva/9/49/abs_err_zero_0p05",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_openmeva/9/49/abs_err_oracle_0p05",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_openmeva/9/49/pred_oracle_delta_0p1",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_openmeva/9/49/abs_err_theory_0p1",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_openmeva/9/49/abs_err_anu_0p1",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_openmeva/9/49/abs_err_empfit_0p1",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_openmeva/9/49/abs_err_aonly_0p1",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh numerical equality: exp27_openmeva/9/49/abs_err_oracle_0p1",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fresh endpoint recomputation: exp27_openmeva",
+    "passed": true,
+    "detail": {
+      "rows": 9,
+      "max_abs_difference": 3.552713678800501e-15
+    }
+  },
+  {
+    "name": "raw rows -> overall MAE: exp27_openmeva/theory",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "raw rows -> overall MAE: exp27_openmeva/aonly",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "raw rows -> overall MAE: exp27_openmeva/anu",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "raw rows -> overall MAE: exp27_openmeva/zero",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "fitted B label",
+    "passed": true,
+    "detail": null
+  }
+]

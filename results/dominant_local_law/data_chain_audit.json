@@ -1,0 +1,83 @@
+{
+  "status": "PASS",
+  "input_hashes": {
+    "data/summeval_long.csv": "d4c4dd815cc851920c796343f9952d0ec60c124db63d913d2826998881c1531e",
+    "data/model_proxy_4o_aggregated.csv": "9440315ccb82939e360e8bbac802f31bb3a17d6af244997cfbfa34eeeeeb4599",
+    "data/wmt_mqm_long.csv": "6f20c0669ff7e76bef71a584f6c627dadab063d560d931cae74acff78d8cbbf8",
+    "data/openmeva_long.csv": "4e205f20b5183ab21b3caa1a5270e89068f35ae2aa14356e3b425f18f314a10b"
+  },
+  "upstream_source_to_prepared_audit": {
+    "status": "PASS",
+    "report": "audits/exp33_source_data_fixed_141_20260725/source_data_audit.json",
+    "gpt_raw_rows": 19200,
+    "gpt_raw_duplicate_dimension_item_rep": 0,
+    "gpt_ambiguous_duplicate_summary_items": 96,
+    "wmt_fixed_source_rebuild": true
+  },
+  "input_table_checks": {
+    "summeval": {
+      "rows": 51200,
+      "items": 1600,
+      "duplicate_full_keys": 0
+    },
+    "gpt4o_proxy": {
+      "rows": 6400,
+      "items": 1600,
+      "exact_summeval_item_coverage": true,
+      "n_judges_distribution": {
+        "3": 6016,
+        "6": 304,
+        "9": 48,
+        "12": 32
+      },
+      "variable_n_judges_reason": "three-pass score sets are pooled for duplicate article-summary texts that map to multiple canonical model ids"
+    },
+    "wmt": {
+      "rows": 161715,
+      "clusters": 47,
+      "eligible_paths": 141,
+      "complete_three_rater_matrices": true
+    },
+    "openmeva": {
+      "rows": 10000,
+      "dataset_aware_items": 2000,
+      "ratings_per_item": 5
+    }
+  },
+  "path_counts": {
+    "SummEval-human_heldout": 32,
+    "SummEval-GPT4o": 4,
+    "WMT-MQM-human_heldout": 141,
+    "OpenMEVA-MAGS-human_heldout": 10
+  },
+  "path_array_max_abs_deviation": 0.0,
+  "split_units_checked": 9350,
+  "exact_targets_recomputed": 46750,
+  "flexible_predictions_independently_refit": 4675,
+  "max_calibration_coefficient_deviation": 8.881784197001252e-16,
+  "max_evaluation_coefficient_deviation": 8.881784197001252e-16,
+  "max_exact_gain_deviation": 4.440892098500626e-16,
+  "max_flexible_prediction_deviation": 2.52842680126264e-09,
+  "worst_flexible_prediction_key": [
+    "WMT-MQM-human_heldout",
+    "wmt20_zhen_c7__heldout_rater2",
+    0,
+    0.075,
+    "A+B_residual_spline",
+    1.6298572290104365,
+    1.6298572264820097
+  ],
+  "prospective_information_check": "PASS",
+  "reachability_skip_check": {
+    "status": "PASS",
+    "n_skipped": 11,
+    "methods": [
+      "calibration_curve"
+    ]
+  },
+  "notes": [
+    "All held-out exact gains were recomputed with an independent KL solver.",
+    "Flexible methods were independently refit for the selected repeat of every path.",
+    "The evaluation-oracle row is excluded from prospective methods."
+  ]
+}

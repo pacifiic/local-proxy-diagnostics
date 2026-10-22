@@ -1,0 +1,15 @@
+\begin{table}[t]
+\centering
+\small
+\begin{tabular}{lllllllllllll}
+\toprule
+Setting & Splits & sign acc. theory & sign acc. emp-fit & MAE theory @0.10 & MAE A-only @0.10 & MAE A\_nu @0.10 & MAE emp-fit @0.10 & MAE zero @0.10 & MAE oracle @0.10 & mean Delta(0.10) & abs(Delta)>0.01 \% & sign acc. if abs(Delta)>0.01 \\
+\midrule
+Human-heldout & 1589 & 90.7 & 97.4 & 0.0174 [0.0158, 0.0193] & 0.0310 [0.0229, 0.0409] & 0.0880 [0.0698, 0.1115] & 0.0168 [0.0155, 0.0183] & 0.2147 [0.2002, 0.2314] & 0.0041 [0.0023, 0.0064] & 0.2147 & 100.0 & 90.7 \\
+GPT/4o proxy & 200 & 97.5 & 98.0 & 0.0118 [0.0104, 0.0125] & 0.0165 [0.0130, 0.0200] & 0.1508 [0.1234, 0.1782] & 0.0117 [0.0103, 0.0126] & 0.0680 [0.0517, 0.0818] & 0.0005 [0.0003, 0.0009] & 0.0680 & 100.0 & 97.5 \\
+\bottomrule
+\end{tabular}
+\vspace{0.25em}
+\caption{Prospective prediction of held-out local optimization geometry. A\_nu denotes the normalized reliability-only baseline.}
+\label{tab:prospective-prediction}
+\end{table}

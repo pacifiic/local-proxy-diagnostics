@@ -1,0 +1,8 @@
+{
+  "summary_unit": "mean over repeats within path, then equal-weight mean over paths",
+  "paired_difference_ci": "5000-draw path-cluster bootstrap over path-level means",
+  "figure_filters": {
+    "panel_a": "clean, 30% calibration, all available gold-rater counts",
+    "panels_b_c": "30% calibration, maximum gold raters, nonzero noise"
+  }
+}

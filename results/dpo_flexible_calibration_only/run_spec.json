@@ -1,0 +1,47 @@
+{
+  "experiment": "exp34_calibration_only_dpo_baselines",
+  "information_setting": {
+    "operational_example": "decide from a rated calibration pool before future optimization candidates have been collected",
+    "fit_inputs": "100 calibration prompts x 32 proxy/gold candidates",
+    "prediction_inputs": "frozen calibration gain curve plus each DPO prompt's measured KL radius d",
+    "evaluation_proxy_scores": "not loaded by the predictor",
+    "evaluation_gold_scores": "used only in saved DPO outcomes",
+    "target_pool_available_at_prediction_time": false
+  },
+  "seeds": [
+    0,
+    1,
+    2
+  ],
+  "n_calibration_prompts": 100,
+  "candidates_per_prompt": 32,
+  "modes": [
+    "raw",
+    "rank"
+  ],
+  "families": [
+    "isotonic",
+    "binned",
+    "spline",
+    "mlp"
+  ],
+  "grid_size": 3001,
+  "max_grid_d": 1.4935987085360922,
+  "checkpoint_scope": "six checkpoints with median d <= 1 and ESS >= 8",
+  "strict_local_scope": "checkpoint median d <= 0.10",
+  "input_sha256": {
+    "pool_scored": "1c6ba78bf5b0e4ddfc1c6b6cc6b4ba2aae51dcdcb3196ef47fba1f2b8ee55ab2",
+    "seed_0_per_prompt": "ff6152cabac2f5b5722f250f92db8ff78db90b1245cdafef6f35fa44ca28b75c",
+    "seed_1_per_prompt": "d2d02ebe1c249586e86447072c204b99c9852755b37b7b96263a082a481cfc67",
+    "seed_2_per_prompt": "3539808b82697d46f8a5d6f534a633e89a3b6ba212f685a00e5bbf6e71ddbe8e"
+  },
+  "code_sha256": {
+    "build.py": "c1432976c36b35c5780c17b3a2c05347a37b5f130436afc806b0723417e03265"
+  },
+  "versions": {
+    "python": "3.11.11",
+    "numpy": "1.26.4",
+    "pandas": "2.3.3",
+    "scikit_learn": "1.8.0"
+  }
+}

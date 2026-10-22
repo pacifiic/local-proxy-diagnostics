@@ -1,0 +1,17 @@
+{
+  "human_long_csv": "data2/summeval_long.csv",
+  "proxy_csv": null,
+  "N_list": [
+    1,
+    2,
+    4,
+    8,
+    16,
+    32,
+    64
+  ],
+  "shared_fit_max_d": 0.1,
+  "bridge_max_d": 0.25,
+  "n_paths": 32,
+  "proxy_var_eps": 1e-12
+}

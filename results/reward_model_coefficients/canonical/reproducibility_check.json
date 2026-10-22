@@ -1,0 +1,41 @@
+{
+  "status": "PASS",
+  "scope": "Independent CPU reanalysis of the same cached GPU scores, not repeat GPU scoring",
+  "files": [
+    {
+      "file": "coefficient_bootstrap.csv",
+      "sha256": "a7a7d1ce85f045bee26faf1c522b40c333e3937536635d0fb7ebc5b9264e6468",
+      "identical": true
+    },
+    {
+      "file": "coefficients.csv",
+      "sha256": "03dc857736a94dd649ceae2c54bf35751b002d548b1a6bd17f69f8e4f2002ef2",
+      "identical": true
+    },
+    {
+      "file": "comparison.md",
+      "sha256": "4a41648549223cd2c6cc882ca3c022f417cb6041368b7add76b37b74c04e6cbb",
+      "identical": true
+    },
+    {
+      "file": "prospective_paths.csv",
+      "sha256": "e55939fc3ed0aeeb3fad2834f50e4f1ff622eeb4863b6efcc01e28859b460eed",
+      "identical": true
+    },
+    {
+      "file": "run_spec.json",
+      "sha256": "6732d6ef61a3316e5c3cabcb2f9527e417212a390439cb0085bffae610610119",
+      "identical": true
+    },
+    {
+      "file": "split_accounting.json",
+      "sha256": "cf550e3041d860554e901694ab4516fd0cf17f7467d17724f0a505c2b365293a",
+      "identical": true
+    },
+    {
+      "file": "summary.csv",
+      "sha256": "b5b9dc0232c5bb2ad861c2e4a360e26d7520a9d6c879f4f43e48b586c97eee98",
+      "identical": true
+    }
+  ]
+}

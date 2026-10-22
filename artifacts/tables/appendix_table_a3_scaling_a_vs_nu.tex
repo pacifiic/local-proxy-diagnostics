@@ -1,0 +1,15 @@
+\begin{table}[t]
+\centering
+\small
+\begin{tabular}{llllllll}
+\toprule
+Dataset & Paths & median abs(rho)/sigma\_J\textasciicircum{}2 & abs(rho) small \% & median headroom error A\_nu & corr(A\_exact,A\_fit) & corr(A\_nu,A\_fit) & corr(B\_th,B\_fit) \\
+\midrule
+SummEval & 32 & 0.212 & 3.1 & 22.2 & 0.9997 & 0.9821 & 0.9934 \\
+WMT MQM clusters & 141 & 0.338 & 13.5 & 31.0 & 1.0000 & 0.9814 & 0.9768 \\
+\bottomrule
+\end{tabular}
+\vspace{0.25em}
+\caption{Exact A coefficient versus normalized A\_nu approximation. Small-rho threshold is |rho|/sigma\_J\textasciicircum{}2 <= 0.1.}
+\label{tab:scaling-a-vs-nu}
+\end{table}

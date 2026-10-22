@@ -1,0 +1,37 @@
+{
+  "calibration_fracs": [
+    0.05,
+    0.1,
+    0.3
+  ],
+  "d_values": [
+    0.05,
+    0.1
+  ],
+  "n_repeats": 50,
+  "random_seed": 0,
+  "split_policy": "fresh RNG(seed=0) per dataset/fraction; matches exp24 nested calibration-size protocol",
+  "input_files": [
+    {
+      "path": "external-paper-artifact:12_accept_boost/d_sweep_human/d_sweep_paths_long.csv",
+      "sha256": "90e7147e93c23f2bc26d142d78e6306f90348ef764de7c681fa484a2bc0efda2"
+    },
+    {
+      "path": "external-paper-artifact:12_accept_boost/d_sweep_gpt4o/d_sweep_paths_long.csv",
+      "sha256": "e7e14ff4a5950139f57c45e7fae581c70631ebbe3e695c901cf6f7139e482b25"
+    },
+    {
+      "path": "results/wmt_input_lineages/fixed_141/direct_calibration/calibration_only_predictions.csv",
+      "sha256": "a3e05dcb0b1890f46c075389a6d9b966a45d487e25979e61d91e1702d5e291df"
+    },
+    {
+      "path": "outputs/positioning_audit/dpo_signed_bias_summary.csv",
+      "sha256": "e0918c0800b6491fb9fd40a5f1f2f44beb0180254d3b6d3d77bf9f896c79de57"
+    },
+    {
+      "path": "derived:combined non-WMT canonical exp24 metrics plus fixed_141 WMT exp24 metrics",
+      "sha256": "dd077184aff918a3320da4308826358b46c2f9f084bfa25bc335eaa9a64beec1"
+    }
+  ],
+  "code_sha256": "8f35807ea424468d2910448e3eefc3e0c2b2499497db6048c27a522188a906b8"
+}

@@ -1,0 +1,21 @@
+{
+  "items_csv": "../../data/summeval_items.csv",
+  "model": "Skywork/Skywork-Reward-Llama-3.1-8B-v0.2",
+  "alias": "skywork_v02",
+  "outdir": "rm_proxy",
+  "batch_size": 16,
+  "max_length": 4096,
+  "dtype": "bfloat16",
+  "limit_items": null,
+  "trust_remote_code": false,
+  "model_revision": null,
+  "items_csv_sha256": "4a29f598738af11623172fee4f14d945c0b4592ab675bf83b063382d84018e5f",
+  "model_resolved_sha": "d4117fbfd81b72f41b96341238baa1e3e90a4ce1",
+  "env": {
+    "cuda_visible_devices": "0,1",
+    "python_no_user_site": null,
+    "tokenizers_parallelism": "false",
+    "vllm_worker_multiproc_method": null
+  },
+  "n_unique_items": 1600
+}

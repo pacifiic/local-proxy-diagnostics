@@ -1,0 +1,5 @@
+model,fit_split,n_prompts,n_candidates,n_bins_requested,n_bins_actual,shrink_k,cv_mse,cv_scheme
+cal_raw_binned,calibration,100,3200,3,3,20.0,4.327892819711949,5-fold GroupKFold by prompt
+cal_centered_binned,calibration,100,3200,12,12,20.0,0.6539949433602297,5-fold GroupKFold by prompt
+cal_zscore_binned,calibration,100,3200,5,5,20.0,0.6615723860632898,5-fold GroupKFold by prompt
+cal_rank_binned,calibration,100,3200,8,8,20.0,0.6599903927126302,5-fold GroupKFold by prompt

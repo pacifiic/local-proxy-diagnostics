@@ -1,0 +1,28 @@
+{
+  "script": "experiments/14_tail_outlier_robustness/01_tail_outlier_robustness_audit.py",
+  "dataset_name": "WMT-MQM-clusters",
+  "human_long_csv": "data/wmt_mqm_long.csv",
+  "item_cols": "item_id",
+  "group_cols": "dataset_id",
+  "rater_col": "rater",
+  "score_col": "score",
+  "min_items": 200,
+  "min_raters": 3,
+  "conditions": [
+    "original",
+    "winsor_1_99",
+    "winsor_5_95",
+    "rank_normal",
+    "outlier_proxy",
+    "outlier_gold"
+  ],
+  "outlier_repeats": 20,
+  "outlier_frac": 0.01,
+  "outlier_magnitude": 8.0,
+  "outlier_direction": "positive",
+  "d_target": 0.1,
+  "fit_max_d": 0.1,
+  "random_seed": 0,
+  "seed_policy": "SHA-256 over dataset/path/condition/repeat/base seed",
+  "n_paths": 141
+}

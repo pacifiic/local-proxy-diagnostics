@@ -1,0 +1,16 @@
+{
+  "status": "PASS",
+  "checks": {
+    "python": 231,
+    "shell": 34,
+    "pdf": 92,
+    "text": 839,
+    "environment_specs": 3
+  },
+  "findings": [],
+  "scope": "Source, docs, execution metadata, filenames and PDF text/metadata. Original benchmark text is preserved verbatim.",
+  "raw_csv_jsonl_preserved": true,
+  "restored_artifacts_with_verified_hashes": 218,
+  "relocated_selected_split_checks": 907,
+  "reward_model_cached_repeat": "exact numerical agreement"
+}

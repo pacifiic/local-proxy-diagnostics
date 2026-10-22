@@ -1,0 +1,16 @@
+{
+  "policy": "prompt_conditional_common_temperature",
+  "d_definition": "mean_prompt_level_kl",
+  "d_eval": 0.1,
+  "cal_grid": [
+    0.02,
+    0.04,
+    0.06,
+    0.08,
+    0.1
+  ],
+  "n_repeats": 20,
+  "random_seed": "crc32(path)*100+repeat",
+  "cal_frac": 0.3,
+  "min_prompts": 30
+}

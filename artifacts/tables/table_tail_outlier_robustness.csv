@@ -1,0 +1,16 @@
+Dataset,Condition,Paths,corr(A),corr(B),B sign (%),Gain sign (%),median abs gain shift,MAE
+SummEval,Winsor 1/99,32,0.999,0.997,93.8,100.0,0.003,0.005
+SummEval,Winsor 5/95,32,0.976,0.967,46.9,100.0,0.022,0.004
+SummEval,Rank-normal,32,0.175,0.983,84.4,100.0,0.052,0.004
+SummEval,Gold outlier,32,0.994,0.997,98.6,100.0,0.005,0.004
+SummEval,Proxy outlier,32,0.997,0.940,100.0,100.0,0.092,0.017
+WMT-MQM-clusters,Winsor 1/99,141,0.999,0.957,98.6,100.0,0.012,0.007
+WMT-MQM-clusters,Winsor 5/95,141,0.989,0.859,97.2,100.0,0.075,0.008
+WMT-MQM-clusters,Rank-normal,141,0.524,0.667,95.0,100.0,0.467,0.002
+WMT-MQM-clusters,Gold outlier,141,0.996,0.979,97.5,100.0,0.022,0.011
+WMT-MQM-clusters,Proxy outlier,141,0.997,0.773,95.0,99.9,0.352,0.072
+OpenMEVA-MAGS,Winsor 1/99,10,1.000,0.999,90.0,100.0,0.005,0.003
+OpenMEVA-MAGS,Winsor 5/95,10,0.995,0.953,100.0,100.0,0.024,0.003
+OpenMEVA-MAGS,Rank-normal,10,0.768,0.884,90.0,100.0,0.055,0.002
+OpenMEVA-MAGS,Gold outlier,10,0.959,0.955,93.0,100.0,0.007,0.003
+OpenMEVA-MAGS,Proxy outlier,10,0.986,-0.107,20.0,100.0,0.152,0.009

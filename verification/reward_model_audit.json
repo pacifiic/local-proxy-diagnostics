@@ -1,0 +1,14 @@
+{
+  "status": "PASS",
+  "n_verified_summaries": 1600,
+  "n_verified_ratings": 51200,
+  "n_full_pool_coefficients": 12,
+  "n_model_splits": 600,
+  "n_joint_splits": 200,
+  "n_planned_joint_splits": 200,
+  "max_coefficient_error": 9.769962616701378e-15,
+  "max_independent_endpoint_error": 8.042178034628478e-15,
+  "max_summary_error": 5.551115123125783e-17,
+  "analysis_spec_sha256": "6732d6ef61a3316e5c3cabcb2f9527e417212a390439cb0085bffae610610119",
+  "audit_code_sha256": "604d4c388659eead59b398631e59045969277248a88bec534e24b3bc1dd47967"
+}

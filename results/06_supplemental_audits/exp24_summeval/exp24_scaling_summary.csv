@@ -1,0 +1,2 @@
+n_groups,n_paths_total,median_abs_rho_rel_pooled,frac_abs_rho_rel_le_thresh_pooled,median_headroom_rel_error_nu_pooled,corr_A_exact_fit_pooled,corr_A_nu_fit_pooled,corr_B_fit_pooled
+8,32,0.21195192480362984,0.03125,0.2217359568809105,0.9996683443904278,0.9820653825448697,0.9934260245769796

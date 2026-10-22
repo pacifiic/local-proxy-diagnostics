@@ -1,0 +1,54 @@
+{
+  "status": "passed",
+  "prediction_rows": 373989,
+  "datasets": [
+    "OpenMEVA-MAGS-human_heldout",
+    "SummEval-GPT4o",
+    "SummEval-human_heldout",
+    "WMT-MQM-human_heldout"
+  ],
+  "methods": [
+    "A+B_moment",
+    "A+B_residual_spline",
+    "A-only_moment",
+    "calibration_curve",
+    "direct_spline",
+    "empirical_cubic",
+    "empirical_two_term",
+    "eval_oracle_A+B"
+  ],
+  "complete_curve_units": 74789,
+  "common_reachable_support": [
+    {
+      "dataset": "OpenMEVA-MAGS-human_heldout",
+      "n_units": 500,
+      "n_common_support": 500,
+      "n_excluded": 0
+    },
+    {
+      "dataset": "SummEval-GPT4o",
+      "n_units": 200,
+      "n_common_support": 200,
+      "n_excluded": 0
+    },
+    {
+      "dataset": "SummEval-human_heldout",
+      "n_units": 1600,
+      "n_common_support": 1589,
+      "n_excluded": 11
+    },
+    {
+      "dataset": "WMT-MQM-human_heldout",
+      "n_units": 7050,
+      "n_common_support": 7050,
+      "n_excluded": 0
+    }
+  ],
+  "prospective_information_check": "passed",
+  "actual_gain_invariance_check": "passed",
+  "formula_consistency_check": "passed",
+  "notes": [
+    "eval_oracle_A+B uses evaluation gold only retrospectively to measure local-law truncation error.",
+    "All other methods use calibration items only; evaluation proxy and gold enter only the realized target."
+  ]
+}

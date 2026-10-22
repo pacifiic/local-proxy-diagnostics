@@ -1,0 +1,10 @@
+Field,Value,Status
+Aggregated proxy artifact,data/model_proxy_4o_aggregated.csv,"6400 rows; dimensions=coherence,consistency,fluency,relevance; n_judges=[3, 6, 9, 12]"
+Exact model snapshot,not stored in aggregated artifact,filename indicates GPT-4o; raw per-call log is needed for an exact model id
+System prompt,experiments/09_gpt_proxy_analysis/examples/summary_system_prompt.txt,sha256[:12]=ec6ab5c98615
+User prompt template,experiments/09_gpt_proxy_analysis/examples/summary_user_template.txt,sha256[:12]=e121b070a2ea
+Score parser,"Pydantic RatingOutput(score, confidence, rationale)",experiments/09_gpt_proxy_analysis/01_generate_proxy_scores.py
+Score range,1.0--5.0 in generator defaults,score is clamped to range after parsing
+Decoding parameters,not explicitly set in generator,temperature/top_p/max_tokens use API defaults unless original command overrode code
+Invalid-output handling,structured parse with retries,default max_retries=5; invalid count not stored in aggregate
+Normalization split,not stored in proxy artifact,downstream experiments standardize inside each analysis protocol

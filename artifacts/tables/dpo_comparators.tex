@@ -1,0 +1,60 @@
+\begin{tabular}{lccc}
+\toprule
+ & MAE vs idealized & MAE vs realized & Projection$-$direct \\
+Predictor & tilt frontier & likelihood-ratio gain & gap \\
+\midrule
+\multicolumn{4}{l}{\textit{(a) Pre-pool: calibration prompts and measured $d_x$ only}} \\
+$A{+}B$ & 0.00395 $\pm$ 0.00047 & 0.01721 $\pm$ 0.00116 & -- \\
+$A$-only & 0.00210 $\pm$ 0.00053 & 0.01905 $\pm$ 0.00120 & -- \\
+Spearman $A$-only variant & 0.00738 $\pm$ 0.00045 & 0.01378 $\pm$ 0.00113 & -- \\
+$A_\nu$ & 0.00371 $\pm$ 0.00061 & 0.02487 $\pm$ 0.00129 & -- \\
+Zero & 0.04197 $\pm$ 0.00017 & 0.02081 $\pm$ 0.00062 & -- \\
+Calibration empirical curve & 0.00430 $\pm$ 0.00047 & 0.01686 $\pm$ 0.00116 & -- \\
+Raw isotonic (frozen curve) & 0.01878 $\pm$ 0.00080 & 0.03994 $\pm$ 0.00150 & -- \\
+Raw binned (frozen curve) & 0.00193 $\pm$ 0.00058 & 0.02309 $\pm$ 0.00126 & -- \\
+Raw spline (frozen curve) & 0.00131 $\pm$ 0.00055 & 0.02247 $\pm$ 0.00124 & -- \\
+Raw MLP (frozen curve) & 0.01497 $\pm$ 0.00075 & 0.03612 $\pm$ 0.00144 & -- \\
+Prompt-rank isotonic (frozen curve) & 0.00433 $\pm$ 0.00047 & 0.01683 $\pm$ 0.00116 & -- \\
+Prompt-rank binned (frozen curve) & 0.01020 $\pm$ 0.00039 & 0.01096 $\pm$ 0.00107 & -- \\
+Prompt-rank spline (frozen curve) & 0.00804 $\pm$ 0.00042 & 0.01312 $\pm$ 0.00111 & -- \\
+Prompt-rank MLP (frozen curve) & 0.00577 $\pm$ 0.00045 & 0.01539 $\pm$ 0.00114 & -- \\
+\midrule
+\multicolumn{4}{l}{\textit{(b) Target-pool-aware: direct integration of $\hat h(r)$}} \\
+Raw isotonic & 0.01786 $\pm$ 0.00067 & 0.03902 $\pm$ 0.00138 & -- \\
+Raw binned & 0.00237 $\pm$ 0.00055 & 0.02353 $\pm$ 0.00127 & -- \\
+Raw spline & 0.00239 $\pm$ 0.00045 & 0.02355 $\pm$ 0.00116 & -- \\
+Prompt-centered isotonic & 0.00059 $\pm$ 0.00039 & 0.02170 $\pm$ 0.00112 & -- \\
+Prompt-centered binned & 0.00573 $\pm$ 0.00040 & 0.01543 $\pm$ 0.00108 & -- \\
+Prompt-centered spline & 0.00274 $\pm$ 0.00043 & 0.01842 $\pm$ 0.00111 & -- \\
+Prompt-$z$ isotonic & 0.00088 $\pm$ 0.00050 & 0.02031 $\pm$ 0.00116 & -- \\
+Prompt-$z$ binned & 0.01044 $\pm$ 0.00041 & 0.01072 $\pm$ 0.00110 & -- \\
+Prompt-$z$ spline & 0.00377 $\pm$ 0.00048 & 0.01739 $\pm$ 0.00116 & -- \\
+Prompt-rank isotonic & 0.00385 $\pm$ 0.00047 & 0.01731 $\pm$ 0.00116 & -- \\
+Prompt-rank binned & 0.00903 $\pm$ 0.00041 & 0.01213 $\pm$ 0.00110 & -- \\
+Prompt-rank spline & 0.00624 $\pm$ 0.00044 & 0.01492 $\pm$ 0.00113 & -- \\
+\midrule
+\multicolumn{4}{l}{\textit{(c) Target-pool-aware: two-term projection of the same $\hat h(r)$}} \\
+Raw isotonic & 0.01813 $\pm$ 0.00067 & 0.03929 $\pm$ 0.00138 & 0.00027 $\pm$ 0.00002 \\
+Raw binned & 0.00262 $\pm$ 0.00056 & 0.02378 $\pm$ 0.00128 & 0.00025 $\pm$ 0.00001 \\
+Raw spline & 0.00257 $\pm$ 0.00044 & 0.02372 $\pm$ 0.00115 & 0.00017 $\pm$ 0.00001 \\
+Prompt-centered isotonic & 0.00063 $\pm$ 0.00045 & 0.02179 $\pm$ 0.00112 & 0.00008 $\pm$ 0.00001 \\
+Prompt-centered binned & 0.00559 $\pm$ 0.00041 & 0.01557 $\pm$ 0.00108 & 0.00014 $\pm$ 0.00001 \\
+Prompt-centered spline & 0.00264 $\pm$ 0.00044 & 0.01852 $\pm$ 0.00111 & 0.00010 $\pm$ 0.00001 \\
+Prompt-$z$ isotonic & 0.00085 $\pm$ 0.00050 & 0.02033 $\pm$ 0.00116 & 0.00002 $\pm$ 0.00000 \\
+Prompt-$z$ binned & 0.01007 $\pm$ 0.00043 & 0.01109 $\pm$ 0.00111 & 0.00037 $\pm$ 0.00003 \\
+Prompt-$z$ spline & 0.00370 $\pm$ 0.00048 & 0.01746 $\pm$ 0.00116 & 0.00007 $\pm$ 0.00001 \\
+Prompt-rank isotonic & 0.00381 $\pm$ 0.00047 & 0.01735 $\pm$ 0.00116 & 0.00004 $\pm$ 0.00000 \\
+Prompt-rank binned & 0.00878 $\pm$ 0.00042 & 0.01238 $\pm$ 0.00111 & 0.00024 $\pm$ 0.00002 \\
+Prompt-rank spline & 0.00614 $\pm$ 0.00044 & 0.01502 $\pm$ 0.00113 & 0.00010 $\pm$ 0.00001 \\
+\midrule
+\multicolumn{4}{l}{\textit{(d) Evaluation-prompt cross-fit diagnostic (uses evaluation silver labels)}} \\
+Raw isotonic (cross-fit) & 0.00809 $\pm$ 0.00034 & 0.02924 $\pm$ 0.00102 & -- \\
+Raw spline (cross-fit) & 0.00185 $\pm$ 0.00030 & 0.02290 $\pm$ 0.00109 & -- \\
+Prompt-centered isotonic (cross-fit) & 0.00514 $\pm$ 0.00050 & 0.02630 $\pm$ 0.00114 & -- \\
+Prompt-centered spline (cross-fit) & 0.00347 $\pm$ 0.00048 & 0.02463 $\pm$ 0.00114 & -- \\
+Prompt-$z$ isotonic (cross-fit) & 0.00201 $\pm$ 0.00054 & 0.02317 $\pm$ 0.00120 & -- \\
+Prompt-$z$ spline (cross-fit) & 0.00126 $\pm$ 0.00051 & 0.01990 $\pm$ 0.00119 & -- \\
+Prompt-rank isotonic (cross-fit) & 0.00197 $\pm$ 0.00050 & 0.01919 $\pm$ 0.00118 & -- \\
+Prompt-rank spline (cross-fit) & 0.00383 $\pm$ 0.00048 & 0.01733 $\pm$ 0.00117 & -- \\
+\bottomrule
+\end{tabular}

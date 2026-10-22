@@ -1,0 +1,43 @@
+{
+  "experiment": "exp32_evaluation_aware_ab",
+  "information_setting": "target-pool-aware; evaluation proxy used, evaluation gold excluded from predictions",
+  "canonical_lineages": {
+    "non_wmt": {
+      "datasets": [
+        "SummEval-human_heldout",
+        "SummEval-GPT4o",
+        "OpenMEVA-MAGS-human_heldout"
+      ],
+      "source_predictions_sha256": "f143dcd441439a162a53ff8e9cd73b993b88cbb421ce7b1434cdbb40a10591db",
+      "packaged_predictions_gzip_sha256": "f8ff427871183dd651b8b9ce02c50a303ad53252bc0c0ef38e07a91c734aabcf"
+    },
+    "wmt": {
+      "lineage": "fixed_141",
+      "input_sha256": "6f20c0669ff7e76bef71a584f6c627dadab063d560d931cae74acff78d8cbbf8",
+      "source_predictions_sha256": "3ec6becf431a7eed607410c7cf44497f007fdf4edf40929d91480efe623b7bb1",
+      "packaged_predictions_gzip_sha256": "8a09fefbadb172fb6e1602de64c1fc274afc58e7e18830d11c13d428399c0aed"
+    },
+    "wmt_independent_repeat_20260726": {
+      "lineage": "fixed_141",
+      "input_sha256": "6f20c0669ff7e76bef71a584f6c627dadab063d560d931cae74acff78d8cbbf8",
+      "predictions_payload_sha256": "3ec6becf431a7eed607410c7cf44497f007fdf4edf40929d91480efe623b7bb1",
+      "packaged_predictions_gzip_sha256": "75bba3d7c1039e7490a3c782f29e8c303ab602b2fb91f2aafbee4a0891ec5d74",
+      "verification_report_sha256": "ae7f6f39ce3bcc21e8d6ea1664e7a27be871b70c0511825a24155802bf928f26",
+      "status": "PASS"
+    }
+  },
+  "combined_tables": {
+    "evaluation_aware_ab_summary_fixed_141_sha256": "678b2f436f2f138221581cf30df2586da95c174422ecdccbf8fb29a47a8a7109",
+    "evaluation_aware_ab_paired_bootstrap_fixed_141_sha256": "98d8454fd8a55d5dd649aa071ed77007f823b185e6cbbafdb7b38fc1edd86ab0"
+  },
+  "common_support": {
+    "excluded_radius_cells": 11,
+    "summary_sha256": "e7b9ca7e0f3b9ba1610a79a47d07a9a99c69337376e880ffe8c3299a9776294e",
+    "paired_bootstrap_sha256": "c5fdba7563f3724fc3762df0b485931097cfa20b8867c2996e85a06b6df84adc",
+    "support_report_sha256": "e32bcb813427fe7789323b24594ad53ad466f6d2aefdcd4376ff5212eb838ce9"
+  },
+  "gzip": {
+    "deterministic": true,
+    "mtime": 0
+  }
+}

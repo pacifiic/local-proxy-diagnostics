@@ -1,0 +1,104 @@
+{
+  "bon_inwindow_cases": {
+    "description": "The four nontrivial in-window exact-BoN points (SummEval held-out human, N=2): radius, ESS, top-score ties, gain and predictor errors",
+    "inputs": {
+      "data/model_proxy_4o_aggregated.csv": "9440315ccb82939e360e8bbac802f31bb3a17d6af244997cfbfa34eeeeeb4599",
+      "data/openmeva_long.csv": "4e205f20b5183ab21b3caa1a5270e89068f35ae2aa14356e3b425f18f314a10b",
+      "data/proxy_rouge1.csv": "18fc5d2a64d20eaa6c30c3da818e9086f6a77beef6d702dbc4ea21b9959eccf3",
+      "data/summeval_long.csv": "d4c4dd815cc851920c796343f9952d0ec60c124db63d913d2826998881c1531e",
+      "data/wmt_mqm_long.csv": "6f20c0669ff7e76bef71a584f6c627dadab063d560d931cae74acff78d8cbbf8",
+      "experiments/exp20_bon_window_gate/build_bon_gate.py": "9444408b66ff5501c1d2f142d0422f5e43b03468fec26d71db1ce369e42ea3ba",
+      "lib/common_experiment_utils.py": "351f6d9b4bfacde9b8192c7e6085d173b3fc7559a2b8838ec328d9fac49a1518",
+      "results/bon_scope/bon_gate_points.csv": "ff79a5838bb040cec6452b0f3cdd90241f753f84734903fcef00de03e721780c",
+      "results/bon_scope/run_spec.json": "5e45109ddc5140473d5c66b5c83e61f2d97590d99a5987738e56e092c3c8042c"
+    },
+    "outputs": {
+      "artifacts/data/bon_inwindow_cases.csv": "0648e58f5d399abd6b1c41dc7ebab7b5fbda5e980fa85ac3e69b665c01f36c80",
+      "artifacts/notes/bon_inwindow_cases.md": "547de17d01476692ea5a19b7c2b55a14b8a75f931a4339eba1a15960e702d2bb",
+      "artifacts/tables/bon_inwindow_cases.tex": "9220799b85b9e4ec2a4acacf511db3b8080853b00cadd56053508b9f62ee15d8"
+    },
+    "placement": "appendix"
+  },
+  "bon_kl_ess_definitions": {
+    "description": "Definitions of induced KL, ESS and relative ESS for selection rules, exact tied BoN, closed forms with numerical checks, and an applicability-rule wording",
+    "inputs": {
+      "data/model_proxy_4o_aggregated.csv": "9440315ccb82939e360e8bbac802f31bb3a17d6af244997cfbfa34eeeeeb4599",
+      "data/openmeva_long.csv": "4e205f20b5183ab21b3caa1a5270e89068f35ae2aa14356e3b425f18f314a10b",
+      "data/proxy_rouge1.csv": "18fc5d2a64d20eaa6c30c3da818e9086f6a77beef6d702dbc4ea21b9959eccf3",
+      "data/summeval_long.csv": "d4c4dd815cc851920c796343f9952d0ec60c124db63d913d2826998881c1531e",
+      "data/wmt_mqm_long.csv": "6f20c0669ff7e76bef71a584f6c627dadab063d560d931cae74acff78d8cbbf8",
+      "experiments/exp20_bon_window_gate/build_bon_gate.py": "9444408b66ff5501c1d2f142d0422f5e43b03468fec26d71db1ce369e42ea3ba",
+      "lib/common_experiment_utils.py": "351f6d9b4bfacde9b8192c7e6085d173b3fc7559a2b8838ec328d9fac49a1518",
+      "results/bon_scope/bon_gate_points.csv": "ff79a5838bb040cec6452b0f3cdd90241f753f84734903fcef00de03e721780c",
+      "results/bon_scope/run_spec.json": "5e45109ddc5140473d5c66b5c83e61f2d97590d99a5987738e56e092c3c8042c"
+    },
+    "outputs": {
+      "artifacts/data/bon_kl_ess_definitions.csv": "32de89ae6e12cbc33da8a9305a0b0dad3d39304477f78472d8db6a7fdf5edd3b",
+      "artifacts/data/bon_kl_ess_definitions_tilt_relESS_at_window.csv": "b48efe7876ba0d7fb3d3ec8c6c27b08a091244d1068aca2ff8ccf944bb3ed6f6",
+      "artifacts/notes/bon_kl_ess_definitions.md": "990bba80cb6dd78e8cd9a443de85e4f2bce208cf91bccf51930a74dfd83cd58e"
+    },
+    "placement": "main (definitions; note only)"
+  },
+  "bon_nladder": {
+    "description": "Exact pooled BoN N-ladder per dataset: induced KL, relative ESS, in-window counts and A+B/A-only errors",
+    "inputs": {
+      "data/model_proxy_4o_aggregated.csv": "9440315ccb82939e360e8bbac802f31bb3a17d6af244997cfbfa34eeeeeb4599",
+      "data/openmeva_long.csv": "4e205f20b5183ab21b3caa1a5270e89068f35ae2aa14356e3b425f18f314a10b",
+      "data/proxy_rouge1.csv": "18fc5d2a64d20eaa6c30c3da818e9086f6a77beef6d702dbc4ea21b9959eccf3",
+      "data/summeval_long.csv": "d4c4dd815cc851920c796343f9952d0ec60c124db63d913d2826998881c1531e",
+      "data/wmt_mqm_long.csv": "6f20c0669ff7e76bef71a584f6c627dadab063d560d931cae74acff78d8cbbf8",
+      "experiments/exp20_bon_window_gate/build_bon_gate.py": "9444408b66ff5501c1d2f142d0422f5e43b03468fec26d71db1ce369e42ea3ba",
+      "lib/common_experiment_utils.py": "351f6d9b4bfacde9b8192c7e6085d173b3fc7559a2b8838ec328d9fac49a1518",
+      "results/bon_scope/bon_gate_points.csv": "ff79a5838bb040cec6452b0f3cdd90241f753f84734903fcef00de03e721780c",
+      "results/bon_scope/run_spec.json": "5e45109ddc5140473d5c66b5c83e61f2d97590d99a5987738e56e092c3c8042c"
+    },
+    "outputs": {
+      "artifacts/data/bon_nladder.csv": "1e57cd7d2f155d8dbe058b3bdfd17fc92177aa3700275f6baacfa4e9ddb90cde",
+      "artifacts/data/bon_nladder_byN.csv": "7e186f449d04d22be5462953f1e7722258e196c975f4e0ae930c89e8a8480e35",
+      "artifacts/notes/bon_nladder.md": "ee1683544fee25142cbc4536ddc11b89b3d1d0bcd108ebb87bad87d20f70f372",
+      "artifacts/tables/bon_nladder.tex": "8fef8d19e2c661a877df9a389e19c47f680a943dc86f5b2b9d3d10f5a32b41f5",
+      "artifacts/tables/bon_nladder_byN.tex": "75a2a624a6aba96b6213babdff27b45df73bf936ac67c188dfe18f4e90994204"
+    },
+    "placement": "appendix"
+  },
+  "bon_prompt_conditional_scope": {
+    "description": "Prompt-conditional exact BoN radius and pooled raw-score tilt reachability",
+    "inputs": {
+      "artifact_tools/make_tail_bon_artifacts.py": "27699a7d4a55c5c5f9fc348e66d4e74a01471582d475bceb0427104d62622a9d",
+      "data/openmeva_long.csv": "4e205f20b5183ab21b3caa1a5270e89068f35ae2aa14356e3b425f18f314a10b",
+      "data/summeval_long.csv": "d4c4dd815cc851920c796343f9952d0ec60c124db63d913d2826998881c1531e",
+      "experiments/15_prompt_conditional_bon_scope/01_prompt_conditional_bon_audit.py": "820ef6d86a602c2c277f1368368009ab7ab0ae2a9f9a0024b2810955971062cc",
+      "lib/common_experiment_utils.py": "351f6d9b4bfacde9b8192c7e6085d173b3fc7559a2b8838ec328d9fac49a1518",
+      "verification/fixtures/prompt_bon_reachability_reference/openmeva_mags/prompt_conditional_bon_paths.csv": "9d733a0d0406a128a93d2840601f42f3832f7eb3917fa9acc714b6065d0e38bb",
+      "verification/fixtures/prompt_bon_reachability_reference/openmeva_mags/prompt_conditional_bon_run_spec.json": "df6688104091abce288e3da35b67b3158440a2b00a82acc94f088d6ffbe38c80",
+      "verification/fixtures/prompt_bon_reachability_reference/openmeva_mags/prompt_conditional_bon_summary.csv": "d5e12d20358959b2e41be673d37fa281cbe1a6ca386a99c36cf34c538f906750",
+      "verification/fixtures/prompt_bon_reachability_reference/summeval/prompt_conditional_bon_paths.csv": "1c7b5b019f53a47734372cf72088a3a03b7b6ca856696b6bde7920687f03dd14",
+      "verification/fixtures/prompt_bon_reachability_reference/summeval/prompt_conditional_bon_run_spec.json": "a445595f0e02ddd3fc8ee442c6ae726670040021763b1621a221f0cd811c4107",
+      "verification/fixtures/prompt_bon_reachability_reference/summeval/prompt_conditional_bon_summary.csv": "ee1695b03dc6394ffbd7e8e5a2013d2ae6668806058d30c43681dd2b1aa33381"
+    },
+    "outputs": {
+      "artifacts/data/bon_prompt_conditional_scope.csv": "9bb6b021c6c88f80b6bb3301d1b7815d1349233d3af21f762fd17463c545932d",
+      "artifacts/data/bon_prompt_conditional_scope_paths.csv": "0d7569143772e054b15f20cf3a4a0124b4b2327fe6a599a780861dcf726d19c1",
+      "artifacts/figures/bon_prompt_conditional_scope.pdf": "5ad4f1a1cc9dca50f2a3312b376ea9954faac5879e2e6fd526fd5152eedbe0fe",
+      "artifacts/figures/bon_prompt_conditional_scope.png": "738385cd2bc473a2578980758342cb8df06a370a1a4d32497ae8cf3d981156af",
+      "artifacts/notes/bon_prompt_conditional_scope.md": "d7f151ec349274653a5c9ccdf720a777b22835ea0d54f285e33786c69e3cc71d",
+      "artifacts/tables/bon_prompt_conditional_scope.tex": "c21ea5d076d3a4c674ee09d2072ea8f94e33e4b6b3cdf17c09e75200467c78a9"
+    },
+    "placement": "appendix"
+  },
+  "bon_softened_rules": {
+    "description": "Mixture-with-BoN and rank-tilt rules inside 0.005<d<=0.10 (exp23, 30/70 splits): path-macro MAE of A+B and baselines",
+    "inputs": {
+      "experiments/exp23_mixture_ranktilt/build_mixture_ranktilt.py": "3dfd3312143cbeb178e59ce5efb8702ac3424d86238336dc18a60c75c9cf8530",
+      "results/rank_selection_scope/inwindow_baseline_path_macro.csv": "27fc74794c04e36ea336bfbba3250b9f2d01605843342c47c880e6d2d6e5af4b",
+      "results/rank_selection_scope/mixture_ranktilt_rows.csv": "da0865bd545f12d79f69efd39b043ab81444c02160e62e534ce87f9674583f1f",
+      "results/rank_selection_scope/mixture_ranktilt_run_spec.json": "6df4bcfdd544038a2e4ad6744d263b13490deea2e90aecf4dfc33fbc2a1ff671"
+    },
+    "outputs": {
+      "artifacts/data/bon_softened_rules.csv": "c0c55bd0a17ce8eb92b898edb523c442da56b46fadf100f484ac2204d47c3050",
+      "artifacts/notes/bon_softened_rules.md": "305370062b8e5f5bc58f85365fdbf334944939c06b7ceb699113b9effd3d3a92",
+      "artifacts/tables/bon_softened_rules.tex": "8ca8ac4c91cf5a0c49ab3a2e5a3acb19870a1f874446db82728df39279cd19af"
+    },
+    "placement": "appendix"
+  }
+}

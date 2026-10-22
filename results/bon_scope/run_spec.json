@@ -1,0 +1,19 @@
+{
+  "n_path_configurations": 191,
+  "n_values": [
+    1,
+    2,
+    3,
+    4,
+    6,
+    8,
+    12,
+    16,
+    24,
+    32,
+    48,
+    64
+  ],
+  "shared_fit_max_d": 0.1,
+  "note": "Predictions outside shared_fit_max_d are descriptive extrapolation audits, not deployment recommendations."
+}

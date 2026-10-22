@@ -1,0 +1,23 @@
+{
+  "d_grid": [
+    0.01,
+    0.025,
+    0.05,
+    0.075,
+    0.1
+  ],
+  "d_valid": 0.1,
+  "calibration_frac": 0.3,
+  "n_split_repeats": 50,
+  "n_item_boot": 300,
+  "bootstrap_unit": "prompt_cluster_within_calibration_split",
+  "gamma_fraction_of_sigma_j": 0.1,
+  "random_seed": 0,
+  "seed_policy": "independent SHA-256-derived streams per dataset/path/repeat for outer split and inner prompt-cluster bootstrap",
+  "configs": [
+    "SummEval-human_heldout",
+    "SummEval-GPT4o",
+    "WMT-MQM-human_heldout",
+    "OpenMEVA-MAGS-human_heldout"
+  ]
+}

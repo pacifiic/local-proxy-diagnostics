@@ -1,0 +1,58 @@
+{
+  "status": "PASS",
+  "n_prediction_rows": 46800,
+  "n_checkpoint_rows": 234,
+  "n_calibration_prompts": 100,
+  "max_error_identity_drift": {
+    "frontier": 4.440892098500626e-16,
+    "dpo": 4.440892098500626e-16
+  },
+  "canonical_fixed_prediction_max_drift": {
+    "A+B": 0.0,
+    "A-only": 0.0,
+    "A_nu": 0.0
+  },
+  "exact_vs_interpolated_max_drift": {
+    "cal_empirical_curve": 1.0878943738738822e-07,
+    "cal_raw_isotonic": 1.7190977375826366e-07,
+    "cal_raw_binned": 1.2174049749714977e-07,
+    "cal_raw_spline": 1.240622519577128e-07,
+    "cal_raw_mlp": 1.6110018333410914e-07,
+    "cal_rank_isotonic": 1.0851043386397863e-07,
+    "cal_rank_binned": 9.071390411757863e-08,
+    "cal_rank_spline": 9.707558973510999e-08,
+    "cal_rank_mlp": 1.02862699805778e-07
+  },
+  "evaluation_row_mutation": {
+    "calibration_array_hash_before": "60da1e8172fa4ec693362b9f8a9720a79f7d16af27dc733dd1a3b2dd4faafb11",
+    "calibration_array_hash_after": "60da1e8172fa4ec693362b9f8a9720a79f7d16af27dc733dd1a3b2dd4faafb11",
+    "pass": true
+  },
+  "data_chain": {
+    "calibration_prompt_count": 100,
+    "evaluation_prompt_count": 200,
+    "calibration_evaluation_overlap": 0,
+    "dpo_evaluation_prompt_identity": {
+      "0": {
+        "missing_from_dpo": [],
+        "extra_in_dpo": []
+      },
+      "1": {
+        "missing_from_dpo": [],
+        "extra_in_dpo": []
+      },
+      "2": {
+        "missing_from_dpo": [],
+        "extra_in_dpo": []
+      }
+    },
+    "max_frontier_rederivation_drift": 1.1546319456101628e-14,
+    "canonical_pool_sha256": "1c6ba78bf5b0e4ddfc1c6b6cc6b4ba2aae51dcdcb3196ef47fba1f2b8ee55ab2",
+    "seed_pool_sha256": {
+      "0": "1c6ba78bf5b0e4ddfc1c6b6cc6b4ba2aae51dcdcb3196ef47fba1f2b8ee55ab2",
+      "1": "1c6ba78bf5b0e4ddfc1c6b6cc6b4ba2aae51dcdcb3196ef47fba1f2b8ee55ab2",
+      "2": "1c6ba78bf5b0e4ddfc1c6b6cc6b4ba2aae51dcdcb3196ef47fba1f2b8ee55ab2"
+    }
+  },
+  "failures": []
+}

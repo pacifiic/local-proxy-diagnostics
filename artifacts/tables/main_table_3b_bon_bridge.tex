@@ -1,0 +1,15 @@
+\begin{table}[t]
+\centering
+\small
+\begin{tabular}{lllllll}
+\toprule
+Setting & Paths & median d\_BoN(N=2) & nontriv. BoN in d<=0.1 & nontriv. BoN in d<=0.25 & MAE BoN vs theory & MAE BoN vs tilt \\
+\midrule
+Human-heldout & 22 & 0.172 & 0.000 & 0.143 & 0.0045 & 0.0027 \\
+GPT/4o proxy & 4 & 0.189 & 0.000 & 0.143 & 0.0034 & 0.0033 \\
+\bottomrule
+\end{tabular}
+\vspace{0.25em}
+\caption{Best-of-N bridge diagnostics. The bridge window is d <= 0.25; the shared local window is d <= 0.1.}
+\label{tab:bon-bridge}
+\end{table}

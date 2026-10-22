@@ -1,0 +1,17 @@
+\begin{tabular}{llrrrr}
+\toprule
+$\hat h$ & Predictor & SummEval & GPT-4o & WMT & OpenMEVA \\
+ & Paths / cells & 32 / 7,989 & 4 / 1,000 & 141 / 35,250 & 10 / 2,500 \\
+\midrule
+ & Pre-pool $A{+}B$ (reference) & 0.01185 & 0.00806 & 0.05921 & 0.00991 \\
+\midrule
+Binned & Projection & 0.02782 & 0.00860 & 0.06557 & 0.01330 \\
+ & Direct integration & 0.02914 & 0.00865 & 0.06843 & 0.01429 \\
+\midrule
+Spline & Projection & 0.01040 & 0.00780 & 0.05667 & 0.00726 \\
+ & Direct integration & 0.01027 & 0.00777 & 0.05699 & 0.00728 \\
+\midrule
+Isotonic & Projection & 0.00959 & 0.00801 & 0.05316 & 0.00712 \\
+ & Direct integration & 0.00909 & 0.00811 & 0.05211 & 0.00706 \\
+\bottomrule
+\end{tabular}

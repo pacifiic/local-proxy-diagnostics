@@ -1,0 +1,38 @@
+{
+  "alias": "armorm",
+  "model": {
+    "model_id": "RLHFlow/ArmoRM-Llama3-8B-v0.1",
+    "revision": "eb2676d20da2f2d41082289d23c59b9f7427f955",
+    "input_format": "chat",
+    "output_field": "score",
+    "max_length": 4096,
+    "dtype": "bfloat16",
+    "trust_remote_code": true
+  },
+  "prepared_manifest_sha256": "9fb0f7caf908a4dc4e86b07806bf172f6a07f5cd5bfcf6a8dcb47c0558365719",
+  "files": {
+    "items.csv": "48a44e5fc623af4b5d055d0cbc53928e0a404a295b0d66a16246a6dc73ea05dc",
+    "human.csv": "ec4f9fcc6e83791fb0e0a39bcdefbda89079e72cd3927ea1f2a828925926c361",
+    "models.json": "34312a5fd4da6650cb0e78e85869b2a39a07fb642ffa899352df0ac7b006e7b1",
+    "splits.jsonl": "767e4dcc2e195d5e78267bb33a46a2c70a552b934f1660af03eaa7fa7ed56e39",
+    "source_validation.json": "9dfdb8cfed451068c0d18c5b20d5c4a63a78ca9cbfec0f5cac464d6d835ea034"
+  },
+  "batch_size": 1,
+  "seed": 0,
+  "device": "cuda:0",
+  "cuda_visible_devices": "1",
+  "attention": "eager",
+  "env": {
+    "numpy": "2.3.5",
+    "pandas": "2.3.3",
+    "scipy": "1.17.1",
+    "torch": "2.11.0",
+    "transformers": "4.57.6",
+    "huggingface-hub": "0.36.2",
+    "tokenizers": "0.22.2"
+  },
+  "code_sha256": {
+    "score.py": "77841d54eebeb115131129119b08b163730c7e77a071aed92f9cec986fbc8fbc",
+    "common.py": "3379843ac0c6a18b1566247986ea4b053d5f64365999195fb3d07d5c250b6d88"
+  }
+}

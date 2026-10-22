@@ -1,0 +1,18 @@
+\begin{table}[t]
+\centering
+\small
+\begin{tabular}{lllllllll}
+\toprule
+Dataset & Setting & Paths & corr(A) & corr(B) & sign(B) agree & B\_th<0 \% & B\_fit<0 \% & median R2 \\
+\midrule
+SummEval & human scalar LOO & 32 & 0.9997 & 0.9934 & 32/32 & 100.0 & 100.0 & 1.000000 \\
+QGEval-human & admitted human scalar paths & 63 & 0.9998 & 0.9302 & 63/63 & 98.4 & 98.4 & 0.999874 \\
+OpenMEVA-MAGS ROC/WP & admitted human scalar paths & 15 & 1.0000 & 0.9975 & 13/15 & 13.3 & 26.7 & 1.000000 \\
+WMT MQM admitted paths & human scalar LOO & 61 & 0.9999 & 0.9816 & 61/61 & 100.0 & 100.0 & 0.999999 \\
+WMT pSQM & human scalar LOO & 12 & 1.0000 & 0.9928 & 12/12 & 91.7 & 91.7 & 1.000000 \\
+\bottomrule
+\end{tabular}
+\vspace{0.25em}
+\caption{Human direct-tilt validation of the local coefficient law. All fits use exact exponential tilt and LOO/disjoint human gold where applicable.}
+\label{tab:direct-validation}
+\end{table}

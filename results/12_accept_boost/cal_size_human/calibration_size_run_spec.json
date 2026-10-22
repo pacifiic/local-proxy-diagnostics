@@ -1,0 +1,44 @@
+{
+  "human_long_csv": "data/summeval_long.csv",
+  "proxy_csv": null,
+  "item_cols": "article_id,model_id",
+  "group_cols": "dimension,rater_type",
+  "rater_col": "rater_idx",
+  "score_col": "score",
+  "proxy_item_col": "item_id",
+  "proxy_score_col": "proxy_score",
+  "calibration_fracs": [
+    0.1,
+    0.2,
+    0.3,
+    0.5,
+    0.7
+  ],
+  "d_targets": [
+    0.05,
+    0.1
+  ],
+  "empfit_max_d": 0.1,
+  "n_repeats": 50,
+  "min_items": 200,
+  "min_raters": 3,
+  "random_seed": 0,
+  "split_seed_policy": "paired across calibration fractions; same base seed as the 30% prospective/d-sweep setting",
+  "n_grid": 240,
+  "n_boot": 1000,
+  "predictors": [
+    "theory",
+    "aonly",
+    "empfit",
+    "anu",
+    "zero",
+    "oracle"
+  ],
+  "n_paths": 32,
+  "n_rows": 15888,
+  "outputs": {
+    "paths": "all_results_reproduced_real_last/12_accept_boost/cal_size_human/calibration_size_paths_long.csv",
+    "summary_by_group": "all_results_reproduced_real_last/12_accept_boost/cal_size_human/calibration_size_summary_by_group.csv",
+    "summary_overall": "all_results_reproduced_real_last/12_accept_boost/cal_size_human/calibration_size_summary_overall.csv"
+  }
+}

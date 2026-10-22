@@ -1,0 +1,12 @@
+{
+  "human_long_csv": "data/wmt_mqm_long.csv",
+  "proxy_csv": null,
+  "fit_max_d": 0.1,
+  "n_grid": 200,
+  "tail_quantiles": [
+    0.9,
+    0.95,
+    0.99
+  ],
+  "n_paths": 141
+}

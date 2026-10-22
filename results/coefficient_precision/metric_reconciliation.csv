@@ -1,0 +1,4 @@
+setting,protocol,radius_grid,n_complete_curves,a_plus_b_error,reachability_policy
+SummEval-human_heldout,paper Grid IAE,"0.005,0.01,0.02,0.05,0.1",1589,0.009390270390539324,"d-sweep retained 1,589/1,600 SummEval path-splits"
+SummEval-GPT4o,paper Grid IAE,"0.005,0.01,0.02,0.05,0.1",200,0.00644301779545545,all 200 path-splits
+WMT-MQM-human_heldout,local-grid MAE,"0.01,0.025,0.05,0.075,0.1",7050,0.059205905464913396,retain each reachable radius; all A+B path-splits complete

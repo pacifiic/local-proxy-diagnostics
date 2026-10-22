@@ -1,0 +1,13 @@
+{
+  "fig1_workflow": {
+    "description": "Workflow from rated calibration items to a gain forecast and decision, with the information each step uses, and a schematic of the local two-term gain law",
+    "inputs": {},
+    "outputs": {
+      "artifacts/figures/fig1_workflow.pdf": "02a4e1ec6a388cb72e5ead88478278b2f00dfed922d3ea86475a6caeb4c910a1",
+      "artifacts/figures/fig1_workflow.png": "191da31fb9fa5d73b47f73ef7e33dffd7de462657732c6abc4a44dec54ce24ad",
+      "artifacts/figures/fig1_workflow.tex": "dd8b78042eed6a756fe0fcf8919032f8284dc7db11b0b117537cd809f359649b",
+      "artifacts/notes/fig1_workflow.md": "56c9ca7c347baeec02c51133ca392ea2e539ff5480e82e0e8f5cd54e43d53182"
+    },
+    "placement": "main (Figure 1)"
+  }
+}

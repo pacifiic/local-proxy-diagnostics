@@ -1,0 +1,76 @@
+{
+  "experiment": "exp33_calibration_only_flexible_baselines",
+  "information_setting": {
+    "prediction_inputs": "calibration proxy and gold values plus requested radius d",
+    "evaluation_proxy": "used only to compute realized held-out gain",
+    "evaluation_gold": "used only to compute realized held-out gain",
+    "target_pool_available_at_prediction_time": false
+  },
+  "datasets": [
+    {
+      "dataset": "SummEval-human_heldout",
+      "human_long_csv": "data/summeval_long.csv",
+      "human_long_sha256": "d4c4dd815cc851920c796343f9952d0ec60c124db63d913d2826998881c1531e",
+      "proxy_csv": null,
+      "proxy_sha256": null
+    },
+    {
+      "dataset": "SummEval-GPT4o",
+      "human_long_csv": "data/summeval_long.csv",
+      "human_long_sha256": "d4c4dd815cc851920c796343f9952d0ec60c124db63d913d2826998881c1531e",
+      "proxy_csv": "data/model_proxy_4o_aggregated.csv",
+      "proxy_sha256": "9440315ccb82939e360e8bbac802f31bb3a17d6af244997cfbfa34eeeeeb4599"
+    },
+    {
+      "dataset": "WMT-MQM-human_heldout",
+      "human_long_csv": "data/wmt_mqm_long_main_protocol.csv",
+      "human_long_sha256": "5649ee3041340f7ee96c3079a4f1f859b9ddd625b2d82f731407d32fd88553c0",
+      "proxy_csv": null,
+      "proxy_sha256": null
+    },
+    {
+      "dataset": "OpenMEVA-MAGS-human_heldout",
+      "human_long_csv": "data/openmeva_long.csv",
+      "human_long_sha256": "4e205f20b5183ab21b3caa1a5270e89068f35ae2aa14356e3b425f18f314a10b",
+      "proxy_csv": null,
+      "proxy_sha256": null
+    }
+  ],
+  "calibration_fraction": 0.3,
+  "n_repeats": 50,
+  "d_targets": [
+    0.01,
+    0.025,
+    0.05,
+    0.075,
+    0.1
+  ],
+  "fit_max_d": 0.1,
+  "random_seed": 0,
+  "n_jobs": 32,
+  "baselines": [
+    "A+B",
+    "A-only",
+    "A_nu",
+    "pearson_corr",
+    "spearman_corr",
+    "empirical_curve",
+    "empirical_fit",
+    "zero",
+    "isotonic_calibration_only",
+    "binned_calibration_only",
+    "spline_calibration_only",
+    "mlp_calibration_only"
+  ],
+  "source_sha256": {
+    "build.py": "76c2d7c938cc576676c3fbac2c0e09edd264c67d8b9e23da3bf1dd585fca1574",
+    "exp21_builder": "b78aa2133657ab486dfc42f175f3a61d67ec19d94f6c5a51113946bac8e34e12",
+    "canonical_engine": "e2a28210a3462114bdc78bb1e6c4b35d260161bc1441fd89b2550409e8c28ae8"
+  },
+  "versions": {
+    "python": "3.11.11",
+    "numpy": "1.26.4",
+    "pandas": "2.3.3",
+    "scikit_learn": "1.8.0"
+  }
+}

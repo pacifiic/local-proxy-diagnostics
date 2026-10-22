@@ -1,0 +1,2 @@
+n_splits_requested,n_splits_successful,median_n_items,median_n_groups_used,corr_A_pooled,corr_B_pooled,sign_agreement,frac_B_theory_neg,frac_B_fit_neg,median_r2,median_corr_J_r
+200,200,920.0,160.0,0.999925902495746,0.9831073886270951,186,0.93,1.0,0.9999997338895452,0.6218022732251925

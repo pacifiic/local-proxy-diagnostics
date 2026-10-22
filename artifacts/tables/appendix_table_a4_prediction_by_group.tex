@@ -1,0 +1,24 @@
+\begin{table}[t]
+\centering
+\small
+\begin{tabular}{llllllll}
+\toprule
+Setting & Group & Splits & sign acc. theory & sign acc. emp-fit & MAE theory @0.10 & MAE A\_nu @0.10 & mean Delta(0.10) \\
+\midrule
+human-heldout & coherence\_\_expert & 150 & 100.0 & 100.0 & 0.0137 & 0.1574 & 0.3319 \\
+human-heldout & coherence\_\_turker & 250 & 91.6 & 95.6 & 0.0164 & 0.0630 & 0.1949 \\
+human-heldout & consistency\_\_expert & 139 & 100.0 & 100.0 & 0.0325 & 0.1250 & 0.2817 \\
+human-heldout & consistency\_\_turker & 250 & 76.0 & 95.6 & 0.0148 & 0.0594 & 0.2052 \\
+human-heldout & fluency\_\_expert & 150 & 100.0 & 100.0 & 0.0229 & 0.1212 & 0.1943 \\
+human-heldout & fluency\_\_turker & 250 & 82.0 & 93.2 & 0.0154 & 0.0597 & 0.1925 \\
+human-heldout & relevance\_\_expert & 150 & 100.0 & 100.0 & 0.0161 & 0.1346 & 0.2016 \\
+human-heldout & relevance\_\_turker & 250 & 91.6 & 99.2 & 0.0142 & 0.0596 & 0.1787 \\
+GPT/4o proxy & coherence & 50 & 90.0 & 92.0 & 0.0125 & 0.1691 & 0.0865 \\
+GPT/4o proxy & consistency & 50 & 100.0 & 100.0 & 0.0123 & 0.1356 & 0.0731 \\
+GPT/4o proxy & fluency & 50 & 100.0 & 100.0 & 0.0126 & 0.1873 & 0.0446 \\
+GPT/4o proxy & relevance & 50 & 100.0 & 100.0 & 0.0097 & 0.1113 & 0.0676 \\
+\bottomrule
+\end{tabular}
+\caption{Prospective prediction diagnostics by group.}
+\label{tab:prediction-by-group}
+\end{table}

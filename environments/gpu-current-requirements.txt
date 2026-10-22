@@ -1,0 +1,12 @@
+# Isolated software stack used for the July 24 end-to-end robustness rerun.
+# This is not the legacy stack that produced the reported DPO result.
+torch==2.11.0
+transformers==5.13.0
+datasets==4.8.4
+trl==1.8.0
+peft==0.19.1
+accelerate==1.14.0
+vllm==0.22.1
+tokenizers==0.22.2
+safetensors==0.8.0
+huggingface-hub==1.23.0

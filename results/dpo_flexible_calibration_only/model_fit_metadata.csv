@@ -1,0 +1,10 @@
+model,mode,family,n_prompts,n_candidates,complexity,cv_scheme,cv_mse,alpha,max_iter,random_seed,n_iter,converged
+cal_empirical_curve,raw,empirical,100,3200,stored calibration gold values,none,,,,,,
+cal_raw_isotonic,raw,isotonic,100,3200,36 thresholds,none,,,,,,
+cal_raw_binned,raw,binned,100,3200,3 bins; shrink=20,5-fold GroupKFold by prompt,4.404329133760311,,,,,
+cal_raw_spline,raw,spline,100,3200,6 spline coefficients; alpha=31.6228,5-fold GroupKFold by prompt,4.334370114064596,,,,,
+cal_raw_mlp,raw,mlp,100,3200,1-16-16-1 ReLU MLP; 321 parameters,fixed pre-specified architecture,,0.001,1000.0,0.0,65.0,True
+cal_rank_isotonic,rank,isotonic,100,3200,19 thresholds,none,,,,,,
+cal_rank_binned,rank,binned,100,3200,5 bins; shrink=5,5-fold GroupKFold by prompt,0.6590641282844418,,,,,
+cal_rank_spline,rank,spline,100,3200,10 spline coefficients; alpha=10,5-fold GroupKFold by prompt,0.6577665998564383,,,,,
+cal_rank_mlp,rank,mlp,100,3200,1-16-16-1 ReLU MLP; 321 parameters,fixed pre-specified architecture,,0.001,1000.0,0.0,38.0,True

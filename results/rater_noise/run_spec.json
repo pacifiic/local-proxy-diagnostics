@@ -1,0 +1,64 @@
+{
+  "experiment": "exp26_b_rater_noise_stability",
+  "input": "data/summeval_long.csv",
+  "input_sha256": "d4c4dd815cc851920c796343f9952d0ec60c124db63d913d2826998881c1531e",
+  "input_rows": 51200,
+  "human_proxy_rule": "one fixed held-out rater",
+  "calibration_gold_rule": "mean of a nested subset of non-proxy raters, with optional synthetic noise",
+  "evaluation_gold_rule": "clean mean of every non-proxy rater, independent of calibration rater count and noise",
+  "calibration_fractions": [
+    0.1,
+    0.2,
+    0.3,
+    0.5
+  ],
+  "d_values": [
+    0.01,
+    0.025,
+    0.05,
+    0.075,
+    0.1
+  ],
+  "noise_conditions": [
+    {
+      "family": "clean",
+      "scale_in_group_rating_sd": 0.0
+    },
+    {
+      "family": "gaussian",
+      "scale_in_group_rating_sd": 0.25
+    },
+    {
+      "family": "gaussian",
+      "scale_in_group_rating_sd": 0.5
+    },
+    {
+      "family": "gaussian",
+      "scale_in_group_rating_sd": 1.0
+    },
+    {
+      "family": "student_t3",
+      "scale_in_group_rating_sd": 0.25
+    },
+    {
+      "family": "student_t3",
+      "scale_in_group_rating_sd": 0.5
+    },
+    {
+      "family": "student_t3",
+      "scale_in_group_rating_sd": 1.0
+    }
+  ],
+  "noise_policy": "independent per-rating Gaussian or variance-normalized t(df=3) noise, scaled by group rating SD and clipped to the observed rating range",
+  "nested_item_splits": true,
+  "nested_gold_rater_subsets": true,
+  "n_repeats": 50,
+  "random_seed": 0,
+  "seed_policy": "SHA-256-derived streams per path/repeat/component",
+  "split_unit": "item",
+  "n_paths": 32,
+  "n_rows": 145600,
+  "n_path_repeat_fractions": 6400,
+  "n_d0p1_unreachable_path_repeat_fractions": 1,
+  "reachability_policy": "retain every path/repeat; compute curve metrics over requested radii reachable by that evaluation proxy and mark d=0.10 endpoint metrics missing when d=0.10 is unreachable"
+}

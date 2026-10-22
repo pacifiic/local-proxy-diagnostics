@@ -1,0 +1,37 @@
+dataset,dataset_label,n_paths,n_common_cells,h,predictor,in_main_table,curve_mae,endpoint_mae_d0p10_pathmean,exp32_baseline
+SummEval-human_heldout,SummEval human,32,7989,binned,projection,True,0.027824763376023898,0.042348270570644102,A+B (binned h)
+SummEval-human_heldout,SummEval human,32,7989,binned,direct integration,True,0.029140277073443601,0.0450909054097198,binned_shrinkage
+SummEval-human_heldout,SummEval human,32,7989,spline,projection,True,0.010402075074420499,0.015411932605248599,A+B (spline h)
+SummEval-human_heldout,SummEval human,32,7989,spline,direct integration,True,0.010274171553276701,0.0146362821958816,spline_ridge
+SummEval-human_heldout,SummEval human,32,7989,none,pre-pool A+B (reference anchor),True,0.0118497631577164,0.0174988589190711,A+B
+SummEval-human_heldout,SummEval human,32,7989,isotonic,projection,True,0.0095880705433343,0.0146109360852277,A+B (isotonic h)
+SummEval-human_heldout,SummEval human,32,7989,isotonic,direct integration,True,0.0090864622211818992,0.0130467057967856,isotonic_calibration
+SummEval-human_heldout,SummEval human,32,7989,mlp,projection,False,0.0097236221918333005,0.014801756423956799,A+B (MLP h)
+SummEval-human_heldout,SummEval human,32,7989,mlp,direct integration,False,0.0092180201129413008,0.013235738255736901,mlp_calibration
+SummEval-GPT4o,GPT-4o proxy,4,1000,binned,projection,True,0.0086039707166571007,0.0123351009524417,A+B (binned h)
+SummEval-GPT4o,GPT-4o proxy,4,1000,binned,direct integration,True,0.0086464796585833999,0.0124118126417789,binned_shrinkage
+SummEval-GPT4o,GPT-4o proxy,4,1000,spline,projection,True,0.0078001435613613999,0.0113457164412581,A+B (spline h)
+SummEval-GPT4o,GPT-4o proxy,4,1000,spline,direct integration,True,0.0077683758745045002,0.0112783086620316,spline_ridge
+SummEval-GPT4o,GPT-4o proxy,4,1000,none,pre-pool A+B (reference anchor),True,0.0080587185490501,0.011757130102164099,A+B
+SummEval-GPT4o,GPT-4o proxy,4,1000,isotonic,projection,True,0.0080088163066774996,0.0116273790539329,A+B (isotonic h)
+SummEval-GPT4o,GPT-4o proxy,4,1000,isotonic,direct integration,True,0.0081092709620209993,0.0118491620667791,isotonic_calibration
+SummEval-GPT4o,GPT-4o proxy,4,1000,mlp,projection,False,0.0079287846668724005,0.0116392045533795,A+B (MLP h)
+SummEval-GPT4o,GPT-4o proxy,4,1000,mlp,direct integration,False,0.0078863175951988003,0.0115511567442314,mlp_calibration
+WMT-MQM-human_heldout,WMT MQM,141,35250,binned,projection,True,0.0655736908005118,0.090504015244653999,A+B (binned h)
+WMT-MQM-human_heldout,WMT MQM,141,35250,binned,direct integration,True,0.068429396305400195,0.096731593050358999,binned_shrinkage
+WMT-MQM-human_heldout,WMT MQM,141,35250,spline,projection,True,0.056674489065607098,0.079392190517307698,A+B (spline h)
+WMT-MQM-human_heldout,WMT MQM,141,35250,spline,direct integration,True,0.056987207265424902,0.079798870702317198,spline_ridge
+WMT-MQM-human_heldout,WMT MQM,141,35250,none,pre-pool A+B (reference anchor),True,0.059205905464913298,0.0845921065927627,A+B
+WMT-MQM-human_heldout,WMT MQM,141,35250,isotonic,projection,True,0.053157606160014297,0.075653570671564405,A+B (isotonic h)
+WMT-MQM-human_heldout,WMT MQM,141,35250,isotonic,direct integration,True,0.052110200607476502,0.073031110156627804,isotonic_calibration
+WMT-MQM-human_heldout,WMT MQM,141,35250,mlp,projection,False,0.052863393995290602,0.0750383369654814,A+B (MLP h)
+WMT-MQM-human_heldout,WMT MQM,141,35250,mlp,direct integration,False,0.052150415309152202,0.073125041290486401,mlp_calibration
+OpenMEVA-MAGS-human_heldout,OpenMEVA-MAGS,10,2500,binned,projection,True,0.0132958402968875,0.020475713875432601,A+B (binned h)
+OpenMEVA-MAGS-human_heldout,OpenMEVA-MAGS,10,2500,binned,direct integration,True,0.0142858571625674,0.022808351575498799,binned_shrinkage
+OpenMEVA-MAGS-human_heldout,OpenMEVA-MAGS,10,2500,spline,projection,True,0.0072569546644413998,0.010920355982347,A+B (spline h)
+OpenMEVA-MAGS-human_heldout,OpenMEVA-MAGS,10,2500,spline,direct integration,True,0.0072769179895315001,0.0109298105016349,spline_ridge
+OpenMEVA-MAGS-human_heldout,OpenMEVA-MAGS,10,2500,none,pre-pool A+B (reference anchor),True,0.0099060539467349992,0.014816452686051701,A+B
+OpenMEVA-MAGS-human_heldout,OpenMEVA-MAGS,10,2500,isotonic,projection,True,0.0071190914254838002,0.010794683328883699,A+B (isotonic h)
+OpenMEVA-MAGS-human_heldout,OpenMEVA-MAGS,10,2500,isotonic,direct integration,True,0.0070583608069221,0.010615496113038201,isotonic_calibration
+OpenMEVA-MAGS-human_heldout,OpenMEVA-MAGS,10,2500,mlp,projection,False,0.0069536851927514999,0.010446023890007899,A+B (MLP h)
+OpenMEVA-MAGS-human_heldout,OpenMEVA-MAGS,10,2500,mlp,direct integration,False,0.0069286964819980004,0.0103529646213848,mlp_calibration

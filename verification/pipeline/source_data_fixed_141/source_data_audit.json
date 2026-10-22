@@ -1,0 +1,63 @@
+{
+  "prepared_csv_to_exp33_results": "PASS",
+  "source_to_prepared_csv": "PASS",
+  "summeval": {
+    "expected_rows": 51200,
+    "observed_rows": 51200,
+    "keys_equal": true,
+    "max_value_drift": {
+      "score": 0.0
+    }
+  },
+  "gpt4o": {
+    "expected_rows": 6400,
+    "observed_rows": 6400,
+    "keys_equal": true,
+    "max_value_drift": {
+      "proxy_score_mean": 4.440892098500626e-16,
+      "proxy_score_sd": 4.440892098500626e-16,
+      "n_judges": 0.0
+    },
+    "raw_rows": 19200,
+    "raw_duplicate_dimension_item_rep": 0,
+    "truth_items": 1600,
+    "ambiguous_duplicate_summary_items": 96,
+    "rebuilt_sha256": "9440315ccb82939e360e8bbac802f31bb3a17d6af244997cfbfa34eeeeeb4599",
+    "observed_sha256": "9440315ccb82939e360e8bbac802f31bb3a17d6af244997cfbfa34eeeeeb4599"
+  },
+  "openmeva": {
+    "expected_rows": 10000,
+    "observed_rows": 10000,
+    "keys_equal": true,
+    "max_value_drift": {
+      "score": 0.0
+    }
+  },
+  "wmt": {
+    "raw_revision": "7fadea281aff8db61cc72fc3d469a4dca78b82a6",
+    "raw_doc_segment_pairs": 1875,
+    "raw_segment_ids": 469,
+    "segment_ids_reused_across_documents": 469,
+    "max_documents_per_segment_id": 4,
+    "prepared_wmt22_zhen_rows": 0,
+    "prepared_wmt22_zhen_items": 0,
+    "prepared_rows_matching_legacy_document_free_aggregation": 0,
+    "legacy_document_free_aggregation_match_fraction": 0.0,
+    "prepared_rows_with_document_qualified_item_key": 0,
+    "fixed_source_rebuild": {
+      "expected_rows": 161715,
+      "observed_rows": 161715,
+      "keys_equal": true,
+      "max_value_drift": {
+        "score": 0.0
+      }
+    },
+    "fixed_source_rebuild_pass": true,
+    "legacy_document_key_collision_detected": false
+  },
+  "clean_non_wmt_sources": true,
+  "interpretation": {
+    "safe": "SummEval, GPT-4o, and OpenMEVA prepared inputs reproduce from their source artifacts.",
+    "wmt": "The default corrected WMT input is reconstructed from the pinned raw source. Passing the submitted 139-path artifact instead intentionally triggers the known WMT22 zh-en document-key-collision warning."
+  }
+}

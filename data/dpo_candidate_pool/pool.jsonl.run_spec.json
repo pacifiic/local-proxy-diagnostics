@@ -1,0 +1,14 @@
+{
+  "prompts_dir": "data/dpo_candidate_pool",
+  "model": "Qwen/Qwen2.5-3B-Instruct",
+  "n_train": 8,
+  "n_cal": 32,
+  "n_eval": 32,
+  "temperature": 0.9,
+  "top_p": 0.95,
+  "max_tokens": 320,
+  "seed": 0,
+  "gpu_memory_utilization": 0.85,
+  "out_jsonl": "data/dpo_candidate_pool/pool.jsonl",
+  "n_samples": 17600
+}
