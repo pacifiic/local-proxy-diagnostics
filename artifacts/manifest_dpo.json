@@ -95,18 +95,30 @@
     "placement": "appendix (main-eligible)"
   },
   "rm_fig_worked_example": {
-    "description": "Exp37 worked example as three panels: held-out exact coherence gain vs calibration-only A+B and A-only predictions over d in [0, 0.10], regenerated in the publication style.",
+    "description": "Mean held-out exact gain, calibration-only PACE/A-only forecasts, and within-split MAE over 50 matched SummEval coherence splits; zoomed axes, d=0.025 to 0.10.",
     "inputs": {
-      "results/reward_model_coefficients/canonical/paper_example/fig_reward_model_worked_example.pdf": "5b3a4a98f0139e51b448cd05a8c872aeea728473788ce3c740fd1c97972ee412",
-      "results/reward_model_coefficients/canonical/paper_example/worked_example_curves.csv": "97e6e61c40a1108fbc854aa175d3d9a7a769ab460b239ed6d1b63d418f1b40ea"
+      "artifact_tools/fonts/inter/Inter-Italic.ttf": "d054d998ae12be33820b100e0ed3923d513fa5c79c6d4e7ca1953afeb262ea9b",
+      "artifact_tools/fonts/inter/Inter-Regular.ttf": "64f8be6e55c37e32ef03da99714bf3aa58b8f2099bfe4f759a7578e3b8291123",
+      "artifact_tools/fonts/inter/Inter-SemiBold.ttf": "0dc98e8aa59585394880f25ab89e6d915ad5134522e961b046ca51fad3a18255",
+      "artifact_tools/fonts/inter/LICENSE.txt": "262481e844521b326f5ecd053e59b98c8b2da78c8ee1bdbb6e8174305e54935a",
+      "artifact_tools/reward_model_figure.py": "fe5c3800a3eb3654034383569cea8970137ff59350a34b6a4c5f13a2059cac85",
+      "lib/common_experiment_utils.py": "351f6d9b4bfacde9b8192c7e6085d173b3fc7559a2b8838ec328d9fac49a1518",
+      "results/reward_model_coefficients/canonical/analysis/prospective_paths.csv": "e55939fc3ed0aeeb3fad2834f50e4f1ff622eeb4863b6efcc01e28859b460eed",
+      "results/reward_model_coefficients/canonical/analysis/summary.csv": "b5b9dc0232c5bb2ad861c2e4a360e26d7520a9d6c879f4f43e48b586c97eee98",
+      "results/reward_model_coefficients/canonical/prepared/human.csv.gz": "1917bc08db84c65b159962ed007d7e0d73b04d7e2997160e617fe3fe4f989a38",
+      "results/reward_model_coefficients/canonical/prepared/items.csv.gz": "dbb2d6f46b01eeec3caf2d5aac69ab67e8ec383d2d29c180bee36faff405e113",
+      "results/reward_model_coefficients/canonical/prepared/splits.jsonl.gz": "3f7e555e8a53ce21ea05867b643744e4b10986dff309fd07280846ad6fcb6501",
+      "results/reward_model_coefficients/canonical/scores/armorm/scores.csv": "d3073aa2d1747b70271384e76588b0657e9e8c4f51270721fa8bde3cad92cf8b",
+      "results/reward_model_coefficients/canonical/scores/deberta/scores.csv": "8ac9b081d8bfa5a4037c8b1b357f14d6072658e23cc33dbf0730074f628512e7",
+      "results/reward_model_coefficients/canonical/scores/skywork/scores.csv": "f514b44055b292f94ae3c71ac8123aa859827d576c5fe47f0c6e072f39cf91be"
     },
     "outputs": {
-      "artifacts/data/rm_fig_worked_example.csv": "43ea4525246b9732d17ed4ef2ffdecb85e1407121b71620f77c78458328a64a0",
-      "artifacts/figures/rm_fig_worked_example.pdf": "b132885869f79a4c0de9454cc83348bf05b106fb596cefed23f1d55b5b8ad91b",
-      "artifacts/figures/rm_fig_worked_example.png": "fbe152d126151d5a931e7aed08b5f682e730c7e4c91c3814375594299238ac79",
-      "artifacts/notes/rm_fig_worked_example.md": "f6f515f38564f26bd41660fb0ef8f6559d41d8ea586641f9ae868b2e6f5ebd56"
+      "artifacts/data/rm_fig_worked_example.csv": "869c3ea6ae6fcbd4cf5340d0c2b9b499fa9ffb51d7a0f8fa1342e9ce54ad18c2",
+      "artifacts/figures/rm_fig_worked_example.pdf": "e0be3327fa38a4f38b27d7e05b1ad277e045d1f5d694520a3e4dce095e48d141",
+      "artifacts/figures/rm_fig_worked_example.png": "4c3893bb833b11bf3e85a2cac571c7fb37293fd7d08b7d3f0e84f5ab660f0293",
+      "artifacts/notes/rm_fig_worked_example.md": "da00e7d0eb2ba81faf555588556c0d87e900bba67963fc28f0d8847e6af9cbf1"
     },
-    "placement": "appendix (worked example; the main text states it in prose)"
+    "placement": "appendix (50-split coherence forecasts and errors)"
   },
   "rm_worked_example": {
     "description": "Exp37 preselected SummEval coherence split (repeat 0, d=0.10): calibration-only A, B, their contributions, predicted and held-out exact gain for Skywork, ArmoRM and DeBERTa.",

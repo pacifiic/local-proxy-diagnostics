@@ -1,8 +1,9 @@
 #!/usr/bin/env python3
 """LoRA-DPO bridge, three-reward-model (exp37) and open-proxy displays.
 
-Built from saved results only; nothing is retrained, rescored or re-analysed.
-Exp37 was analysed with NumPy 2.3.5, so its saved CSVs are read, never recomputed.
+Built from saved results; nothing is retrained or rescored.
+Reward-model curves are reconstructed from saved scores and splits, and checked
+against the canonical coefficients and endpoint predictions.
 
 All displays register in one manifest, `out/manifest_dpo.json`, because
 `build_all.py` merges only that file for this group. The display names keep
@@ -886,77 +887,48 @@ These A/B characterize proxy, target, candidate distribution and context, not in
 """)
 
 
-def build_rm_figure(group: Group, worked: pd.DataFrame):
+def build_rm_figure(group: Group):
+    import reward_model_figure as renderer
+
     disp = group.display(
-        "rm_fig_worked_example", "appendix (worked example; the main text states it in prose)",
-        "Exp37 worked example as three panels: held-out exact coherence gain vs calibration-only A+B and "
-        "A-only predictions over d in [0, 0.10], regenerated in the publication style.")
-    curves = disp.read_csv(RM / "paper_example" / "worked_example_curves.csv")
-    original = disp.input(RM / "paper_example" / "fig_reward_model_worked_example.pdf")
-    require(curves.groupby("alias").size().loc[RM_ORDER].tolist() == [201] * 3, "201 grid points per model")
-    w = worked.set_index("alias")
-    end = curves.groupby("alias").tail(1).set_index("alias").loc[RM_ORDER]
-    check_all(end.d, [0.1] * 3, 1e-15, "curves end at d=0.10")
-    check_all(end.ab, w.predicted_gain.loc[RM_ORDER], 1e-12, "A+B endpoint = predicted gain")
-    check_all(end.aonly, w.first_order.loc[RM_ORDER], 1e-12, "A-only endpoint = A sqrt(.10)")
-    check_all(end.exact_gain, w.heldout_gain.loc[RM_ORDER], 1e-12, "exact endpoint = held-out gain")
-    for alias in RM_ORDER:
-        sub = curves[curves.alias == alias]
-        a, b = w.loc[alias, "A_cal"], w.loc[alias, "B_cal"]
-        dd = sub.d.clip(lower=0)
-        check_all(sub.ab, a * np.sqrt(dd) + b * dd, 1e-12, f"{alias} A+B curve")
+        "rm_fig_worked_example", "appendix (50-split coherence forecasts and errors)",
+        "Mean held-out exact gain, calibration-only PACE/A-only forecasts, and within-split MAE "
+        "over 50 matched SummEval coherence splits; zoomed axes, d=0.025 to 0.10.")
+    curves, summary, max_diff, hashes = renderer.build_data(RR)
+    for path in hashes:
+        disp.input(RR / path)
+    disp.input(Path(renderer.__file__))
+    for name in renderer.FONT_FILES + ["LICENSE.txt"]:
+        disp.input(renderer.FONT_DIR / name)
+    disp.write_data(renderer.aggregate(curves))
+    with plt.rc_context():
+        renderer.load_font()
+        fig = renderer.figure(curves, summary)
+        disp.save_figure(fig)
+    require(max_diff < 1e-11, "Reconstructed curves match stored gains")
+    disp.write_note("""
+# Reward-model forecasts across 50 matched splits
 
-    figure_style()
-    fig, axes = plt.subplots(1, 3, figsize=(TEXT_WIDTH_IN, 2.05), sharex=True, sharey=True)
-    for ax, alias in zip(axes, RM_ORDER):
-        sub = curves[curves.alias == alias].sort_values("d")
-        ax.plot(sub.d, sub.exact_gain, color="#222222", lw=1.6, label="Held-out exact tilt", zorder=3)
-        ax.plot(sub.d, sub.ab, color=COLORS["A+B"], lw=1.4, label=r"$A{+}B$ prediction", zorder=4)
-        ax.plot(sub.d, sub.aonly, color=COLORS["A-only"], lw=1.4, ls=(0, (4, 2)), label=r"$A$-only", zorder=5)
-        a, b = w.loc[alias, "A_cal"], w.loc[alias, "B_cal"]
-        bs = f"{b:.3f}".replace("-", "{-}")
-        ax.set_title(f"{RM_LABEL[alias]}\n" + rf"$\widehat A={a:.3f},\ \widehat B={bs}$", pad=3)
-        ax.set_xlim(0, 0.1)
-        ax.set_xticks([0, 0.05, 0.1], ["0", "0.05", "0.10"])
-        ax.set_xlabel(r"KL radius $d$")
-        ax.grid(axis="y", color="#E0E0E0", lw=0.6)
-        ax.set_axisbelow(True)
-    axes[0].set_ylim(bottom=0)
-    axes[0].set_ylabel("Gain in human coherence")
-    handles, labels = axes[0].get_legend_handles_labels()
-    fig.legend(handles, labels, loc="lower center", ncol=3, bbox_to_anchor=(0.5, 0.0))
-    fig.tight_layout(rect=(0, 0.09, 1, 1), w_pad=0.8)
-    disp.write_data(curves)
-    disp.save_figure(fig)
-    disp.write_note(f"""
-# rm_fig_worked_example: three-panel worked-example figure (exp37)
+The upper row shows mean exact held-out tilt gain and mean calibration-only
+PACE (A+B) and A-only predictions for SummEval coherence. Each of the 50 splits
+uses 480 calibration and 1,120 evaluation items, shared across the three models.
+The lower row averages absolute prediction errors computed within each split.
+It is not the absolute error of the mean forecast.
 
-**Placement.** Appendix, beside `rm_worked_example`. Following CAMERA_READY_PLAN.md §8.1, the main
-text states the three decompositions in prose (Section 5.1) and points here; Figure 1 is a schematic
-(`fig1_workflow`).
+Axes are zoomed; curves are shown for d=0.025 to 0.10. Shading marks the gap
+between the two methods, not uncertainty: the mean B*d correction above and
+the MAE difference below. Percentages compare PACE with A-only at d=0.10.
+The repeats reuse the same 1,600 items and do not define independent-sample CIs.
 
-**What it shows.** For the preselected SummEval coherence split (repeat 0; 480 calibration / 1,120
-evaluation items), the exact held-out raw-score exponential-tilt gain (black) and the calibration-only
-A+B (solid blue) and A-only (dashed orange) predictions for d in [0, 0.10]. Panel titles give the
-calibration A and B (3 decimals). The right endpoints equal the `rm_worked_example` values (< 1e-12).
+`reward_model_figure.py` reconstructs curves from saved model scores and item
+splits, and verifies coefficients, original-radius gains, and MAE against the
+stored analysis. Static Inter fonts are bundled under the SIL Open Font License.
+The exported CSV contains mean curves and within-split MAE, not single-split values.
 
-**Units.** x: KL radius d of the tilt on the evaluation items. y: gain in human coherence score (mean
-of eight raters).
-
-**Regeneration.** Redrawn at {TEXT_WIDTH_IN} in width with `common.figure_style()` and `COLORS` from
-`.../paper_example/worked_example_curves.csv` (201 grid points per model; A+B curve re-checked against
-A sqrt(d) + B d). No numbers were recomputed. The original exp37 figure
-(`{rel(original)}`, 10.6 in wide, different palette) remains available. A-only is dashed and drawn on top,
-so it stays visible where it coincides with A+B (Skywork) and in grayscale / colour-vision deficiency.
-
-**Reporting details.** Calibration-only A/B on the preselected coherence / repeat-0 split (chosen
-before inspecting results); black = exact raw-score exponential-tilt gain on the 1,120 evaluation items
-with human gold; item-held-out, not article-held-out; shared, truncated article context across models;
-illustrative split with aggregate 50-repeat errors in `rm_endpoint_mae` and full-pool intervals in
-`rm_coefficients`. For DeBERTa the A-only curve is closer at d = 0.10 on this split.
-
-**Caveats.** Same as `rm_worked_example`: not DPO/RLHF, not an RM ranking, negative B is local
-curvature only.
+The preselected repeat-0 example remains in `rm_worked_example` and in the
+original `results/reward_model_coefficients/canonical/paper_example/` outputs.
+This figure summarizes coherence only; the four-dimension endpoint comparison
+is `rm_endpoint_mae`. These are fixed-pool tilt forecasts, not DPO or an RM ranking.
 """)
 
 
@@ -1163,10 +1135,10 @@ def main() -> None:
     group = CombinedGroup("dpo", ("rm", "proxy"))
     keys, _ = build_dpo_table3(group)
     build_dpo_comparators(group, keys)
-    worked = build_rm_worked_example(group)
+    build_rm_worked_example(group)
     build_rm_endpoint_mae(group)
     build_rm_coefficients(group)
-    build_rm_figure(group, worked)
+    build_rm_figure(group)
     build_proxy(group)
     path = group.write_manifest()
     print(f"{len(group.displays)} displays -> {rel(path)}")

@@ -33,3 +33,10 @@ keys are independently audited under `experiments/wmt_input_lineage_pairing/`.
 Prepared matrices are sufficient for the advertised saved-result checks.
 Additional raw sources are required for a source-to-prepared-data regeneration
 or some auxiliary experiments.
+
+## Figure Fonts
+
+The Inter Regular, Italic, and SemiBold fonts in `artifact_tools/fonts/inter`
+are copyright the Inter Project Authors and distributed under the SIL Open
+Font License 1.1. The license is included alongside the fonts. They are used
+for the reward-model forecast figure and embedded in its PDF.
