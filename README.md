@@ -4,6 +4,19 @@ Code, prepared inputs, saved results, and publication artifacts for PACE (Proxy
 Alignment and Curvature Expansion). PACE predicts local human-gain curves from
 repeated ratings before optimizing against a proxy.
 
+## Using PACE
+
+PACE can complement correlation-based evaluation with forecasts of
+local human-quality gains from gentle proxy optimization.
+
+- **Benchmark releases:** Benchmarks with repeated human ratings could
+  provide PACE profiles for reference proxies.
+- **Reward-model and LLM-judge releases:** Model releases could provide
+  PACE profiles on specified datasets and human-quality dimensions,
+  helping users compare proxies before investing in optimization.
+
+A PACE profile reports the alignment and curvature coefficients $A$ and $B$, local gain curves, uncertainty estimates, and the checked KL range. It characterizes a particular proxy–target–distribution combination, not an intrinsic model score or a guarantee of downstream policy-training gains.
+
 ## Quick Start
 
 Run commands from the repository root. Saved-result verification is CPU-only.
